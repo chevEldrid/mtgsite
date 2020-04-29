@@ -1,0 +1,11 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore Gemfile.lock
+Gemfile.lock
+
+# Ignore Build Directory
+_site
+
+# Ignore jekyll cache
+.jekyll-cache
