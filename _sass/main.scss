@@ -1,3 +1,26 @@
 .current {
-    color: green;
+  color: red;
+  &:hover {
+    color: red;
   }
+}
+
+.unselected {
+  color: black;
+  &:hover {
+    color: black;
+  }
+}
+
+.post-category {
+  color: red;
+}
+
+.post-link {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}

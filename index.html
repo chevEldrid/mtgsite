@@ -1,21 +1,22 @@
 ---
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
 <div class="row">
     {% for post in site.posts %}
       <div class="col-md-4">
-        <a href="{{ post.url }}">
+        <a class="post-link" href="{{ post.url }}">
             <div class="card mb-4 shadow-sm">
+                <img src="{{ post.cover }}" class="card-img-top" alt="promo image">
                 <div class="card-body">
-                    {{ post.title }}
+                    <div class="post-title">
+                        <h3>{{ post.title }}</h3>
+                    </div>
                     <p class="card-text">
                         {{ post.excerpt }}
                     </p>
                 </div>
             </div>
         </a>
-        <!--<h2><a href="{{ post.url }}"></a></h2>-->
       </div>
     {% endfor %}
 </div>
