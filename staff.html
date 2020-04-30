@@ -3,12 +3,14 @@ title: Staff
 ---
 <h1>Staff</h1>
 
-<ul>
-  {% for author in site.authors %}
-    <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% for author in site.authors %}
+  <a class="post-link" href="{{ author.url }}">
+    <div class="media">
+      <img src="/{{ author.picture }}" class="mr-3 author-pic-sm" alt="{{ author.name}}">
+      <div class="media-body">
+        <h5 class="mt-0 mb-0">{{ author.name }}</h5>
+        {{ author.content | markdownify }}
+      </div>
+    </div>
+  </a>
+{% endfor %}
