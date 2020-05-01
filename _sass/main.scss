@@ -1,7 +1,9 @@
-.current {
-  color: red;
+$accent-color: rgb(194, 59, 59);
+
+.accented-link {
+  color: $accent-color;
   &:hover {
-    color: red;
+    color: $accent-color;
   }
 }
 
@@ -13,7 +15,7 @@
 }
 
 .post-category {
-  color: red;
+  color: $accent-color;
 }
 
 .author-pic-sm {

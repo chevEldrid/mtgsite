@@ -9,7 +9,7 @@ layout: default
   {% assign author = site.authors | where: 'short_name', page.author | first %}
   {% if author %}
     <img src="/{{ author.picture }}" class="img-fluid rounded-circle author-pic-sm" alt="{{author.name}}">
-    <a href="{{ author.url }}">{{ author.name }}</a>
+    <a class="accented-link" href="{{ author.url }}">{{ author.name }}</a>
   {% endif %}
   <br />
   {{ page.date | date_to_string }} 
@@ -18,4 +18,10 @@ layout: default
   {% endif %}
 </p>
 <hr/>
+{% if page.youtube %}
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="{{ page.youtube }}" allowfullscreen></iframe>
+  </div>
+  <br />
+{% endif %}
 {{ content }}
