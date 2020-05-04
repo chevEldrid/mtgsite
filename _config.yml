@@ -6,6 +6,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 10
 
 defaults:
   - scope:
