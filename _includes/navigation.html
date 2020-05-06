@@ -1,4 +1,13 @@
-<nav>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}"> 
+          {{ item.name }}
+      </a>
+    {% endfor %}
+</div>
+<div class="d-none d-md-block">
+  <nav>
     {% for item in site.data.navigation %}
       <a href="{{ item.link }}" 
         {% if page.url == item.link %}
@@ -9,4 +18,5 @@
           {{ item.name }}
       </a>
     {% endfor %}
-</nav>
+  </nav>
+</div>
