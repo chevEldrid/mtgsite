@@ -5,4 +5,4 @@ picture: assets/images/profiles/chev.jpg
 position: Lead Contributor
 title: Chev Eldrid, Author - Brew Crew
 ---
-Chev is one of the Brew Crew, likes long walks on the beach and pina coladas.
+One of the founding members of the Brew Crew, Chev focuses on Commander formats and more casual play
