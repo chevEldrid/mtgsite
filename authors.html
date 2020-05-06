@@ -1,16 +1,21 @@
 ---
 title: Brew Crew Contributors
 ---
-<h1>Contributing Authors</h1>
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h1>Contributing Authors</h1>
 
-{% for author in site.authors %}
-  <a class="post-link" href="{{ author.url }}">
-    <div class="media">
-      <img src="/{{ author.picture }}" class="mr-3 author-pic-sm" alt="{{ author.name}}">
-      <div class="media-body">
-        <h5 class="mt-0 mb-0">{{ author.name }}</h5>
-        {{ author.content | markdownify }}
-      </div>
-    </div>
-  </a>
-{% endfor %}
+    {% for author in site.authors %}
+      <a class="post-link" href="{{ author.url }}">
+        <div class="media">
+          <img src="/{{ author.picture }}" class="mr-3 author-pic-sm" alt="{{ author.name}}">
+          <div class="media-body">
+            <h5 class="mt-0 mb-0">{{ author.name }}</h5>
+            {{ author.content | markdownify }}
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>

@@ -1,12 +1,28 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <p>&copy; Brew Crew 2020</p>
-            </div>
-            <div class="col">
-                <p class="text-right"><a href="mailto:itsthebrewcrew@gmail.com?subject=Site%20Link">Contact Us!</a></p>
-            </div>
+            {% if page.isIndex %}
+                <div class="col-md-12">
+                    <hr />
+                    <div class="float-left">
+                        <p>&copy; Brew Crew 2020</p>
+                    </div>
+                    <div class="float-right">
+                        <p class="text-right"><a href="mailto:itsthebrewcrew@gmail.com?subject=Site%20Link">Contact Us!</a></p>
+                    </div>
+                </div>
+            {% else %}
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <hr />
+                    <div class="float-left">
+                        <p>&copy; Brew Crew 2020</p>
+                    </div>
+                    <div class="float-right">
+                        <p class="text-right"><a href="mailto:itsthebrewcrew@gmail.com?subject=Site%20Link">Contact Us!</a></p>
+                    </div>
+                </div>
+            {% endif %}
         </div>
     </div>
 </footer>

@@ -8,6 +8,15 @@ $accent-color: rgb(194, 59, 59);
   }
 }
 
+//used if there are two links directly next to each other to differentiate
+.accented-link-two { 
+  color: black;
+  &:hover {
+    color: $accent-color;
+    text-decoration: none;
+  }
+}
+
 .unselected {
   color: black;
   &:hover {

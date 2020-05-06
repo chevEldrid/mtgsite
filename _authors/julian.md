@@ -1,6 +1,7 @@
 ---
 short_name: julian
 name: Julian Leal
+twitter: "@julianLeal"
 picture: assets/images/profiles/julian.jpeg
 position: Lead Contributor
 title: Julian Leal, Author - Brew Crew
