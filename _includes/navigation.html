@@ -1,3 +1,4 @@
+<!--mobile sidebar-->
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     {% for item in site.data.navigation %}
@@ -6,6 +7,7 @@
       </a>
     {% endfor %}
 </div>
+<!--Desktop navigation-->
 <div class="d-none d-md-block">
   <nav>
     {% for item in site.data.navigation %}
