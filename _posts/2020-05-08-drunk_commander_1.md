@@ -1,15 +1,15 @@
 ---
 author: chev
-cover: assets/images/emrakul.jpg
+cover: assets/images/drunkCommander/dc1/dc1-cover.png
 length: 11
 categories: ["Drunk Commander"]
 tags: [commander, bourbon]
 title: "Nikya the Old-Fashioned"
 ---
-INSERT HOOK HERE
-
 <p>
-Everyone has their pet decks. In Commander, where cards don’t rotate and power creep is directly proportional to your income, this is especially true. These are the decks you’ve been grooming for years to be just the right amount of absolute carnage without sending your pod over the edge in frustration. I’m talking countless hours spent scrolling through Edhrec or running your thousandth hand draw on Tappedout to check the consistency of getting 
+Everyone has their pet decks. In Commander, where cards don’t rotate and power creep is directly proportional to your income, this is especially true. 
+<!--more-->
+These are the decks you’ve been grooming for years to be just the right amount of absolute carnage without sending your pod over the edge in frustration. I’m talking countless hours spent scrolling through Edhrec or running your thousandth hand draw on Tappedout to check the consistency of getting 
 <a 
     class="accented-link" 
     target="_blank"
@@ -315,53 +315,6 @@ So without further ado, I give you Nikya and her Old Fashioned straight from the
 
 In a Chilled Rocks Glass (or any cup really), mix the sugar with the bitters and a little bit of water before adding the bourbon. Throw in one large ice cube and stir until you get bored then top with orange peel
 
-<a href="https://www.mtggoldfish.com/deck/3001266#paper" target="_blank"><b>Nikya of the Old Fashioned Deck list</b></a>
+<a href="https://tappedout.net/mtg-decks/nikya-of-the-old-fashioned-1/?cb=1588993977" target="_blank"><b>Nikya of the Old Fashioned Deck list</b></a>
 
-<p>And as always, you can find the rest of our decks right <a href="/" target="_blank">here</a>!</p>
-
-**Attempt to write decks**
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-        <div class="row">
-            <div class="col-6">
-                <b>Creatures</b>
-                <p class="mb-0">1x <a 
-                        class="accented-link" 
-                        target="_blank"
-                        href="https://shop.tcgplayer.com/magic/ravnica-allegiance/nikya-of-the-old-ways" 
-                        data-toggle="popover" 
-                        data-placement="top" 
-                        data-content="<img src='https://img.scryfall.com/cards/large/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1584831692' width=100% height=100%>">
-                        Nikya of the Old Ways
-                    </a>
-                </p>
-                <b>Sorceries</b>
-                <p class="mb-0">1x <a 
-                        class="accented-link" 
-                        target="_blank"
-                        href="https://shop.tcgplayer.com/magic/ravnica-allegiance/nikya-of-the-old-ways" 
-                        data-toggle="popover" 
-                        data-placement="top" 
-                        data-content="<img src='https://img.scryfall.com/cards/large/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1584831692' width=100% height=100%>">
-                        Naturalize
-                    </a>
-                </p>
-            </div>
-            <div class="col-6">
-                <b>Lands</b>
-                <p class="mb-0">100x <a 
-                        class="accented-link" 
-                        target="_blank"
-                        href="https://shop.tcgplayer.com/magic/ravnica-allegiance/nikya-of-the-old-ways" 
-                        data-toggle="popover" 
-                        data-placement="top" 
-                        data-content="<img src='https://img.scryfall.com/cards/large/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1584831692' width=100% height=100%>">
-                        Forest
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
+<p>And as always, you can find the rest of our decks right <a href="https://tappedout.net/users/The_Brew_Crew/" target="_blank">here</a>!</p>
