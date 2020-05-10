@@ -1,0 +1,19 @@
+<!--Adds the links to other articles in the series-->
+<!--Figures out if there are other articles in the series-->
+{% assign total = 0 %}
+{% for post in site.posts %}
+   {% if post.categories[0] == page.categories[0] %}
+    {% assign total = total | plus: 1 %}
+   {% endif %}
+{% endfor %}
+{% if total > 1 %}
+    <!--Generates list of previous articles in series: should limit in future-->
+    <p>More Entries in <b>{{ page.categories[0] | capitalize}}</b>:</p>
+    <ul>
+        {% for post in site.posts %}
+        {% if post.categories[0] == page.categories[0] and post.title != page.title %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+{% endif %}

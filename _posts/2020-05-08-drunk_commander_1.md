@@ -5,6 +5,7 @@ length: 11
 categories: ["Drunk Commander"]
 tags: [commander, bourbon]
 title: "Nikya the Old-Fashioned"
+hook: "Taking Nikya for a spin"
 ---
 <p>
 Everyone has their pet decks. In Commander, where cards don’t rotate and power creep is directly proportional to your income, this is especially true. 

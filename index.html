@@ -18,7 +18,11 @@ isIndex: true
                         <h3>{{ post.title }}</h3>
                     </div>
                     <p class="card-text">
-                        {{ post.excerpt }}
+                        {% if post.hook %}
+                            {{post.hook}}
+                        {% else %}
+                            {{ post.excerpt }}
+                        {% endif %}
                     </p>
                 </div>
             </div>
