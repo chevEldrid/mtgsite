@@ -5,7 +5,10 @@ title: About the Crew
 <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8">
-        <h1>About</h1>
-        <p>This page tells you a little bit about me.</p>
+        <div id="about-content">
+            <h1>About</h1>
+            <p>Blah blah blah, heartwarming storyyyyy</p>
+            <p>Another paragraph of heartwarming storyyyyy</p>
+        </div>
     </div>
 </div>

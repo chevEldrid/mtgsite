@@ -1,7 +1,6 @@
 ---
 short_name: chev
 name: Chev Eldrid
-twitch_name: "@chevEldrid"
 twitter_name: "@chevEldrid"
 picture: assets/images/profiles/chev.jpg
 position: Lead Contributor

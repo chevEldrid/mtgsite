@@ -8,7 +8,12 @@ layout: default
       <div class="row">
         <div class="col-md-8 float-left">
           <h1>{{ page.name }}</h1>
+        {% if page.position %}
           <h5>{{ page.position }}</h5>
+        {% endif %}
+        {% if page.twitch_name %}
+          <h5><a class="accented-link" href="https://www.twitch.tv/{{ author.twitch_name }}" target="_blank">@{{ page.twitch_name }}</a></h5>
+        {% endif %}
         </div>
         <div class="col-md-4 d-none d-md-block">
           <img src="/{{ page.picture }}" class="img-fluid rounded-circle author-pic-lg float-right" alt="{{author.name}}">
