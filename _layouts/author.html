@@ -31,7 +31,11 @@ layout: default
             <h4 class="post-category">{{ post.categories[0] | capitalize }}</h4>
             <h3>{{ post.title }}</h3>
             <p>
-              {{ post.excerpt }}
+              {% if post.hook %}
+                  {{post.hook}}
+              {% else %}
+                  {{ post.excerpt }}
+              {% endif %}
             </p>
           </a>
         </div>

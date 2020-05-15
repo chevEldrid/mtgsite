@@ -13,9 +13,9 @@
     {% for item in site.data.navigation %}
       <a href="{{ item.link }}" 
         {% if page.url == item.link %}
-        class="accented-link"
+        class="accented-link desktop-navlink"
         {% else %}
-        class="unselected"
+        class="unselected desktop-navlink"
         {% endif %}>
           {{ item.name }}
       </a>
