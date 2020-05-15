@@ -3,7 +3,7 @@ short_name: julian
 name: Julian Leal
 twitch_name: "brew_crew"
 twitter_name: "@julianLeal"
-picture: assets/images/profiles/julian.jpeg
+picture: assets/images/profiles/julian.jpg
 position: Lead Contributor
 title: Julian Leal, Author - Brew Crew
 ---
