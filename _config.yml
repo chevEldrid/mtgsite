@@ -8,7 +8,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-paginate: 10
+paginate: 15
 excerpt_separator: <!--more-->
 
 defaults:
