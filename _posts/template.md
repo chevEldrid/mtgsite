@@ -15,7 +15,25 @@ The rest of this text will only appear on the actual page.
 use this guide for formatting: https://www.markdownguide.org/basic-syntax/
 
 embedded pictures follow syntax:
-<img src="/assets/images/RYE/rye1/rye1-1.png" class="img-fluid">
+{% include pics.html pic1="/assets/images/RYE/rye1/rye1-1.png" }
+This works for single pictures inline with article, or up to three pictures (generally cards) in a row across a page.
+
+Here are two examples. The first will be a row of three cards across
+{% include pics.html 
+pic1="https://img.scryfall.com/cards/large/front/d/5/d568c679-8421-4184-a73c-b18c4164fea5.jpg?1581479289" 
+pic2="https://img.scryfall.com/cards/large/front/9/e/9e97f8b1-01e9-42c3-af0d-05e861de82e5.jpg?1590106714"
+pic3="https://img.scryfall.com/cards/large/front/a/1/a1ddd113-140f-49c9-b45c-cf1b0d1dffd8.jpg?1581478950" %}
+(this works if you only include a pic1 or a pic1 and pic2. But you ALWAYS need a pic1)
+
+This next example is for if you want a single image just ya know, stuck in there
+{% include pics.html
+pic1="https://img.scryfall.com/cards/large/front/d/2/d29ce094-e373-42b8-8540-8fde33f8a2a4.jpg?1590501450" 
+style="single"
+width="33%" %}
+
+You'll need to add the style="single" tag so our site knows to treat it right, and include a width for overall image size.
+
+
 Oh, and while we're at it you can include any sort of html you want. markdown does its thing around it so 
 <p>this is totally legal</p>
 

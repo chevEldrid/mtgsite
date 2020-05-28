@@ -9,30 +9,27 @@ hook: "Once Upon a time in Dominaria"
 ---
 So, you want to hear a story eh? Legendary heroes battling for supremacy using their might and wisdom and general badassery? Sit down, grab a drink. It’s time to learn about Brawl.
 
-<div class="text-center">
-    <img src="https://i1.wp.com/ticgamesnetwork.com/wp-content/uploads/2018/06/maxresdefault-85.jpg?fit=1280%2C720&ssl=1" style="max-width: 50%" class="img-fluid" alt="image sourced from scryfall.com">
-</div>
+{% include pics.html 
+pic1="https://i1.wp.com/ticgamesnetwork.com/wp-content/uploads/2018/06/maxresdefault-85.jpg?fit=1280%2C720&ssl=1"
+style="single"
+width="50%"
+%}
 <br />
 No, not that one. Get outta here, this is a Magic site. We’re talking Brawl the *format* (although I’d completely understand if more of you were familiar with the former.) 
 
 My love for Brawl started at the Dominaria prerelease. 
-<!--Test of new image system-->
-<div class="row">
-	<div class="col-4 inline-card">
-		<img src="https://img.scryfall.com/cards/large/front/1/6/16185c50-f7b8-4cea-a129-dfad8e9df781.jpg?1562731837" class="img-fluid" alt="image sourced from scryfall.com">
-	</div>
-	<div class="col-4 inline-card">
-		<img src="https://img.scryfall.com/cards/large/front/2/5/253f9e43-5bc6-4f26-a8e9-773cd0ca3d02.jpg?1562732810" class="img-fluid" alt="image sourced from scryfall.com">
-	</div>
-	<div class="col-4 inline-card">
-		<img src="https://img.scryfall.com/cards/large/front/9/4/9459ffca-5a1f-4641-88d4-8a499b261faa.jpg?1562739719" class="img-fluid" alt="image sourced from scryfall.com">
-	</div>
-</div>
+{% include pics.html 
+pic1="https://img.scryfall.com/cards/large/front/1/6/16185c50-f7b8-4cea-a129-dfad8e9df781.jpg?1562731837"
+pic2="https://img.scryfall.com/cards/large/front/2/5/253f9e43-5bc6-4f26-a8e9-773cd0ca3d02.jpg?1562732810"
+pic3="https://img.scryfall.com/cards/large/front/9/4/9459ffca-5a1f-4641-88d4-8a499b261faa.jpg?1562739719"
+%}
 <br />
 It was just after the format was introduced and Dominaria was built for Brawl on a fundamental level. Each pack had a dedicated legendary slot, and the prerelease box came with an extra date-stamped legendary. Originally, I had chalked up Brawl as a one-off way for Wizards to bring the Commander community into the rotating Standard environment and saw Brawl support just as a way to level up some of my 99-card decks...but as I flipped through those six packs of cards, my mind just started forming connections. A limited cardpool lacking “staples” can breed creativity. 
-<div class="text-center">
-    <img src="https://media.giphy.com/media/ohdY5OaQmUmVW/giphy.gif" style="max-width: 50%" class="img-fluid" alt="https://media.giphy.com/media/ohdY5OaQmUmVW/giphy.gif">
-</div>
+{% include pics.html 
+pic1="https://media.giphy.com/media/ohdY5OaQmUmVW/giphy.gif"
+style="single"
+width="50%"
+%}
 <br />
 I found myself drowning in potential options and was mentally sorting cards into build categories for at least half the deck construction time and spent the rest of the prerelease scheming potential decks in the back of my head. I’m going to pretend that the preoccupation with potential Brawl builds is why I walked away from the event without a win to my name. But who cares!!! I knew exactly what I needed to structure a 
 <a
@@ -93,18 +90,11 @@ I met all these guys while studying abroad in New Zealand that semester, so even
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/1/6/16185c50-f7b8-4cea-a129-dfad8e9df781.jpg?1562731837' width=100% height=100%>">
 	Tetsuko Umezawa, Fugitive
 </a> deck that’s still one of my favorite builds to this day.
-
-<div class="row">
-	<div class="col-4 inline-card">
-		<img src="https://img.scryfall.com/cards/large/front/a/b/ab830392-4d7e-4b45-93cf-35ed1e935228.jpg?1562741100" class="img-fluid" alt="image sourced from scryfall.com">
-	</div>
-	<div class="col-4 inline-card">
-		<img src="https://img.scryfall.com/cards/large/front/5/2/52212fd5-551e-4bc1-9dac-6361e27c27ad.jpg?1562735636" class="img-fluid" alt="image sourced from scryfall.com">
-	</div>
-	<div class="col-4 inline-card">
-		<img src="https://img.scryfall.com/cards/large/front/d/7/d765221d-9718-47eb-aa49-9c0719337139.jpg?1562816531" class="img-fluid" alt="image sourced from scryfall.com">
-	</div>
-</div>
+{% include pics.html 
+pic1="https://img.scryfall.com/cards/large/front/a/b/ab830392-4d7e-4b45-93cf-35ed1e935228.jpg?1562741100"
+pic2="https://img.scryfall.com/cards/large/front/5/2/52212fd5-551e-4bc1-9dac-6361e27c27ad.jpg?1562735636"
+pic3="https://img.scryfall.com/cards/large/front/d/7/d765221d-9718-47eb-aa49-9c0719337139.jpg?1562816531"
+%}
 <br />
 Any equipment that gave just a boost to power was an instant include, making my wild army of blue 2/1s into actual threats (as long as Tetsuko was on the field), and Champion of Wits served as a sweet piece of late game tech to loot away any nasty lands while serving as a reasonable body in the early game. Considering how fragile my army was, there were also a fair number of counterspells like Unwind or 
 <a
@@ -216,10 +206,11 @@ Official Support didn’t return until Eldraine over a year <a href="https://mag
 </a> into a beastly 100 card monstrosity. It really took the introduction of Brawl into Arena shortly after to give the format the jump it needed.
 
 Giving Commander players (and a budding Brawl community) a version of their favorite format online was an incredible selling point, and even though Wizards started small (only weekly events and some special occasions to play), the numbers wanting to line up behind their favorite legendary and throw hands only grew.
-
-<div class="text-center">
-    <img src="https://media.giphy.com/media/it8ZXqfoJx6i4/giphy.gif" style="max-width: 50%" class="img-fluid" alt="https://media.giphy.com/media/it8ZXqfoJx6i4/giphy.gif">
-</div>
+{% include pics.html 
+pic1="https://media.giphy.com/media/it8ZXqfoJx6i4/giphy.gif"
+style="single"
+width="50%"
+%}
 <br />
 That of course brings us to the present day. Now, Arena is only increasing its Brawl offerings from weekly queues to month-long events that give incredibly powerful legendaries from sets past their turn to completely rock the metagame.  Stagnation is no longer something to associate with Brawl. Finally, two years after I dropped 
 <a
@@ -235,17 +226,10 @@ That of course brings us to the present day. Now, Arena is only increasing its B
 ## Alright I'm Hooked, What are the Specifics?
 
 Brawl's official announcement from WOTC can be found <a href="https://magic.wizards.com/en/articles/archive/ways-play/join-brawl-2018-03-22" target="_blank">here</a>. **TLDR:** You build a 60 card singleton deck (the deck can only have one copy of each card besides basic lands), with one powerful legendary creature or planeswalker as your “commander” who starts outside the game. 
-<div class="row">
-	<div class="col-4 inline-card">
-		<img src="https://img.scryfall.com/cards/large/front/f/8/f857bbe4-5619-4733-a0c7-69700f2ef4f3.jpg?1557576960" class="img-fluid" alt="image sourced from scryfall.com">
-	</div>
-	<div class="col-4 inline-card">
-		<img src="https://img.scryfall.com/cards/large/front/5/6/56a2609d-b535-400b-81d9-72989a33c70f.jpg?1582037402" class="img-fluid" alt="image sourced from scryfall.com">
-	</div>
-	<div class="col-4 inline-card">
-		<img src="https://img.scryfall.com/cards/large/front/8/c/8ca6eb5a-8bc9-4091-bcfb-b207f0afd188.jpg?1586043521" class="img-fluid" alt="image sourced from scryfall.com">
-	</div>
-</div>
+{% include pics.html
+pic1="https://img.scryfall.com/cards/large/front/f/8/f857bbe4-5619-4733-a0c7-69700f2ef4f3.jpg?1557576960"
+pic2="https://img.scryfall.com/cards/large/front/5/6/56a2609d-b535-400b-81d9-72989a33c70f.jpg?1582037402"
+pic3="https://img.scryfall.com/cards/large/front/8/c/8ca6eb5a-8bc9-4091-bcfb-b207f0afd188.jpg?1586043521" %}
 <br />
 Think of this legendary character as the general of your forces. The best brawl decks build around the effects of their commander to create a synergy that benefits from constant access to your commander who starts essentially as an eighth card in hand. Also, being a singleton format you only ever need one copy of any given card. This becomes a huge boon when looking at MTGA’s wildcard structure. You don’t really want to be spending 4 wildcards on a playset of 
 <a
