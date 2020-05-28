@@ -64,8 +64,11 @@ I’m sure we’ve all been wondering what decks hold up the best under inebriat
 **What makes a good Drunk commander?**
 What are the characteristics of a general that can withstand the effects of alcohol the greatest? One option is commanders that promote a very linear strategy. They do one thing, and one thing only. Generally that’s going to be something like smashing face. This might include the likes of...
 
-<img src="/assets/images/drunkCommander/dc1/drunkCommander1-1.png" class="img-fluid">
-
+{% include pics.html 
+pic1="https://img.scryfall.com/cards/large/front/7/c/7c4a08e9-06c7-43e9-a855-4f507a35ae8b.jpg?1562553760"
+pic2="https://img.scryfall.com/cards/large/front/9/8/98aeab2a-69b5-4b4f-9de4-5401d01c26e2.jpg?1562923340"
+pic3="https://img.scryfall.com/cards/large/front/3/1/3184b138-1109-4195-9d96-4f190164e98b.jpg?1578452551" %}
+<br />
 Maelstrom is all kinds of threat, and relies on a deck just packed with Temur good stuff since Cascade gives you no real say in what’s coming. All you know is it’s going to be big, destructive, and need to be answered. Oh, and will have haste because of course.
 
 Borborygmos is a little more nuanced. IHe wants to hit all of the things all of the time. Considering every time he deals combat damage to your opponents he’ll buff your entire squad...it makes sense to keep him in that state as much as possible. If we’ve learned anything from Finding Nemo, it’s just keep swinging. Sure you might include some strategy with +1/+1 counters or tokens but you really don’t need to. Why make things more complicated?
@@ -83,8 +86,11 @@ Xenagos has been a format powerhouse for years. Not only can he often dodge crea
 
 The other characteristic to look for in a strong drunk commander is commanders that have inherent restrictions on what things players can do or when players can do said things. The best cases are when these restrictions apply to opponents. Maybe they can’t cast spells during combat, removing the need to worry about combat tricks. Maybe they can’t destroy your creatures. Perfect! Swing with abandon! For this type of deck we turn to:
 
-<img src="/assets/images/drunkCommander/dc1/drunkCommander1-2.png" class="img-fluid">
-
+{% include pics.html 
+pic1="https://img.scryfall.com/cards/large/front/6/e/6e5baa27-3f6b-49bb-9927-5afc21b9cc3f.jpg?1562634024"
+pic2="https://img.scryfall.com/cards/large/front/c/3/c366e1c0-f62d-41ce-baec-de11dbc1c5f4.jpg?1568003704"
+pic3="https://img.scryfall.com/cards/large/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1584831692" %}
+<br />
 We see three types of restrictions with this selection. Basandra prevents anyone from casting spells during combat. Not only are you stopping your opponents from instant speed removing your creatures or buffing their own, but also...and potentially more importantly...you’re eliminating the need for *you* to worry about playing combat tricks! It’s this kind of secret tech we’re always looking for here on Drunk Commanders.
 
 Marisi requires a higher level of play in that now we might want to keep a few instant speed tricks up our sleeve...but that can turn out to be okay! You WILL need to focus for at least your own turn. I know, I know, but you’ll have plenty of time to slump right after your end step. Marisi prevents opponents from interacting with your combat *and* will force their creatures to swing back. Couldn’t be more straightforward! You can swing out besides maybe one big creature to caution the swing-back and keep on groovin.
@@ -139,8 +145,11 @@ Most green commander decks will focus on a ramp package with spells like
 	Kodama's Reach
 </a> to get the job done...but honestly those are kind of lame, so lame Nikya won’t even let you play them once Nikya gets on the field. Fret not! We got you covered. Enter the creature ramp dream team:
 
-<img src="/assets/images/drunkCommander/dc1/drunkCommander1-3.png" class="img-fluid">
-
+{% include pics.html 
+pic1="https://img.scryfall.com/cards/large/front/7/7/77c5714f-7935-4547-89bb-47f448db047b.jpg?1561912417"
+pic2="https://img.scryfall.com/cards/large/front/6/1/6161d2ed-7cff-4c90-9e74-1d179a6c1498.jpg?1562202198"
+pic3="https://img.scryfall.com/cards/large/front/7/7/77f95da2-cbc4-4430-adb7-75f4c469d98e.jpg?1562634082" %}
+<br />
 While their rate might be a little slower than some of the noncreature counterparts, these guys still put you ahead on turn three so you can successfully drop Nikya turn four. Don’t even need to worry about any of that non-creature stuff. We’ll round out the mana package with a couple dorks, particularly 
 <a
 	class="accented-link"
@@ -163,8 +172,11 @@ While their rate might be a little slower than some of the noncreature counterpa
 
 After that will come the removal suite. There’s no easy way to say this...but if you adhere to the doctrine of drunk magic there is a chance your opponents will have more brain power at their disposal. Ideally, they’ve followed your impressive lead in imbibing themselves, in which case you take the advantage of a linear-strategy deck. But should they be, dare I say, sober...you need ways to rid the table of the threat they may possess. I’m talking about creatures with those sweet sweet ETBs!!
 
-<img src="/assets/images/drunkCommander/dc1/drunkCommander1-4.png" class="img-fluid">
-
+{% include pics.html 
+pic1="https://img.scryfall.com/cards/large/front/1/4/144e6997-c6b6-4604-b8ff-ad06c4528f4f.jpg?1573512945"
+pic2="https://img.scryfall.com/cards/large/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1547517981"
+pic3="https://img.scryfall.com/cards/large/front/0/0/0020a124-ba76-4d40-84e9-9803268d9f16.jpg?1562895014" %}
+<br />
 Much of the removal package is focused on versatility at a higher cmc which we can afford thanks to Nikya, or previous efforts of Nikya that allowed us to play more ramping dorks. With the ability to hit almost anything on the board you don’t even need to strategize what needs to be taken out first!! Windmill slam a creature and destroy whatever looks scariest. It’s a foolproof strategy that will work 100% of the time, 70% of the time. Enough of these and your opponents won’t have a leg to stand on. We will include certain amounts of targeted removal too, can’t be forgetting our old pal 
 <a
 	class="accented-link"
@@ -186,9 +198,8 @@ Much of the removal package is focused on versatility at a higher cmc which we c
 </a>. Send everyone back down without making individual enemies, they’ll all hate you equally!
 
 When all that removal doesn’t work, we run a counterspell. What? I hear you ask, in a deck so focused around creatures where we’re going so hard we’re even ditching cultivate you’re going to include a counterspell that can’t even protect Nikya? The answer to that is yes and once you see it you’ll know why. 
-<div class="text-center">
-    <img src="/assets/images/drunkCommander/dc1/drunkCommander1-5.png" style="max-width: 30%" class="img-fluid">
-</div>
+{% include pics.html 
+pic1="https://img.scryfall.com/cards/large/front/9/1/9121e55e-5070-48cc-b706-92c67ad89254.jpg?1562857042" %}
 
 <br />
 Yeah. Get out of here with that 
@@ -249,9 +260,8 @@ Lastly, and most importantly, you need a solid creature suite of big, dumb, and 
 	Hydra Broodmaster
 </a>. Tuned? Who needs tuned when we can drop 10/10 hydras for DAYS. It’s also how I stumbled across this gem with ungodly amounts of synergy…
 
-<div class="text-center">
-    <img src="/assets/images/drunkCommander/dc1/drunkCommander1-6.png" style="max-width: 30%" class="img-fluid">
-</div>
+{% include pics.html 
+pic1="https://img.scryfall.com/cards/large/front/8/4/846b7039-9449-4064-8101-1260c59872a5.jpg?1559958718" %}
 <br/>
 That’s right, Gruul has always hated noncreature spells and now you can channel that hate in an incredibly powerful way! You almost never need to worry about the condition because of the incredibly high creature count we’re rocking and if Nikya’s out? Like a true friend they’ll be stopping you from making a fool of yourself. Even killing this thing right after it’s played will reward someone with 6 damage.
 
