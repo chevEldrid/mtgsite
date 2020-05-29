@@ -4,7 +4,7 @@ cover: https://img.scryfall.com/cards/art_crop/front/0/d/0dcdad71-323e-41e0-a1b3
 length: 11
 categories: ["Drunk Commander"]
 tags: [commander, bourbon]
-title: "Nikya the Old-Fashioned"
+title: "Nikya the Old-Fashioned (Commander)"
 hook: "Taking Nikya for a spin"
 ---
 Everyone has their pet decks. In Commander, where cards don’t rotate and power creep is directly proportional to your income, this is especially true. 

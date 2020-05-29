@@ -12,7 +12,8 @@
     <ul>
         {% for post in site.posts %}
         {% if post.categories[0] == page.categories[0] and post.title != page.title %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% assign date=post.date | split:" " %}
+            <li><a href="{{ post.url }}">{{date[0]}}: {{ post.title }}</a></li>
         {% endif %}
         {% endfor %}
     </ul>
