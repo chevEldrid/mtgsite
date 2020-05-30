@@ -25,6 +25,8 @@ It’s basic and trash. And so am I.
 
 Real talk this deck is dumb, but it’s fun to play and that’s all that matters. If you’re drinking with this deck, please relegate yourself to a <a href="https://trulyhardseltzer.com/">Truly</a> (an inferior seltzer to <a href="https://www.whiteclaw.com/">White Claw</a>) or <a href="https://www.naturallight.com/">Natty Light</a> (which might just be water), you don't deserve any better.
 
+**Editor's Note: Chev here, this deck brought Julian to Platinum so don't listen to a word he says. If you want to give this deck a go, get yourself some freaking Champagne and don't let nobody tell you different. Least of all this dude.**
+
 **Lance Armstrong**
 
 <div class="row">
