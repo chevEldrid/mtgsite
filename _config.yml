@@ -11,6 +11,20 @@ plugins:
 paginate: 15
 excerpt_separator: <!--more-->
 
+permalink: /:title/
+# Google SEO stuff
+title: "The Brew Crew"
+description: "Magic the Gathering and Magic Arena decks, strategy, and commentary"
+twitter:
+  username: TheBrewCrew13
+  card: summary
+social:
+  name: "The Brew Crew"
+  links:
+    - https://twitter.com/TheBrewCrew13
+
+logo: /assets/images/logo.png
+
 defaults:
   - scope:
       path: ""
