@@ -3,7 +3,7 @@ author: chev
 cover: https://img.scryfall.com/cards/art_crop/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1584831692
 length: 11
 categories: ["Drunk Commander"]
-tags: [commander, bourbon]
+tags: [Commander, Bourbon]
 title: "Nikya the Old-Fashioned (Commander)"
 hook: "Taking Nikya for a spin"
 ---

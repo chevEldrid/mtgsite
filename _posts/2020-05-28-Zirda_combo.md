@@ -4,7 +4,7 @@ cover: https://img.scryfall.com/cards/art_crop/front/1/b/1bd8e61c-2ee8-4243-a848
 length: 10
 youtube: https://www.youtube.com/embed/d96pbyDg1hg
 categories: ["Homebrewed"]
-tags: ["Standard", "Ikoria", "Zirda, the Dawnwaker", "Companion"]
+tags: ["Standard", "Companion"]
 title: "Hello Dawn, My Old Friend (Standard)"
 hook: "A cute firefox companion? 3 mana. Activated abilities? 2 generic less. A ridiculous combo? Priceless."
 ---
