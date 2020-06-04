@@ -45,5 +45,10 @@ layout: default
     {% endif %}
     {{ content }}
     {% include series.html %}
+    <tr>
+      {% for tag in page.tags %}
+      <a href="/tags.html#{{ tag | slugify }}"><button type="button" class="btn btn-primary">{{ tag }}</button></a>
+      {% endfor %}
+    </tr>
   </div>
 </div>

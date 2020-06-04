@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tag
+title: Tags
 ---
 
 {% comment %}
@@ -42,24 +42,25 @@ The purpose of this snippet is to list all the tags you have in your site.
 {% for tag in tags %}
 	<a class="tag" href="#{{ tag | slugify }}"> {{ tag }} </a> |
 {% endfor %}
-
+<br />
+<br />
 {% comment %}
 =======================
 The purpose of this snippet is to list all your posts posted with a certain tag.
 =======================
 {% endcomment %}
 {% for tag in tags %}
-	<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+	<h4 id="{{ tag | slugify }}">{{ tag }}</h4>
 	<ul>
         {% for post in site.posts %}
             {% if post.tags contains tag %}
                 <li>
-                    <h4>
+                    <h5>
                         <a href="{{ post.url }}">
                             {{ post.title }}
                             <small>{{ post.date | date_to_string }}</small>
                         </a>
-                    </h4>
+                    </h5>
                 </li>
             {% endif %}
         {% endfor %}
