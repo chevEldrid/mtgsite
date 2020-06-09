@@ -1,11 +1,23 @@
 ---
 author: chev
-cover: https://media.magic.wizards.com/images/hero/2018_Daily_WOTC_icon_0.jpg
+cover: https://img.scryfall.com/cards/art_crop/front/d/5/d57a6d9d-f0e9-4c5a-bacf-7a6c30d65b08.jpg?1583965675
 length: 6
-categories: ["Breaking News"]
+categories: ["Weekly Update"]
 tags: []
 title: "6/1 Banlist Update"
-hook: "Companion Rule Change, Standard Bannings of Agent of Treachery and Fires of Invention"
-showSeries: false
+hook: "Omniscience Draft Posted, First Twitch Livestream, Core 21 Spoiler Season!"
 ---
-The official companion rule has been changed and there have been several bannings across standard and historic effective throughout the week
+Welcome back to another exciting week in the World of Magic! 
+
+Spoiler Season for Core 2021 started early last week with some absolutely spectacular looking cards and stellar reprints, having some comparing this to "Ultimate Masters lite" ...Not sure I'd go that far, but we are looking down the barrel of a set that includes [[Cultivate]], [[Solemn Simulacrum]], and [[Massacre Worm]]. Not to mention this bad boy!
+{% include pics.html
+pic1="https://img.scryfall.com/cards/large/front/9/2/928558ab-e29a-44cb-ac2f-88443571f41a.jpg?1591360644" 
+style="single"
+width="33%" %}
+<br />
+
+Seeing its first reprint *ever*, Grim tutor has been a popular spec target and will absolutely find its way into my [[Selenia, Dark Angel]] deck sometime soon...
+
+Scryfall of course is doing its damndest to keep us all in the know, so you can follow along with spoiler releases <a href="https://scryfall.com/sets/m21?order=spoiled&as=grid" target="_blank">here</a>
+
+
