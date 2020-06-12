@@ -33,6 +33,8 @@ width="33%" %}
 
 You'll need to add the style="single" tag so our site knows to treat it right, and include a width for overall image size.
 
+to add a link to a previous article do this:
+[Selesnya Auras Brawl deck tech]({% post_url 2020-05-14-brawldt_1 %}))
 
 Oh, and while we're at it you can include any sort of html you want. markdown does its thing around it so 
 <p>this is totally legal</p>
