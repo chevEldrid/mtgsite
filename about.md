@@ -28,6 +28,8 @@ title: About the Crew
             <br/>
             <p><b>Chev Eldrid</b> - Having just completed a Bachelors of Science in Computer Science at Northeastern University, Chev is eager to develop his skills in both software development and Magic content creation. He’ll be bringing you content on Brawl, Commander, and some streaming in the upcoming weeks with a couple series soon to be announced. Chev is probably also responsible for anything broken on the site so he’s the person to contact for that.</p>
             <p><b>Julian Leal</b> - A recent graduate of the University of Maryland, Julian has spent the last year developing his professional career as a Geologist. Though he’s most at home playing Commander, Julian has also spent this time striving to branch into all other constructed formats and brewing around anything and everything. Expect brews and competitive decks in Standard, a delve into Historic, and the occasional foray into limited (plus whatever other debauchery he can sneak past Chev). Julian will also be streaming, hopefully regularly.</p> 
+            <br />
+            <i>"The Brew Crew" is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</i>
         </div>
     </div>
 </div>
