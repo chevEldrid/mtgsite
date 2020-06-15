@@ -4,7 +4,7 @@ cover: https://img.scryfall.com/cards/art_crop/front/d/5/d57a6d9d-f0e9-4c5a-bacf
 length: 6
 categories: ["Weekly Update"]
 tags: []
-title: "6/1 Banlist Update"
+title: "June 9th, 2020"
 hook: "Omniscience Draft Posted, First Twitch Livestream, Core 21 Spoiler Season!"
 ---
 Welcome back to another exciting week in the World of Magic! 
