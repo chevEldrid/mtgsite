@@ -35,6 +35,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      comments: true
       showSeries: true
   - scope:
       path: ""
