@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<!--Number of Most recent articles to show on Author pages-->
+{% assign num_articles_shown = 5 %}
 <div class="container">
   <div class="row">
     <div class="col-md-2"></div>
@@ -20,25 +22,30 @@ layout: default
         </div>
       </div>
       {{ content }}
+      <br />
+      <h2>Recent Articles</h2>
       <hr />
       {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
       {% for post in filtered_posts %}
-        <div class="row">
-          <a class="post-link width-full" href="{{ post.url }}">
-            <div class="crop-contain">
-              <img src="{{ post.cover }}" class="author-post" alt="{{ post.title }}">
-            </div>
-            <h4 class="post-category">{{ post.categories[0] | capitalize }}</h4>
-            <h3>{{ post.title }}</h3>
-            <p>
-              {% if post.hook %}
-                  {{post.hook}}
-              {% else %}
-                  {{ post.excerpt }}
-              {% endif %}
-            </p>
-          </a>
-        </div>
+        {% if num_articles_shown > 0 %}
+          <div class="row">
+            <a class="post-link width-full" href="{{ post.url }}">
+              <div class="crop-contain">
+                <img src="{{ post.cover }}" class="author-post" alt="{{ post.title }}">
+              </div>
+              <h4 class="post-category">{{ post.categories[0] | capitalize }}</h4>
+              <h3>{{ post.title }}</h3>
+              <p>
+                {% if post.hook %}
+                    {{post.hook}}
+                {% else %}
+                    {{ post.excerpt }}
+                {% endif %}
+              </p>
+            </a>
+          </div>
+          {% assign num_articles_shown = num_articles_shown | minus: 1 %}
+        {% endif %}
       {% endfor %}
     </div>
   </div>
