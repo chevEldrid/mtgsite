@@ -2,7 +2,6 @@
 layout: default
 title: Tags
 ---
-
 {% comment %}
 code provided by: https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/
 =======================
@@ -33,36 +32,43 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 	{% endif %}
 {% endfor %}
 
-{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-|
-{% for tag in tags %}
-	<a class="tag" href="#{{ tag | slugify }}"> {{ tag }} </a> |
-{% endfor %}
-<br />
-<br />
-{% comment %}
-=======================
-The purpose of this snippet is to list all your posts posted with a certain tag.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-	<h4 id="{{ tag | slugify }}">{{ tag }}</h4>
-	<ul>
-        {% for post in site.posts %}
-            {% if post.tags contains tag %}
-                <li>
-                    <h5>
-                        <a href="{{ post.url }}">
-                            {{ post.title }}
-                            <small>{{ post.date | date_to_string }}</small>
-                        </a>
-                    </h5>
-                </li>
-            {% endif %}
-        {% endfor %}
-	</ul>
-{% endfor %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			{% comment %}
+			=======================
+			The purpose of this snippet is to list all the tags you have in your site.
+			=======================
+			{% endcomment %}
+			|
+			{% for tag in tags %}
+				<a class="tag" href="#{{ tag | slugify }}"> {{ tag }} </a> |
+			{% endfor %}
+			<br />
+			<br />
+			{% comment %}
+			=======================
+			The purpose of this snippet is to list all your posts posted with a certain tag.
+			=======================
+			{% endcomment %}
+			{% for tag in tags %}
+				<h4 id="{{ tag | slugify }}">{{ tag }}</h4>
+				<ul>
+					{% for post in site.posts %}
+						{% if post.tags contains tag %}
+							<li>
+								<h5>
+									<a href="{{ post.url }}">
+										{{ post.title }}
+										<small>{{ post.date | date_to_string }}</small>
+									</a>
+								</h5>
+							</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			{% endfor %}
+		</div>
+	</div>
+</div>

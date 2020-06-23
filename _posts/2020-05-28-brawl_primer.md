@@ -6,6 +6,7 @@ categories: ["Primer"]
 tags: [Brawl]
 title: "An Introduction to Brawl"
 hook: "Once Upon a time in Dominaria"
+highlight: true
 ---
 So, you want to hear a story eh? Legendary heroes battling for supremacy using their might and wisdom and general badassery? Sit down, grab a drink. It’s time to learn about Brawl.
 
