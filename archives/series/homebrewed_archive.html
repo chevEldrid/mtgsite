@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Homebrewed Archive"
+---
+{% assign filtered_posts = site.posts | where: 'categories', 'Homebrewed' %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="text-center">
+                <h4>Homebrewed Article Archive</h4>
+                <p>Welcome to the Series home for all Homebrewed articles!</p>
+            </div>
+            {% for post in filtered_posts %}
+                <div class="row">
+                    <h5>
+                        <a href="{{ post.url }}">
+                            {{ post.title }}
+                            <small>{{ post.date | date_to_string }}</small>
+                        </a>
+                    </h5>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

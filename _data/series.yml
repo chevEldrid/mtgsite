@@ -1,0 +1,8 @@
+- name: Homebrewed
+  link: /archives/series/homebrewed_archive.html
+- name: "On the Rocks"
+  link: /archives/series/otr_archive.html
+- name: "Rev Your Engines"
+  link: /archives/series/rye_archive.html
+- name: default
+  link: /archives/series/catchall_archive.html

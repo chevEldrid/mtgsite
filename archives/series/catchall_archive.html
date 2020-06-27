@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Article Archive"
+---
+{% assign filtered_posts = site.posts %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="text-center">
+                <h4>Island of Misfit Articles</h4>
+                <p>Here's where we catalogue all articles</p>
+            </div>
+            {% for post in filtered_posts %}
+                <div class="row">
+                    <h5>
+                        <a href="{{ post.url }}">
+                            {{ post.title }}
+                            <small>{{ post.date | date_to_string }}</small>
+                        </a>
+                    </h5>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
