@@ -1,0 +1,11 @@
+{% assign filtered_posts = site.posts | where: include.field, include.name %}
+{% for post in filtered_posts %}
+<div class="row">
+    <h5>
+        <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+        </a>
+    </h5>
+</div>
+{% endfor %}

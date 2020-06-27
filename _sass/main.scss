@@ -5,6 +5,7 @@ $accent-color: rgb(194, 59, 59);
   color: $accent-color;
   &:hover {
     color: $accent-color;
+    text-decoration: none;
   }
 }
 

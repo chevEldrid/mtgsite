@@ -3,56 +3,54 @@ layout: default
 ---
 <!--Number of Most recent articles to show on Author pages-->
 {% assign num_articles_shown = 5 %}
-<div class="container">
-  <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-      <div class="row">
-        <div class="col-md-8 float-left">
-          <h1>{{ page.name }}</h1>
-        {% if page.position %}
-          <h5>{{ page.position }}</h5>
-        {% endif %}
-        {% if page.twitch_name %}
-          <h5><a class="accented-link" href="https://www.twitch.tv/{{ author.twitch_name }}" target="_blank">@{{ page.twitch_name }}</a></h5>
-        {% endif %}
-        </div>
-        <div class="col-md-4 d-none d-md-block">
-          <img src="/{{ page.picture }}" class="img-fluid rounded-circle author-pic-lg float-right" alt="{{author.name}}">
-        </div>
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div class="row">
+      <div class="col-md-8 float-left">
+        <h1>{{ page.name }}</h1>
+      {% if page.position %}
+        <h5>{{ page.position }}</h5>
+      {% endif %}
+      {% if page.twitch_name %}
+        <h5><a class="accented-link" href="https://www.twitch.tv/{{ author.twitch_name }}" target="_blank">@{{ page.twitch_name }}</a></h5>
+      {% endif %}
       </div>
-      {{ content }}
-      <br />
-      <h2>Author Highlights</h2>
-      <hr />
-      {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
-      {% for post in filtered_posts %}
-        {% if num_articles_shown > 0 and post.highlight == true %}
-          <div class="row">
-            <a class="post-link width-full" href="{{ post.url }}">
-              <div class="crop-contain">
-                <img src="{{ post.cover }}" class="author-post" alt="{{ post.title }}">
-              </div>
-              <h4 class="post-category">{{ post.categories[0] | capitalize }}</h4>
-              <h3>{{ post.title }}</h3>
-              <p>
-                {% if post.hook %}
-                    {{post.hook}}
-                {% else %}
-                    {{ post.excerpt }}
-                {% endif %}
-              </p>
-            </a>
-          </div>
-          {% assign num_articles_shown = num_articles_shown | minus: 1 %}
-        {% endif %}
-      {% endfor %}
+      <div class="col-md-4 d-none d-md-block">
+        <img src="/{{ page.picture }}" class="img-fluid rounded-circle author-pic-lg float-right" alt="{{author.name}}">
+      </div>
     </div>
+    {{ content }}
+    <br />
+    <h2>Author Highlights</h2>
+    <hr />
+    {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+    {% for post in filtered_posts %}
+      {% if num_articles_shown > 0 and post.highlight == true %}
+        <div class="row">
+          <a class="post-link width-full" href="{{ post.url }}">
+            <div class="crop-contain">
+              <img src="{{ post.cover }}" class="author-post" alt="{{ post.title }}">
+            </div>
+            <h4 class="post-category">{{ post.categories[0] | capitalize }}</h4>
+            <h3>{{ post.title }}</h3>
+            <p>
+              {% if post.hook %}
+                  {{post.hook}}
+              {% else %}
+                  {{ post.excerpt }}
+              {% endif %}
+            </p>
+          </a>
+        </div>
+        {% assign num_articles_shown = num_articles_shown | minus: 1 %}
+      {% endif %}
+    {% endfor %}
   </div>
-  <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 text-center">
-      <a href="/archives/{{page.short_name}}_archive.html">See All Articles</a>
-    </div>
+</div>
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8 text-center">
+    <a href="/archives/{{page.short_name}}_archive.html">See All Articles</a>
   </div>
 </div>

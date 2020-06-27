@@ -6,13 +6,14 @@ layout: default
   <div class="col-md-8">
     <!--cover image-->
     <img src="{{ page.cover }}" class="img-fluid width-full" alt="welcome!">
+    <!--Create series lookup link-->
     {% assign archive_link = "/archives/series/catchall_archive.html" %}
     {% for item in site.data.series %}
       {% if item.name == page.categories[0] %}
         {% assign archive_link = item.link %}
       {% endif %}
     {% endfor %}
-    <a href="{{ archive_link }}"><h4 class="post-category">{{ page.categories[0] }}</h4></a>
+    <a class="accented-link" href="{{ archive_link }}"><h4 class="post-category">{{ page.categories[0] }}</h4></a>
     <h1>{{ page.title }}</h1>
     <!--Author credit and image-->
     <p class="author-block">
