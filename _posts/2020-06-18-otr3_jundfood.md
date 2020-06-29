@@ -7,6 +7,7 @@ categories: ["On the Rocks"]
 tags: ["Standard"]
 title: "You feelin’ hungry, punk? (Standard)"
 hook: "Cat and Oven. Name a more iconic duo. I’ll wait."
+highlight: true
 ---
 Welcome back one and all to the third installment of *On the Rocks*! After  playing that cycling deck which was extremely linear, we’re playing a favorite of mine that has a multitude of interactions and play decisions. 
  

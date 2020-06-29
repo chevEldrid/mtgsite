@@ -64,6 +64,10 @@ $accent-color: rgb(194, 59, 59);
   }
 }
 
+.no-margin {
+  margin-bottom: 0;
+}
+
 //makes fontsize of navbar larger on desktop
 .desktop-navlink {
   font-size: 1.5rem;

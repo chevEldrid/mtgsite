@@ -7,6 +7,7 @@ categories: ["Homebrewed"]
 tags: ["Standard", "Companion"]
 title: "Hello Dawn, My Old Friend (Standard)"
 hook: "A cute firefox companion? 3 mana. Activated abilities? 2 generic less. A ridiculous combo? Priceless."
+highlight: true
 ---
 {% include pics.html 
 pic1="http://wheelhouseworkshop.com/wp-content/uploads/2017/04/TakeThis-1.jpeg"

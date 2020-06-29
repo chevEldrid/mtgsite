@@ -10,6 +10,7 @@
 <!--Desktop navigation-->
 <div class="d-none d-md-block">
   <nav>
+    &nbsp;
     {% for item in site.data.navigation %}
       <a href="{{ item.link }}" 
         {% if page.url == item.link %}
@@ -17,7 +18,7 @@
         {% else %}
         class="unselected desktop-navlink"
         {% endif %}>
-          {{ item.name }}
+        &nbsp;{{ item.name }}&nbsp;
       </a>
     {% endfor %}
   </nav>

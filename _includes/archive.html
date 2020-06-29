@@ -1,11 +1,48 @@
-{% assign filtered_posts = site.posts | where: include.field, include.name %}
-{% for post in filtered_posts %}
+{% if include.field %}
+    {% assign filtered_posts = site.posts | where: include.field, include.name %}
+{% else %}
+    {% assign rawcategories = "" %}
+    {% for category in site.categories %}
+        {% assign is_valid = true %}
+        {% for item in site.data.series %}
+            {% if category[0] == item.name %}
+                {% assign is_valid = false %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+        {% if is_valid %}
+            {% unless rawcategories contains category %}
+                {% assign rawcategories = rawcategories | join:'|' | append:'|' | append:category[0] | split:'|' %}
+            {% endunless %}
+        {% endif %}
+    {% endfor %}
+
+    {% comment %}
+    =======================
+    The following part creates a list of filtered posts.
+    =======================
+    {% endcomment %}
+    {% assign filtered_posts = "" %}
+    {% for category in rawcategories %}
+        {% assign cat_posts = site.posts | where: 'categories', category %}
+        {% if filtered_posts == "" %}
+            {% assign filtered_posts = cat_posts %}
+        {% else %}
+            {% assign filtered_posts = filtered_posts | concat: cat_posts %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
 <div class="row">
-    <h5>
-        <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-        </a>
-    </h5>
+    <ul>
+        {% for post in filtered_posts %}
+        <li>
+            <p class="no-margin">
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                    <small>{{ post.date | date_to_string }}</small>
+                </a>
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
-{% endfor %}
