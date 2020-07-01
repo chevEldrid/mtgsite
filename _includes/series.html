@@ -6,6 +6,8 @@
     {% assign total = total | plus: 1 %}
    {% endif %}
 {% endfor %}
+<!--number of most recent articles to show for series-->
+{% assign num_articles_shown = 5 %}
 <!--If the total number of articles in this category is more than 1 AND this page wants its series shown...-->
 {% if total > 1 and page.showSeries %}
     <!--Generates list of previous articles in series: should limit in future-->
@@ -13,8 +15,15 @@
     <ul>
         {% for post in site.posts %}
         {% if post.categories[0] == page.categories[0] and post.title != page.title %}
-            <li><a href="{{ post.url }}">{{ post.date | date_to_string }}: {{ post.title }}</a></li> 
+            <!--Limits number of articles shown on bottom of article-->
+            {% if num_articles_shown > 0 %}
+                <li><a href="{{ post.url }}">{{ post.date | date_to_string }}: {{ post.title }}</a></li> 
+                {% assign num_articles_shown = num_articles_shown | minus: 1 %}
+            {% endif %}
         {% endif %}
         {% endfor %}
     </ul>
+    <a href="{{ archive_link }}">See All...</a>
+    <br />
+    <br />
 {% endif %}
