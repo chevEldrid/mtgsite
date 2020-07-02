@@ -17,8 +17,23 @@ layout: default
     <h1>{{ page.title }}</h1>
     <!--Author credit and image-->
     <p class="author-block">
+      {% assign author_second = site.authors | where: 'short_name', page.author[1] | first %}
       {% assign author = site.authors | where: 'short_name', page.author | first %}
-      {% if author %}
+      <!--If there are two authors...-->
+      {% if author_second %}
+        <div class="col-md-3">
+          <div class="row">
+            <div class="float-left">
+              <img src="/assets/images/logo.png" class="img-fluid rounded-circle author-pic-sm" alt="The Brew Crew">
+            </div>
+            <div class="float-right ml-1">
+              <p class="accented-link no-margin">{{ author.name }}</p>
+              <p class="accented-link no-margin">{{ author_second.name }}</p>
+            </div>
+          </div>
+        </div>
+      <!--If there is only one author...-->
+      {% elsif author %}
         <div class="col-md-3">
           <div class="row">
             <div class="float-left">

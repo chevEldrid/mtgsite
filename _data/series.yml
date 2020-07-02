@@ -1,8 +1,12 @@
 - name: Homebrewed
   link: /archives/series/homebrewed_archive.html
+  desc: "Just like the name says, brews across all formats coming from our kitchen tables straight to your screens! The themes and competitive viabilities will vary all across the spectrum, but one thing is consistent: trying new ideas and expanding our play horizons."
 - name: "On the Rocks"
   link: /archives/series/otr_archive.html
+  desc: "This series is all about kicking back and relaxing! No frills, no write-ups, just unadulterated gameplay of decks that we enjoy playing or want to test out."
 - name: "Rev Your Engines"
   link: /archives/series/rye_archive.html
+  desc: "In this series, Julian focuses on his favorite card type: Enchantments! These brews feature new and exciting enchantments at their coree to create a humming, well tuned engine and overwhelm our opponent."
 - name: default
   link: /archives/series/catchall_archive.html
+  desc:
