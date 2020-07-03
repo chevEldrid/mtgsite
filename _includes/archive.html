@@ -1,6 +1,7 @@
 {% if include.field %}
     {% assign filtered_posts = site.posts | where: include.field, include.name %}
 {% else %}
+    <!--A whole ton of logic to build out the archive made of everything except the named series-->
     {% assign rawcategories = "" %}
     {% for category in site.categories %}
         {% assign is_valid = true %}
