@@ -5,7 +5,7 @@ layout: default
   <div class="col-md-2"></div>
   <div class="col-md-8">
     <!--cover image-->
-    <img src="{{ page.cover }}" class="img-fluid width-full" alt="welcome!">
+    <img src="{{ page.cover }}" class="img-fluid width-full" loading="lazy" alt="welcome!">
     <!--Create series lookup link-->
     {% assign archive_link = "/archives/series/catchall_archive.html" %}
     {% for item in site.data.series %}

@@ -7,30 +7,30 @@
         {% if include.pic3 %}
             <div class="row">
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic1 }}" class="img-fluid" alt="image sourced from scryfall.com">
+                    <img src="{{ include.pic1 }}" class="img-fluid" loading="lazy" alt="image sourced from scryfall.com">
                 </div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic2 }}" class="img-fluid" alt="image sourced from scryfall.com">
+                    <img src="{{ include.pic2 }}" class="img-fluid" loading="lazy" alt="image sourced from scryfall.com">
                 </div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic3 }}" class="img-fluid" alt="image sourced from scryfall.com">
+                    <img src="{{ include.pic3 }}" class="img-fluid" loading="lazy" alt="image sourced from scryfall.com">
                 </div>
             </div>
         {% elsif include.pic2 %}
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic1 }}" class="img-fluid" alt="image sourced from scryfall.com">
+                    <img src="{{ include.pic1 }}" class="img-fluid" loading="lazy" alt="image sourced from scryfall.com">
                 </div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic2 }}" class="img-fluid" alt="image sourced from scryfall.com">
+                    <img src="{{ include.pic2 }}" class="img-fluid" loading="lazy" alt="image sourced from scryfall.com">
                 </div>
             </div>
         {% else %}
             <div class="row">
                 <div class="col-4"></div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic1 }}" class="img-fluid" alt="image sourced from scryfall.com">
+                    <img src="{{ include.pic1 }}" class="img-fluid" loading="lazy" alt="image sourced from scryfall.com">
                 </div>
             </div>
         {% endif %}
