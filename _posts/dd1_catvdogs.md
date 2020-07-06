@@ -1,7 +1,7 @@
 ---
 author: [chev, julian]
 cover: https://img.scryfall.com/cards/art_crop/front/d/6/d605c780-a42a-4816-8fb9-63e3114a8246.jpg?1592762067
-length: 8
+length: 12
 categories: ["Duel Decks"]
 tags: [Commander, Tribal]
 title: "Cats Versus Dogs (Commander)"

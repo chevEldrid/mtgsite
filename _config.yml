@@ -2,6 +2,7 @@ collections:
   authors:
     output: true
 
+url: "https://brewcrew.net" #base for site
 plugins:
   - jekyll-feed
   - jekyll-sitemap

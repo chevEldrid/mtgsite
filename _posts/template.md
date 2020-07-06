@@ -44,7 +44,7 @@ all pictures you want to be popover links, write with double brackets like [[thi
 
 Breakdown of the identifiers at the top of the page:
     author - who wrote the thing
-    cover - link to the image you want as the cover art for the article. Generally this will be an internal link
+    cover - link to the image you want as the cover art for the article.
     length - number of minutes required to read the article (based on word count, lots of sites are doing it)
     youtube - IF this article is a companion piece to a stream, add link to vid here. Don't include otherwise
     categories - what (if any) article series the post belongs to. Samples listed above
@@ -57,74 +57,71 @@ Sample decklist template to copy paste
 <h3>Hanna, Ship's Navigator Enchantments</h3>
 </div>
 <div class="row">
-   <div class="col-md-2"></div>
-   <div class="col-md-8">
-       <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <div class="row">
             <div class="col-6">
-                <b>Creatures</b>
-                <p class="mb-0">
-                1x [[Alseid of Life's Bounty]]<br />
-                1x [[Arcanist's Owl]]<br />
-                1x [[Callaphe, Beloved of the Sea]]<br />
-                1x [[Cavalier of Dawn]]<br />
-                1x [[Crystalline Giant]]<br />
-                1x [[Meteor Golem]]<br />
-                1x [[Starfield Mystic]]<br />
-                1x [[Transcendent Envoy]]
-                </p>
-                <b>Lands</b>
-                <p class="mb-0">
-                1x [[Command Tower]] <br />
-                1x [[Emergence Zone]]<br />
-                1x [[Fabled Passage]]<br />
-                1x [[Hallowed Fountain]]<br />
-                10x [[Island]]<br />
-                11x [[Plains]]<br />
-                1x [[Temple of Enlightenment]]<br />
-                1x [[Tranquil Cove]]
-                </p>
-                <b>Sorceries</b>
-                <p class="mb-0">
-                1x [[Bond of Insight]]<br />
-                1x [[Dance of the Manse]]<br />
-                1x [[Swallow Whole]]<br />
-                </p>
-                <b>Planeswalkers</b>
-                <p class="mb-0">
-                1x [[Kasmina, Enigmatic Mentor]]
-                </p>
-            </div>
-            <div class="col-6">
-                <b>Enchantments</b>
-                <p class="mb-0">
-                1x [[All That Glitters]]<br />
-                1x [[Ashiok's Erasure]]<br />
-                1x [[Banishing Light]]<br />
-                1x [[Conclave Tribunal]]<br />
-                1x [[Elspeth Conquers Death]]<br />
-                1x [[Heliod's Punishment]]<br />
-                1x [[Ichthyomorphosis]]<br />
-                1x [[Kiora Bests the Sea God]]<br />
-                1x [[Mirrormade]]<br />
-                1x [[Omen of the Sea]]<br />
-                1x [[Prison Realm]]<br />
-                1x [[Shark Typhoon]]<br />
-                1x [[Staggering Insight]]<br />
-                1x [[The Birth of Meletis]]<br />
-                </p>
-                <b>Instants</b>
-                <p class="mb-0">
-                1x [[Dovin's Veto]]<br />
-                1x [[Keep Safe]]<br />
-                1x [[Neutralize]]<br />
-                1x [[Thirst For Meaning]]<br />
-                </p>
-                <b>Artifacts</b>
-                <p class="mb-0">
-                1x [[Arcane Signet]]<br />
-                1x [[Soul-Guide Lantern]]
-                </p>
-            </div>
-       </div>
-   </div>
+				<b>Companion</b>
+				<p class="mb-0">				
+					[[Yorion, Sky Nomad]]
+				</p>
+				<b>Creatures</b>
+				<p class="mb-0">
+					3x [[Barrin, Tolarian Archmage]]
+					<br />
+					4x [[Charming Prince]]
+					<br />
+					4x [[Elite Guardmage]]
+					<br />
+					3x [[Knight of Autumn]]
+					<br />
+					3x [[Niambi, Esteemed Speaker]]
+					<br />
+					4x [[Thassa, Deep-Dwelling]]
+					<br />
+					4x [[Uro, Titan of Nature's Wrath]]
+					<br />
+					2x [[Yorion, Sky Nomad]]
+				</p>
+				<b>Enchantments</b>
+				<p class="mb-0">
+					4x [[Griffin Aerie]]
+				</p>
+				<b>Instants</b>
+				<p class="mb-0">
+					3x [[Absorb]]
+					<br />
+					3x [[Growth Spiral]]
+					<br />
+					2x [[Lofty Denial]]
+					<br />
+					3x [[Revitalize]]
+				</p>
+			</div>
+			<div class="col-6">
+				<b>Planeswalkers</b>
+				<p class="mb-0">
+					1x [[Ajani, Great-Hearted]]
+					<br />
+					4x [[Teferi, Time Raveler]]
+				</p>
+				<b>Lands</b>
+				<p class="mb-0">
+					4x [[Breeding Pool]]
+					<br />
+					4x [[Fabled Passage]]
+					<br />
+					5x [[Forest]]
+					<br />
+					4x [[Hallowed Fountain]]
+					<br />
+					6x [[Island]]
+					<br />
+					6x [[Plains]]
+					<br />
+					4x [[Temple Garden]]
+				</p>
+			</div>
+		</div>
+	</div>
 </div>
