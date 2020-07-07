@@ -7,6 +7,9 @@
 - name: "Rev Your Engines"
   link: /archives/series/rye_archive.html
   desc: "In this series, Julian focuses on his favorite card type: Enchantments! These brews feature new and exciting enchantments at their coree to create a humming, well tuned engine and overwhelm our opponent."
+- name: "The Top Shelf"
+  link: /archives/series/tts_archive.html
+  desc: "Interested in brewing a new commander but don't know where to start? Look no further than The Top Shelf! Each article contains a budget list fit for a more casual meta and a more competitive list if you wanna take things up a notch. So whether you're just getting started in Commander, or looking for ways to improve your game - The Top Shelf has you covered."
 - name: default
   link: /archives/series/catchall_archive.html
   desc:

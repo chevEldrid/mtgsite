@@ -1,5 +1,9 @@
 ## Welcome to the README
 
+## 07-07-2020
+* Fix titles, move js around for page load
+* FINALLY fix sitemaps
+
 ## 07-03-2020
 * Adding support for multiple authors (2) per article
 * Added FontAwesome as a CDN
