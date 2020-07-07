@@ -52,8 +52,12 @@ layout: default
       <br />
       {{ page.date | date_to_string }} 
       {% if page.length %}
-      - {{ page.length }} min read
+        {% assign minutes = page.length %}
+      {% else %}
+        {% assign minutes = content | number_of_words | divided_by: 180 %}
+        {% if minutes == 0 %}{% assign minutes = 1 %}{% endif %}
       {% endif %}
+      - {{ minutes }} min read
     </p>
     <!--Actual content, starting with provided youtube-->
     <hr/>

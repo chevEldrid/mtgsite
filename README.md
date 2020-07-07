@@ -1,5 +1,8 @@
 ## Welcome to the README
 
+## 07-10-2020
+* Length of article automatically calculated
+
 ## 07-07-2020
 * Fix titles, move js around for page load
 * FINALLY fix sitemaps
