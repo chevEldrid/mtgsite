@@ -30,6 +30,9 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@TheBrewCrew13" />
     <meta name="twitter:title" content="{{ page.title }}" />
+    {% if page.hook %}
+      <meta name="og:description" content="{{page.hook}}" />
+    {% endif %}
   </head>
   <body>
       <header>
