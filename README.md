@@ -1,8 +1,12 @@
 ## Welcome to the README
 
+## 07-10-2020
+* Use length of article to automatically calculate reading time
+* change hyperlink description to hook
+
 ## 07-07-2020
-* Fix titles, move js around for page load
-* FINALLY fix sitemaps
+* Fix titles, improve load time by lazy loading external images
+* Fix issue with sitemaps causing incorrect google crawling
 
 ## 07-03-2020
 * Adding support for multiple authors (2) per article
