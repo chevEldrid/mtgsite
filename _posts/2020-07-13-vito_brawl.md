@@ -1,10 +1,11 @@
 ---
 author: chev
 cover: https://img.scryfall.com/cards/art_crop/front/0/f/0fe79ee4-c3f3-4a6b-a967-203ca3b70ee5.jpg?1592761215
-categories: ["Homebrewed"]
+categories: ["Enter The Guildhall"]
 tags: [Brawl]
-title: "The Godfather"
+title: "The Godfather (Brawl)"
 hook: "It's a Sicilian Message, it means your opponent sleeps with the fishes"
+highlight: true
 ---
 Welcome back for another exciting Brawl deck tech! I know, I know. It’s been a while but I promise between *M21* and *Jumpstart,* the time for Brawl has never been better. With Wizards announcing recently that Brawl will now be available every day for *free* and Historic Brawl seeing a little more attention from the big guys upstairs, we are truly living in a Golden Age. It does bring up the question of will we still be seeing powerful old legends backfilled into the format like we did in the Guildhalls. For now I’m going to revel in the ability to play my favorite format every day!
 

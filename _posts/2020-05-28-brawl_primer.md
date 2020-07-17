@@ -2,7 +2,7 @@
 author: chev
 cover: https://img.scryfall.com/cards/art_crop/front/3/f/3f4e783c-0717-4127-bd7b-885ca617ca29.jpg?1562380385
 length: 11
-categories: ["Primer"]
+categories: ["Enter The Guildhall"]
 tags: [Brawl]
 title: "An Introduction to Brawl"
 hook: "Once Upon a time in Dominaria"
