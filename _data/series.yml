@@ -13,3 +13,6 @@
 - name: default
   link: /archives/series/catchall_archive.html
   desc:
+- name: "Enter The Guildhall"
+  link: /archives/series/etg_archive.html
+  desc: "Trying to dip your toes into Brawl but don't know where to start? Opened a bonkers legendary in a pack and want to see what it can do? Enter The Guildhall is here for you."
