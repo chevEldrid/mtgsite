@@ -4,7 +4,7 @@ cover: https://img.scryfall.com/cards/art_crop/front/c/4/c497d496-1232-4614-93b0
 length: 15
 categories: ["The Top Shelf"]
 tags: [Commander]
-title: No More Ms. Nice Azorius
+title: No More Ms. Nice Azorius (Commander)
 hook: An article definitely written from the safety of my home. Not sponsored, commissioned, or mandated by the Azorius Senate.
 ---
 Dear readers, I would like to begin by clarifying that this is not written under duress, the Azorius Senate has not taken me captive, and I am perfectly happy to be writing this article on the glorious color combination of blue and white. I would additionally discourage any of you from committing crimes such as mana cheating, ramping without a permit, or attempting to win a game against an Azorious deck. Here to help me speak to this is our honored guest of the week, 
