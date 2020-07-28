@@ -32,7 +32,7 @@ layout: default
             <div class="crop-contain">
               <img src="{{ post.cover }}" class="author-post" alt="{{ post.title }}">
             </div>
-            <h4 class="post-category">{{ post.categories[0] | capitalize }}</h4>
+            <h4 class="post-category">{{ post.categories[0] }}</h4>
             <h3>{{ post.title }}</h3>
             <p>
               {% if post.hook %}

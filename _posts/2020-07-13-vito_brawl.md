@@ -3,6 +3,7 @@ author: chev
 cover: https://img.scryfall.com/cards/art_crop/front/0/f/0fe79ee4-c3f3-4a6b-a967-203ca3b70ee5.jpg?1592761215
 categories: ["Enter The Guildhall"]
 tags: [Brawl]
+length: 10
 title: "The Godfather (Brawl)"
 hook: "It's a Sicilian Message, it means your opponent sleeps with the fishes"
 highlight: true
