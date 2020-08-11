@@ -6,6 +6,7 @@ tags: [Commander, Brawl]
 title: God of Wrath (Brawl & Commander)
 length: 10
 hook: Brother, can you spare a dime?
+highlight: true
 ---
 Athreos is back and better than ever in the recently-released Theros, Beyond Death. As a commander, he represents a resilient threat that’s able to provide ungodly amounts of value over the course of a long game. In this edition of Plus 40, we’re going to take a look at what kinds of cards compliment him and his powerful end-of-turn triggered ability in a Brawl and EDH setting.
 
