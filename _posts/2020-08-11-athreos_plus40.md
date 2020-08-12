@@ -33,8 +33,6 @@ pic3="https://img.scryfall.com/cards/large/front/e/b/ebf6c0dc-5c7b-4170-99bc-263
 %}
 <br />
 
-One of the best ways I’ve found to utilize this is to kill an opponent’s creature after they’ve declared attackers but before blockers are declared. Then, once that creature returns under your control, using it to block another creature attacking you.
-
 One of the best ways I’ve found to utilize this is to kill an opponent’s creature after they’ve declared attackers but before blockers are declared. Then, once that creature returns under your control, use it to ambush block another creature attacking you. Another form of spot removal I’d like to discuss here isn’t instant speed but provides other forms of synergy with Athreos, and that would be “O-ring” type effects:
 
 {% include pics.html
@@ -46,7 +44,7 @@ pic3="https://img.scryfall.com/cards/large/front/9/d/9d9fda5d-df8f-45d6-b8f0-33f
 
 As we’ve discussed here<link to reference> before, targeting someone’s commander in Brawl or EDH with one of these cards generally results in the commander being sent back to the command zone. Along these same lines, when a creature with a coin counter is hit by an O-ring spell, rather than being temporarily trapped by the enchantment the creatures are exiled and instantly return to your side. I had considered various “flicker” spells for similar reasons, but found them to be too useless when Athreos wasn’t on the battlefield.
 
-Moving on to larger forms of removal, oardwipes are some of the most value-centric spells in the game. With Athreos’ coin counters this power is turned up to eleven, giving a single wrath effect the power to twist an unfavorable board state into a crushing victory:
+Moving on to larger forms of removal, boardwipes are some of the most value-centric spells in the game. With Athreos’ coin counters this power is turned up to eleven, giving a single wrath effect the power to twist an unfavorable board state into a crushing victory:
 
 {% include pics.html
 pic1="https://img.scryfall.com/cards/large/front/5/e/5ed140c1-752b-4539-88f2-1fa354049b17.jpg?1584831638"
