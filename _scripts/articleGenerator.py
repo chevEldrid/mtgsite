@@ -7,7 +7,7 @@ import json
 import time
 
 
-anchor_tag = '\n<a\n\tclass="accented-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
+anchor_tag = '<a\n\tclass="accented-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
 
 #returns a 2-element array with card uri on scryfall, and the image uri
 def get_card_data(name):
