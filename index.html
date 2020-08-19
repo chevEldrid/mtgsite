@@ -7,12 +7,7 @@ isIndex: true
       <div class="col-md-4">
         <a class="post-link" href="{{ post.url }}">
             <div class="card mb-4 shadow-sm">
-                <!--only works with external images, will find a way to fix later-->
-                {% if paginator.page == 1%}
-                    <img src="{{ post.cover }}" class="card-img-top" loading="lazy" alt="promo image">
-                {% else %}
-                    <img src="{{ post.cover }}" class="card-img-top" loading="lazy" alt="promo image">
-                {% endif %}
+                <img src="{{ post.cover }}" class="card-img-top" loading="lazy" alt="promo image">
                 <div class="card-body">
                     <h4 class="post-category">{{ post.categories[0] }}</h4>
                     <div class="post-title">
