@@ -1,0 +1,70 @@
+---
+title: Search
+---
+
+<script>
+    //so the issue is with our image tags - how to we parse them out when trying to search the text.
+    //if we cannot do this, it is not worth doing since that's such a huge part of the article
+    $(document).ready(function(){
+        $(".postContent").each( function( index, element)
+            { $(element).append($(element).text())}
+        )}
+    );
+
+    function getSearchResults(val) {
+      console.log("hiding all elements");
+      $( ".result" ).hide();
+      $( ".postContent" ).hide();
+      $( ".searchResultSnippet " ).hide();
+    
+      if(val.length > 2){
+        // Downcase query val for case-insensitive search
+    
+        // Show any results based on post title matching query
+        $( "div[id*='" + val + "']" ).filter( ".result").show();
+    
+        // Show any results where query matches part of the post content
+        $( "div:contains('"+ val + "')" ).filter( ".result").show();
+    
+        // For each result based on post content, extract the surrounding text
+        // and display it in the search results, bolding the search term
+        $( "div:contains('" + val + "')" ).filter( ".result").each( function( index ) {
+        var postText = $( this ).find( ".postContent" ).text();
+        var resultPosition = postText.indexOf(val);
+        if(resultPosition > -1){
+            var snippet = "..." + postText.substring( resultPosition-30, resultPosition+30 ) + "...";
+            snippet = snippet.replace(val, "<strong>" + val + "</strong>");
+            $( this ).find( ".searchResultSnippet" ).show().html(snippet);
+        }
+        });
+      } // End of input length check
+    
+    } // End of getSearchResults
+    </script>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="text-center">
+                <input type="text" onkeyup="getSearchResults(this.value)">
+            </div>
+            <br />
+            <div id="results">
+                {% for post in site.posts %}
+                <div class="row">
+                    <div id="{{ post.title }}" class="result" style="display: none;">
+                        <a class="post-link width-full" href="{{ post.url }}">
+                            <div class="crop-contain">
+                                <img src="{{ post.cover }}" class="author-post" alt="{{ post.title }}">
+                            </div>
+                            <h4 class="post-category">{{ post.categories[0] }}</h4>
+                            <div class="postContent" style="display:none;">{{ post.content }}</div>
+                            <h3>{{ post.title }}</h3>
+                            <div id="searchResult{{ post.url }}" class="searchResultSnippet" style="display:none;"></div>
+                        </a>
+                        <br />
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
