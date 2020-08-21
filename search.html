@@ -3,21 +3,23 @@ title: Search
 ---
 
 <script>
-    //so the issue is with our image tags - how to we parse them out when trying to search the text.
-    //if we cannot do this, it is not worth doing since that's such a huge part of the article
     $(document).ready(function(){
+        //required to remove all hover/anchor tags from article bodies so we can easily search card names
         $(".postContent").each( function( index, element)
-            { $(element).append($(element).text())}
+            { $(element).html($(element).text().toLowerCase())}
         )}
     );
 
     function getSearchResults(val) {
-      console.log("hiding all elements");
+      //hide all articles besides the ones that return matches
+      //hide all articles in "result" rows
       $( ".result" ).hide();
       $( ".postContent" ).hide();
       $( ".searchResultSnippet " ).hide();
-      //hide no results
+      //hide no results text
       $( ".no-results" ).hide();
+      //adjust for case sensitivity
+      val = val.toLowerCase()
     
       if(val.length > 2){
         //hide search instructions
@@ -40,10 +42,11 @@ title: Search
             $( this ).find( ".searchResultSnippet" ).show().html(snippet);
         }
         });
+        //if no results match the query, post "no results text"
         if ($(".result:visible").length < 1) {
             $(".no-results").show();
         }
-      } // End of input length check
+      } //If query is not up to three characters yet, continue showing search instructions
       else {
         $( ".search-instructions").show();
       }
@@ -58,14 +61,16 @@ title: Search
             <br />
             <div id="results">
                 <div class="search-instructions text-center">
-                    <p>Go ahead, start typing and we'll see what we can do for you...but a quick warning: we are a little case sensitive</p>
+                    <p>Go ahead, start typing and we'll see what we can do for you...</p>
                 </div>
                 <div class="no-results text-center" style="display: none;">
                     <p>Looks like that query doesn't match anything we got...maybe try again?</p>
                 </div>
+                <!--Generate a result row for each article on the site, shown only when text or title matches query-->
+                <!--Could potentially reduce load or adjust our search to ONLY be by tags, categories, and names.-->
                 {% for post in site.posts %}
                 <div class="row">
-                    <div id="{{ post.title }}" class="result width-full" style="display: none;">
+                    <div id="{{ post.title | downcase }}" class="result width-full" style="display: none;">
                         <a class="post-link width-full" href="{{ post.url }}">
                             <div class="crop-contain">
                                 <img src="{{ post.cover }}" class="author-post" alt="{{ post.title }}">
