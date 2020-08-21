@@ -6,7 +6,7 @@ title: Search
     $(document).ready(function(){
         //required to remove all hover/anchor tags from article bodies so we can easily search card names
         $(".postContent").each( function( index, element)
-            { $(element).html($(element).text().toLowerCase())}
+            { $(element).html($(element).text().replace(/\s\s+|\n|\r/g, ' ').toLowerCase())}
         )}
     );
 
