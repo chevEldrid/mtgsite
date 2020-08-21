@@ -16,9 +16,12 @@ title: Search
       $( ".result" ).hide();
       $( ".postContent" ).hide();
       $( ".searchResultSnippet " ).hide();
+      //hide no results
+      $( ".no-results" ).hide();
     
       if(val.length > 2){
-        // Downcase query val for case-insensitive search
+        //hide search instructions
+        $( ".search-instructions").hide();
     
         // Show any results based on post title matching query
         $( "div[id*='" + val + "']" ).filter( ".result").show();
@@ -37,27 +40,44 @@ title: Search
             $( this ).find( ".searchResultSnippet" ).show().html(snippet);
         }
         });
+        if ($(".result:visible").length < 1) {
+            $(".no-results").show();
+        }
       } // End of input length check
-    
+      else {
+        $( ".search-instructions").show();
+      }
     } // End of getSearchResults
     </script>
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <div class="text-center">
-                <input type="text" onkeyup="getSearchResults(this.value)">
+                <input type="text" onkeyup="getSearchResults(this.value)" placeholder="Card, Tags, Series...">
             </div>
             <br />
             <div id="results">
+                <div class="search-instructions text-center">
+                    <p>Go ahead, start typing and we'll see what we can do for you...but a quick warning: we are a little case sensitive</p>
+                </div>
+                <div class="no-results text-center" style="display: none;">
+                    <p>Looks like that query doesn't match anything we got...maybe try again?</p>
+                </div>
                 {% for post in site.posts %}
                 <div class="row">
-                    <div id="{{ post.title }}" class="result" style="display: none;">
+                    <div id="{{ post.title }}" class="result width-full" style="display: none;">
                         <a class="post-link width-full" href="{{ post.url }}">
                             <div class="crop-contain">
                                 <img src="{{ post.cover }}" class="author-post" alt="{{ post.title }}">
                             </div>
                             <h4 class="post-category">{{ post.categories[0] }}</h4>
-                            <div class="postContent" style="display:none;">{{ post.content }}</div>
+                            <div class="postContent" style="display:none;">
+                                {{ post.content }} 
+                                {{post.categories[0]}}
+                                {% for tag in post.tags %}
+                                    <p>{{ tag }}</p>
+                                {% endfor %}
+                            </div>
                             <h3>{{ post.title }}</h3>
                             <div id="searchResult{{ post.url }}" class="searchResultSnippet" style="display:none;"></div>
                         </a>
