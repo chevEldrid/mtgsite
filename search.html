@@ -1,0 +1,95 @@
+---
+title: Search
+---
+
+<script>
+    $(document).ready(function(){
+        //required to remove all hover/anchor tags from article bodies so we can easily search card names
+        $(".postContent").each( function( index, element)
+            { $(element).html($(element).text().replace(/\s\s+|\n|\r/g, ' ').toLowerCase())}
+        )}
+    );
+
+    function getSearchResults(val) {
+      //hide all articles besides the ones that return matches
+      //hide all articles in "result" rows
+      $( ".result" ).hide();
+      $( ".postContent" ).hide();
+      $( ".searchResultSnippet " ).hide();
+      //hide no results text
+      $( ".no-results" ).hide();
+      //adjust for case sensitivity
+      val = val.toLowerCase()
+    
+      if(val.length > 2){
+        //hide search instructions
+        $( ".search-instructions").hide();
+    
+        // Show any results based on post title matching query
+        $( "div[id*='" + val + "']" ).filter( ".result").show();
+    
+        // Show any results where query matches part of the post content
+        $( "div:contains('"+ val + "')" ).filter( ".result").show();
+    
+        // For each result based on post content, extract the surrounding text
+        // and display it in the search results, bolding the search term
+        $( "div:contains('" + val + "')" ).filter( ".result").each( function( index ) {
+        var postText = $( this ).find( ".postContent" ).text();
+        var resultPosition = postText.indexOf(val);
+        if(resultPosition > -1){
+            var snippet = "..." + postText.substring( resultPosition-30, resultPosition+30 ) + "...";
+            snippet = snippet.replace(val, "<strong>" + val + "</strong>");
+            $( this ).find( ".searchResultSnippet" ).show().html(snippet);
+        }
+        });
+        //if no results match the query, post "no results text"
+        if ($(".result:visible").length < 1) {
+            $(".no-results").show();
+        }
+      } //If query is not up to three characters yet, continue showing search instructions
+      else {
+        $( ".search-instructions").show();
+      }
+    } // End of getSearchResults
+    </script>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="text-center">
+                <input type="text" onkeyup="getSearchResults(this.value)" placeholder="Card, Tags, Series...">
+            </div>
+            <br />
+            <div id="results">
+                <div class="search-instructions text-center">
+                    <p>Go ahead, start typing and we'll see what we can do for you...</p>
+                </div>
+                <div class="no-results text-center" style="display: none;">
+                    <p>Looks like that query doesn't match anything we got...maybe try again?</p>
+                </div>
+                <!--Generate a result row for each article on the site, shown only when text or title matches query-->
+                <!--Could potentially reduce load or adjust our search to ONLY be by tags, categories, and names.-->
+                {% for post in site.posts %}
+                <div class="row">
+                    <div id="{{ post.title | downcase }}" class="result width-full" style="display: none;">
+                        <a class="post-link width-full" href="{{ post.url }}">
+                            <div class="crop-contain">
+                                <img src="{{ post.cover }}" class="author-post" alt="{{ post.title }}">
+                            </div>
+                            <h4 class="post-category">{{ post.categories[0] }}</h4>
+                            <div class="postContent" style="display:none;">
+                                {{ post.content }} 
+                                {{post.categories[0]}}
+                                {% for tag in post.tags %}
+                                    <p>{{ tag }}</p>
+                                {% endfor %}
+                            </div>
+                            <h3>{{ post.title }}</h3>
+                            <div id="searchResult{{ post.url }}" class="searchResultSnippet" style="display:none;"></div>
+                        </a>
+                        <br />
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
