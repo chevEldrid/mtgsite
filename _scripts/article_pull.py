@@ -18,12 +18,7 @@ SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 DRIVE_FOLDER_ID = '1O5NRN2jiGKICcNrdJYIohAmG20uq9esw'
 
 def main():
-    """Shows basic usage of the Drive v3 API.
-    Prints the names and ids of the first 10 files the user has access to.
-    """
-    #loads last accessed date from file, or leaves blank
     try:
-        print("made it here")
         with open ("changelog.txt", "r") as f:
             for line in f:
                 prevDate = datetime.datetime.strptime(line[0:26], "%Y-%m-%d %H:%M:%S")
@@ -60,8 +55,8 @@ def main():
         pageSize=10, fields="nextPageToken, files(id, name)").execute()
     items = results.get('files', [])
 
-    # Check if most recent file is present in our _posts directory...
-    #if it is - great! We're up to date.
+    # Check if there are any items modified in the articles.md folder since last datetime
+    #if not - great! We're up to date.
     #if not, check all files (?) 
     if not items:
         print('No files found posted after your last check!')
@@ -79,11 +74,8 @@ def main():
                 status, done = downloader.next_chunk()
                 print("Download {0}".format(int(status.progress() * 100)))
             #move to correct directory
-            #file_name = "{0}.md".format(item['name'])
             shutil.move(item['name'], '../_posts')
         print("files downloaded successfully!")
-
-
 
 
     # set time of completion, save to disk

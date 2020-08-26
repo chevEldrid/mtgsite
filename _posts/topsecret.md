@@ -1,1 +1,1 @@
-julien is an emu teehee
+julien is an emu teehee. His favorite card is [[Blood Moon]]!

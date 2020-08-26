@@ -5,6 +5,7 @@ import re
 import requests
 import json
 import time
+import shutil
 
 
 anchor_tag = '<a\n\tclass="accented-link external-card-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
@@ -60,7 +61,10 @@ def main(argv):
       elif opt in ("-i", "--ifile"):
          inputfile = arg
    print('Input file is '+ inputfile)
-   outputfile = (inputfile.split('.')[0] + "_formatted.md")
+   #strip file location of article name
+   outputfile = inputfile.split("_posts/")[1]
+   #strip file extension and add identifier
+   outputfile = (outputfile.split(".")[0] + "_formatted.md")
    print('Output file is '+outputfile)
    #proceed to read input file
    input_file = open(inputfile, "r")
@@ -69,6 +73,8 @@ def main(argv):
        output_file.write(format_line(line))
    input_file.close()
    output_file.close()
+   #move to correct directory
+   shutil.move(outputfile, '../_posts')
 
 if __name__ == "__main__":
    main(sys.argv[1:])
