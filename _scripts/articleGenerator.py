@@ -24,7 +24,7 @@ def get_card_data(name):
         card_uri=card["scryfall_uri"]
         image_uri=card["image_uris"]["normal"]
     except:
-        print("ERROR PROCESSING: " + card)
+        print("ERROR PROCESSING: " + name)
     #prevent bothering scryfall too much
     time.sleep(.15)
     return [card_uri, image_uri]
@@ -37,6 +37,7 @@ def format_line(line):
 #        print('card count: '+str(card_count))
         for n in range(card_count):
             card_name = re.search("\[\[(.*?)\]\]", line).group(1)
+#            print('card name found: '+str(card_name))
             card_data = get_card_data(card_name)
             card_tag = anchor_tag.format(card_data[0], card_data[1], card_name)
             line = re.sub("\[\[(.*?)\]\]", card_tag, line, 1)
