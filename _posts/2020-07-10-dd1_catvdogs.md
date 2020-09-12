@@ -340,7 +340,7 @@ You know this last one might not even be fair. I can’t in good conscience give
 
 Sure, all dogs might go to heaven - but cats can live forever (with the right enchantment).
 
-<a href="https://tappedout.net/mtg-decks/18-06-20-cats-cats-cats/?cb=1593617160" target="_blank">Cats Cats Cats Decklist</a>
+<a href="https://www.moxfield.com/decks/Hr201moBH0yVdTJjS0CKmw" target="_blank">Cats Cats Cats Decklist</a>
 
 <hr />
 
