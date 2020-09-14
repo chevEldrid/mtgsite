@@ -31,6 +31,7 @@ title: About the Crew
             <br />
             <h2>Our Sources</h2>
             <p>The Brew Crew would not be possible without help from the fantastic people at <a href="https://scryfall.com/" target="_blank">Scryfall</a> who continue to provide high-res card iamges, fantastic search capabilities, and an easy-to-use api. Thank you.</p>
+            <p>We would also love to show appreciation for the team at <a href="https://www.moxfield.com/users/The_brew_crew" target="_blank">Moxfield</a> for delivering a fantastic deck editor that we end up including in most articles</p>
             <br />
             <i>"The Brew Crew" is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</i>
         </div>
