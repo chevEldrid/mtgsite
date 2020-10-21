@@ -7,7 +7,7 @@ tags:
 title: "A Casual Sitdown with the Founders"
 hook: "The EXCLUSIVE interview they DON'T want you to SEE!"
 ---
-*After much back and forth and a few fist-fights we were able to score a one-of-a-kind interview with The Brew Crew’s very own Chev Eldrid, and Julian Leal. They claim no one else even wanted to interview them...preposterous. Here is our unedited question section from that interview. Enjoy:*
+*After much back and forth and a few fist-fights we were able to score a one-of-a-kind interview with The Hexdrinkers’ very own Chev Eldrid, and Julian Leal. They claim no one else even wanted to interview them...preposterous. Here is our unedited question section from that interview. Enjoy:*
 
 **Q: Wow, THE Julian Leal and Chev Eldrid? It’s so good to finally meet you! I’ve been following you guys ever since that welcome article and continue to come back two times a week!**
 
@@ -15,7 +15,7 @@ JL: ...Chev, what’s going on? Aren’t you the one writing this?
 
 CE: What? No, this is a very unbiased reporter who is also a big fan of ours. I’m just happy we could make the time for them. Please, continue.
 
-**Q: Thank you Chev. Now we’ve known The Brew Crew as a brand first, and its people second. Obviously Julian is the one responsible for classics like the “On The Rocks” series and Chev has really taken to the MTGA Brawl format, but aside from the writing we don’t know much about you both.**
+**Q: Thank you Chev. Now we’ve known Hexdrinkers as a brand first, and its people second. Obviously Julian is the one responsible for classics like the “On The Rocks” series and Chev has really taken to the MTGA Brawl format, but aside from the writing we don’t know much about you both.**
 
 JL: Yes we’re very private people. That’s why we like to keep our Twitter account as a single follower and keep our site relatively unlisted on Google. It’s what has helped us really cultivate our “elusive” persona.
 

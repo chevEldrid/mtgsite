@@ -19,7 +19,7 @@ Our oldest file, articleGenerator currently just replaces all magic cards with [
 ```
 python site_publish.py
 ```
-Simply moves all files and folders in the _site folder to the brewcrew folder in the same directory. brewcrew is the repo actually hooked up to github pages. it NEEDS to be in the same directory. pls.
+Simply moves all files and folders in the _site folder to the hexdrinkers folder in the same directory. hexdrinkers is the repo actually hooked up to github pages. it NEEDS to be in the same directory. pls.
 
 ## Install Guides
 

@@ -2,7 +2,7 @@ collections:
   authors:
     output: true
 
-url: "https://brewcrew.net" #base for site
+url: "hexdrinkers.com" #base for site
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -13,15 +13,15 @@ paginate: 15
 excerpt_separator: <!--more-->
 
 # Google SEO stuff
-title: "The Brew Crew"
+title: "The Hexdrinkers"
 description: "Magic the Gathering and Magic Arena decks, strategy, and commentary"
 twitter:
-  username: TheBrewCrew13
+  username: hexdrinkers
   card: summary
 social:
-  name: "The Brew Crew"
+  name: "The Hexdrinkers"
   links:
-    - https://twitter.com/TheBrewCrew13
+    - https://twitter.com/hexdrinkers
 
 logo: /assets/images/logo.png
 

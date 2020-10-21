@@ -55,6 +55,11 @@ def main():
         pageSize=10, fields="nextPageToken, files(id, name)").execute()
     items = results.get('files', [])
 
+    # set time of completion, save to disk
+    f = open("changelog.txt", "w+")
+    f.write(str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
+    f.close()
+
     # Check if there are any items modified in the articles.md folder since last datetime
     #if not - great! We're up to date.
     #if not, check all files (?) 
@@ -74,14 +79,11 @@ def main():
                 status, done = downloader.next_chunk()
                 print("Download {0}".format(int(status.progress() * 100)))
             #move to correct directory
-            shutil.move(item['name'], '../_posts')
-        print("files downloaded successfully!")
-
-
-    # set time of completion, save to disk
-    f = open("changelog.txt", "w+")
-    f.write(str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
-    f.close()
+            try:
+                shutil.move(item['name'], '../_posts')
+            except:
+                print("Error moving {0} to posts directory, might already exist...".format(item['name']))
+        print("files download completed!")
 
 if __name__ == '__main__':
     main()

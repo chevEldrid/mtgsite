@@ -288,7 +288,7 @@ pic1="https://img.scryfall.com/cards/large/front/e/a/ea20208b-1939-4c69-8cfd-c0a
 pic2="https://img.scryfall.com/cards/large/front/6/8/68c0d087-540a-4249-9265-f13cc8e776ea.jpg?1581479994"
 pic3="https://img.scryfall.com/cards/large/front/c/e/ceb7308d-608c-4ede-9496-d795fc5bb271.jpg?1572489928" %}
 <br />
-Of course, to fuel our reanimation strategy we’ll need ways to fill our graveyard. The two best options are discard effects or self-mill. Self-mill will put us at least in Golgari, maybe Sultai, depending on how deep we go. If you want a better look at what options there are, check out my <a href="https://brewcrew.net/rev%20your%20engines/2020/05/11/rye_1.html" target="_blank">Titan’s Nest article</a>. 
+Of course, to fuel our reanimation strategy we’ll need ways to fill our graveyard. The two best options are discard effects or self-mill. Self-mill will put us at least in Golgari, maybe Sultai, depending on how deep we go. If you want a better look at what options there are, check out my <a href="https://hexdrinkers.com/rev%20your%20engines/2020/05/11/rye_1.html" target="_blank">Titan’s Nest article</a>. 
 <a
 	class="accented-link"
 	target="_blank"
@@ -342,7 +342,7 @@ Of course, to fuel our reanimation strategy we’ll need ways to fill our gravey
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/2/4/2422973d-36ee-4b8c-9a47-fcd160aa9f63.jpg?1581479595' width=100% height=100%>">
 	Thirst for Meaning
-</a> both turbo charge our graveyard. For a more in-depth discussion, check out my <a href="https://brewcrew.net/rev%20your%20engines/2020/05/15/rye_2.html" target="_blank">Offspring's Revenge article</a>.
+</a> both turbo charge our graveyard. For a more in-depth discussion, check out my <a href="https://hexdrinkers.com/rev%20your%20engines/2020/05/15/rye_2.html" target="_blank">Offspring's Revenge article</a>.
 <br />
 <br />
 {% include pics.html
