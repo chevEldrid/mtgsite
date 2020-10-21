@@ -25,7 +25,7 @@ Of course there is a downside. Playing with only one color means you really are 
 
 Welcome back to Homebrewed, it’s been a while. I have to fit article-writing in between relaxing on the beach and enjoying the California sun so it’s been tough you know? Don’t worry, it’ll be worth the wait, I promise. 
 
-As you might have picked up, The Brew Crew has been doing weekly game nights as a way to test out new strategies and build ideas in a real setting while also being able to stay close and of course, play Magic. The past couple weeks I’ve strayed from my typical rotation of Hapatra shenanigans, Eldrazi nonsense, and Coin-Flip insanity to a different deck: <a
+As you might have picked up, The Hexdrinkers have been doing weekly game nights as a way to test out new strategies and build ideas in a real setting while also being able to stay close and of course, play Magic. The past couple weeks I’ve strayed from my typical rotation of Hapatra shenanigans, Eldrazi nonsense, and Coin-Flip insanity to a different deck: <a
 	class="accented-link external-card-link"
 	target="_blank"
 	href="https://scryfall.com/card/bok/89/toshiro-umezawa?utm_source=api"
