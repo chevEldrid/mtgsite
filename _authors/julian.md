@@ -1,7 +1,7 @@
 ---
 short_name: julian
 name: Julian Leal
-twitch_name: "brew_crew"
+twitch_name: 
 twitter_name: "@julianLeal"
 picture: assets/images/profiles/julian.jpg
 position: Creative Lead, Founder
