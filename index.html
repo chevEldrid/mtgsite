@@ -39,11 +39,28 @@ isIndex: true
                 <span class="sr-only">Next</span>
                 </a>
             </div>
+            <br />
+            <img width="64" height="64" id="logo">
+            <a href="http://twitch.tv/the_hexdrinkers" id="status"></a>
+            <script type="text/javascript">
+              var req = new XMLHttpRequest();
+              req.open("GET", "https://api.twitch.tv/helix/search/channels?query=the_hexdrinkers", false);
+              req.setRequestHeader("Authorization", "**********");
+              req.setRequestHeader("Client-ID", "8arnye699vmjmbby5dsxsnvrhxvto5");
+              req.send(null);
+              resp = JSON.parse(req.responseText);
+              document.getElementById("logo").src = resp["data"][0]["thumbnail_url"];
+              if (resp["data"][0]["is_live"]) {
+                document.getElementById("status").innerHTML = "The Hexdrinkers are live on Twitch!";
+              } else {
+                document.getElementById("status").innerHTML = "The Hexdrinkers are not currently streaming :(";
+              }
+            </script>
         </div>
         <div class="col-md-4">
             <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
                 <!--Twitter Embedded Timeline-->
-                <a class="twitter-timeline" data-height="400" href="https://twitter.com/hexdrinkers?ref_src=twsrc%5Etfw">Tweets by Hexdrinkers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                <a class="twitter-timeline" data-height="400" href="https://twitter.com/hexdrinkers?ref_src=twsrc%5Etfw">Tweets by Hexdrinkers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <h3>Podcast</h3>
             <hr class="mt-0">
