@@ -18,7 +18,7 @@ isIndex: true
           document.getElementById("logo").src = resp["data"][0]["thumbnail_url"];
         }
         req.open("GET", "https://api.twitch.tv/helix/search/channels?query=the_hexdrinkers", true);
-        req.setRequestHeader("Authorization", "**********");
+        req.setRequestHeader("Authorization", "Bearer {{ site.data.secrets.api_keys.twitch }}");
         req.setRequestHeader("Client-ID", "8arnye699vmjmbby5dsxsnvrhxvto5");
         req.send(null);
       }
@@ -61,9 +61,7 @@ isIndex: true
                 </a>
             </div>
             <br />
-            <a class="btn btn-outline-dark" href="http://twitch.tv/the_hexdrinkers" id="status">
-              Loading...
-            </a>
+            <a class="btn btn-outline-dark" href="http://twitch.tv/the_hexdrinkers" id="status">Loading...</a>
         </div>
         <div class="col-md-4">
             <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
