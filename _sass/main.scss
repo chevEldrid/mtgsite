@@ -68,6 +68,11 @@ $accent-color: rgb(194, 59, 59);
   margin-bottom: 0;
 }
 
+.flavor-text {
+  color: gray;
+  font-size: 0.8rem;
+}
+
 //makes fontsize of navbar larger on desktop
 .desktop-navlink {
   font-size: 1.5rem;
