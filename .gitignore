@@ -13,3 +13,4 @@ _site
 #ignore api secrets teehee
 _scripts/credentials.json
 _scripts/token.pickle
+_data/secrets.yml

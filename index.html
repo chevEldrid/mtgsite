@@ -3,6 +3,27 @@ title: The Hexdrinkers
 isIndex: true
 ---
 {% if paginator.page == 1 %}
+    <script type="text/javascript">
+      function get_twitch_status() {
+        var req = new XMLHttpRequest();
+        req.timeout = 10000;
+        req.onload = function() {
+          var resp = JSON.parse(req.responseText);
+          var logo = '<img width="64" height="64" id="logo">'
+          if (resp["data"][0]["is_live"]) {
+            document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are live on Twitch!';
+          } else {
+            document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are not currently streaming :(';
+          }
+          document.getElementById("logo").src = resp["data"][0]["thumbnail_url"];
+        }
+        req.open("GET", "https://api.twitch.tv/helix/search/channels?query=the_hexdrinkers", true);
+        req.setRequestHeader("Authorization", "Bearer {{ site.data.secrets.api_keys.twitch }}");
+        req.setRequestHeader("Client-ID", "8arnye699vmjmbby5dsxsnvrhxvto5");
+        req.send(null);
+      }
+      window.onload = get_twitch_status;
+    </script>
     <div class="row">
         <div class="col-md-8 mb-4">
             <h3>Latest Videos</h3>
@@ -39,11 +60,13 @@ isIndex: true
                 <span class="sr-only">Next</span>
                 </a>
             </div>
+            <br />
+            <a class="btn btn-outline-dark" href="http://twitch.tv/the_hexdrinkers" id="status">Loading...</a>
         </div>
         <div class="col-md-4">
             <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
                 <!--Twitter Embedded Timeline-->
-                <a class="twitter-timeline" data-height="400" href="https://twitter.com/hexdrinkers?ref_src=twsrc%5Etfw">Tweets by Hexdrinkers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                <a class="twitter-timeline" data-height="400" href="https://twitter.com/hexdrinkers?ref_src=twsrc%5Etfw">Tweets by Hexdrinkers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <h3>Podcast</h3>
             <hr class="mt-0">
