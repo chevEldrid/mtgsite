@@ -15,7 +15,7 @@ isIndex: true
           } else {
             document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are not currently streaming :(';
           }
-          document.getElementById("logo").src = resp["data"][0]["thumbnail_url"];
+          document.getElementById("logo").src = "favicon.png";
         }
         req.open("GET", "https://api.twitch.tv/helix/search/channels?query=the_hexdrinkers", true);
         req.setRequestHeader("Authorization", "Bearer {{ site.data.secrets.api_keys.twitch }}");
