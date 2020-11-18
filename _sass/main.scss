@@ -73,6 +73,13 @@ $accent-color: rgb(194, 59, 59);
   font-size: 0.8rem;
 }
 
+.no-hyperlink {
+  text-decoration: none !important;
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
 //makes fontsize of navbar larger on desktop
 .desktop-navlink {
   font-size: 1.5rem;

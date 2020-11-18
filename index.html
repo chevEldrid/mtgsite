@@ -28,12 +28,7 @@ isIndex: true
         <div class="col-md-8 mb-4">
             <h3>Latest Videos</h3>
             <hr class="mt-0">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
+            <div id="carouselExampleIndicators" class="carousel slide  shadow-sm" data-ride="carousel">
                 <div class="carousel-inner">
                     {% for item in site.data.media %}
                         {% if item.position == 1 %}
@@ -41,13 +36,19 @@ isIndex: true
                         {% else %}
                             <div class="carousel-item">
                         {% endif %}
-                            <a href="{{ item.link }}">
-                                <img class="d-block w-100" src="https://img.youtube.com/vi/{{ item.video }}/hqdefault.jpg" alt="slide {{ item.position }}">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>{{ item.title }}</h5>
-                                    <p>{{ item.subtitle }}</p>
-                                </div>
-                            </a>
+                            <div class="card">
+                                <a class="text-decoration-none" href="{{ item.link }}" target="_blank">
+                                    <img class="d-block w-100" src="https://img.youtube.com/vi/{{ item.video }}/maxresdefault.jpg" alt="{{ item.title }}">
+                                    <!-- <div class="carousel-caption d-none d-md-block">
+                                        <h5>{{ item.title }}</h5>
+                                        <p>{{ item.subtitle }}</p>
+                                    </div> -->
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{item.title}}</h5>
+                                        <p class="card-text post-link">{{item.subtitle}}</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     {% endfor %}
                 </div>
@@ -71,7 +72,7 @@ isIndex: true
             <h3>Podcast</h3>
             <hr class="mt-0">
             <!--Embedded Spotify link to Podcast, should be most recent-->
-            <iframe src="https://open.spotify.com/embed-podcast/episode/3antXaftYrNxVF9zE7nGAz" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/show/58FqyKmGYvZlEUFI5sUnCA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
     <div class="row">
