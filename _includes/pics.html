@@ -1,8 +1,13 @@
 <div>
     {% if include.style == "single" %}
-    <div class="text-center">
-        <img src="{{ include.pic1}}" style="max-width: {{ include.width | default: 50%}};" class="img-fluid">
-    </div>
+        <div class="text-center">
+            <img src="{{ include.pic1}}" style="max-width: {{ include.width | default: 50%}};" class="img-fluid">
+        </div>
+        {% if include.caption %}
+            <div class="text-center flavor-text">
+                <i>{{ include.caption }}</i>
+            </div>
+        {% endif %}
     {% else %}
         <div class="row">
             {% if include.pic3 %}

@@ -10,6 +10,7 @@ plugins:
   - jekyll-paginate
 
 paginate: 15
+paginate_path: "/articles/:num/"
 excerpt_separator: <!--more-->
 
 # Google SEO stuff
