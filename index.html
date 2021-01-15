@@ -2,88 +2,82 @@
 title: The Hexdrinkers
 isIndex: true
 ---
-{% if paginator.page == 1 %}
-    <script type="text/javascript">
-      function get_twitch_status() {
-        var req = new XMLHttpRequest();
-        req.timeout = 10000;
-        req.onload = function() {
-          var resp = JSON.parse(req.responseText);
-          var logo = '<img width="64" height="64" id="logo">'
-          if (resp["data"][0]["is_live"]) {
-            document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are live on Twitch!';
-          } else {
-            document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are not currently streaming :(';
-          }
-          document.getElementById("logo").src = "favicon.png";
+<script type="text/javascript">
+    function get_twitch_status() {
+    var req = new XMLHttpRequest();
+    req.timeout = 10000;
+    req.onload = function() {
+        var resp = JSON.parse(req.responseText);
+        var logo = '<img width="64" height="64" id="logo">'
+        if (resp["data"][0]["is_live"]) {
+        document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are live on Twitch!';
+        } else {
+        document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are not currently streaming :(';
         }
-        req.open("GET", "https://api.twitch.tv/helix/search/channels?query=the_hexdrinkers", true);
-        req.setRequestHeader("Authorization", "Bearer {{ site.data.secrets.api_keys.twitch }}");
-        req.setRequestHeader("Client-ID", "8arnye699vmjmbby5dsxsnvrhxvto5");
-        req.send(null);
-      }
-      window.onload = get_twitch_status;
-    </script>
-    <div class="row">
-        <div class="col-md-8 mb-4">
-            <h3>Latest Videos</h3>
-            <hr class="mt-0">
-            <div id="carouselExampleIndicators" class="carousel slide  shadow-sm" data-ride="carousel">
-                <div class="carousel-inner">
-                    {% for item in site.data.media %}
-                        {% if item.position == 1 %}
-                            <div class="carousel-item active">
-                        {% else %}
-                            <div class="carousel-item">
-                        {% endif %}
-                            <div class="card">
-                                <a class="text-decoration-none" href="{{ item.link }}" target="_blank">
-                                    <img class="d-block w-100" src="https://img.youtube.com/vi/{{ item.video }}/maxresdefault.jpg" alt="{{ item.title }}">
-                                    <!-- <div class="carousel-caption d-none d-md-block">
-                                        <h5>{{ item.title }}</h5>
-                                        <p>{{ item.subtitle }}</p>
-                                    </div> -->
-                                    <div class="card-body">
-                                        <h5 class="card-title">{{item.title}}</h5>
-                                        <p class="card-text post-link">{{item.subtitle}}</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <br />
-            <a class="btn btn-outline-dark" href="http://twitch.tv/the_hexdrinkers" id="status">Loading...</a>
-        </div>
-        <div class="col-md-4">
-            <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
-                <!--Twitter Embedded Timeline-->
-                <a class="twitter-timeline" data-height="400" href="https://twitter.com/hexdrinkers?ref_src=twsrc%5Etfw">Tweets by Hexdrinkers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <h3>Podcast</h3>
-            <hr class="mt-0">
-            <!--Embedded Spotify link to Podcast, should be most recent-->
-            <iframe src="https://open.spotify.com/embed-podcast/show/58FqyKmGYvZlEUFI5sUnCA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <h3>Latest Articles</h3>
-        </div>
-    </div>
-    <hr class="mt-0">
-{% endif %}
+        document.getElementById("logo").src = "favicon.png";
+    }
+    req.open("GET", "https://api.twitch.tv/helix/search/channels?query=the_hexdrinkers", true);
+    req.setRequestHeader("Authorization", "Bearer {{ site.data.secrets.api_keys.twitch }}");
+    req.setRequestHeader("Client-ID", "8arnye699vmjmbby5dsxsnvrhxvto5");
+    req.send(null);
+    }
+    window.onload = get_twitch_status;
+</script>
 <div class="row">
-    {% for post in paginator.posts %}
+    <div class="col-md-8 mb-4">
+        <h3>Latest Videos</h3>
+        <hr class="mt-0">
+        <div id="carouselExampleIndicators" class="carousel slide  shadow-sm" data-ride="carousel">
+            <div class="carousel-inner">
+                {% for item in site.data.media %}
+                    {% if item.position == 1 %}
+                        <div class="carousel-item active">
+                    {% else %}
+                        <div class="carousel-item">
+                    {% endif %}
+                        <div class="card">
+                            <a class="text-decoration-none" href="{{ item.link }}" target="_blank">
+                                <img class="d-block w-100" src="https://img.youtube.com/vi/{{ item.video }}/maxresdefault.jpg" alt="{{ item.title }}">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{item.title}}</h5>
+                                    <p class="card-text post-link">{{item.subtitle}}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <br />
+        <a class="btn btn-outline-dark" href="http://twitch.tv/the_hexdrinkers" id="status">Loading...</a>
+    </div>
+    <div class="col-md-4">
+        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
+            <!--Twitter Embedded Timeline-->
+            <a class="twitter-timeline" data-height="400" href="https://twitter.com/hexdrinkers?ref_src=twsrc%5Etfw">Tweets by Hexdrinkers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <h3>Podcast</h3>
+        <hr class="mt-0">
+        <!--Embedded Spotify link to Podcast, should be most recent-->
+        <iframe src="https://open.spotify.com/embed-podcast/show/58FqyKmGYvZlEUFI5sUnCA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h3>Latest Articles</h3>
+    </div>
+</div>
+<hr class="mt-0">
+<div class="row">
+    {% for post in site.posts limit:3 %}
       <div class="col-md-4">
         <a class="post-link" href="{{ post.url }}">
             <div class="card mb-4 shadow-sm">
@@ -106,32 +100,8 @@ isIndex: true
       </div>
     {% endfor %}
 </div>
-<!-- Pagination stuff below -->
 <div>
-    {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-            {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-            {% else %}
-                <span>&laquo; Prev</span>
-            {% endif %}
-            &nbsp;
-            {% for page in (1..paginator.total_pages) %}
-                {% if page == paginator.page %}
-                <em>{{ page }}</em>
-                {% elsif page == 1 %}
-                <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
-                {% else %}
-                <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-                {% endif %}
-                &nbsp;
-            {% endfor %}
-
-            {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-            {% else %}
-                <span>Next &raquo;</span>
-            {% endif %}
-        </div>
-    {% endif %}
+    <div class="pagination">
+        <a href="/articles/">See More...</a>
+    </div>
 </div>
