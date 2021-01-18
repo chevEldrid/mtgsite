@@ -8,8 +8,8 @@ Reanimate
 Instants
 Counterspell
 Lands
-Forest
-Island
+20x Forest
+10x Island
 Artifacts
 Sol Ring
 Planeswalkers

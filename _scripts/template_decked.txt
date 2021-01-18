@@ -1,0 +1,44 @@
+<div class="text-center">
+<h3>YOUR DECK TITLE HERE!</h3></div>
+<div class="row">
+	<div class="col-md-2"></div>
+<div class="col-md-8">
+<div class="row">
+	<div class="col-6"><b>Creatures</b>
+<p class="mb-0">
+1x [[Avenger of Zendikar]]
+<br />
+1x [[Gravecrawler]]</p>
+<b>Sorceries</b>
+<p class="mb-0">
+1x [[Damnation]]
+<br />
+1x [[Mutilate]]
+<br />
+1x [[Reanimate]]</p>
+<b>Instants</b>
+<p class="mb-0">
+1x [[Counterspell]]</p>
+
+</div>
+<div class="col-6"><b>Lands</b>
+<p class="mb-0">
+20x [[Forest]]
+<br />
+10x [[Island]]</p>
+<b>Artifacts</b>
+<p class="mb-0">
+1x [[Sol Ring]]</p>
+<b>Planeswalkers</b>
+<p class="mb-0">
+1x [[Atraxa]]</p>
+<b>Enchantments</b>
+<p class="mb-0">
+1x [[Sylvan Library]]
+<br />
+1x [[Phyrexian Arena]]</p>
+
+</div>
+</div>
+</div>
+</div>
