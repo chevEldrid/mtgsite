@@ -18,7 +18,7 @@ HTML_CONTAINER = '<div class="row">\n\t<div class="col-md-2"></div>\n<div class=
 HTML_COLUMN = '<div class="col-6">{0}\n</div>'
 HTML_TYPE = '<b>{0}</b>\n<p class="mb-0">\n{1}</p>\n'
 
-TYPES = ["Companion", "Commanders","Sorceries", "Creatures", "Instants", "Artifacts", "Enchantments", "Planeswalkers", "Lands"]
+TYPES = ["Commander","Companion", "Commanders","Sorceries", "Creatures", "Instants", "Artifacts", "Enchantments", "Planeswalkers", "Lands"]
 cards = []
 
 # https://www.geeksforgeeks.org/subarray-whose-sum-is-closest-to-k/
@@ -146,15 +146,24 @@ def main(argv):
    cardCount = tally_card_types(inputfile)
 
    #check card types
-   print("Now...we see how many exists of each")
    for card in cards:
        print(card.type + ": " + str(card.count()))
-   print("Total cards counted: " + str(cardCount))
+   print("Total unique cards counted: " + str(cardCount))
    
    print("And for my next trick...show you what card types should be on each side")
-   halfDeck = cardCount / 2
+   halfDeck = int(cardCount / 2)
+   print("trying with halfdeck size "+str(halfDeck))
    memo = dict()
    cardsSubset = generateEvenColumns(halfDeck, memo)
+
+   #if it cannot divide equally, we need to run the program back with the minimum size of evenly distributed columns...
+   #...oooor hack it
+   #UNTESTED - WILL SEE IF NECESSARY
+   while(len(cardsSubset[0]) == 0):
+       halfDeck -= 1
+       memo = dict()
+       cardsSubset = generateEvenColumns(halfDeck, memo)
+
    for card in cardsSubset[0]:
        print(card.type + ": " + str(card.count()))
    print("...and for the other side...")
