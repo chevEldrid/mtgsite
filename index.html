@@ -9,17 +9,14 @@ isIndex: true
     req.onload = function() {
         var resp = JSON.parse(req.responseText);
         var logo = '<img width="64" height="64" id="logo">'
-        console.log(resp)
-        if (resp["data"][0]["is_live"]) {
+        if (resp["is_streaming"]) {
         document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are live on Twitch!';
         } else {
         document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are not currently streaming :(';
         }
         document.getElementById("logo").src = "favicon.png";
     }
-    req.open("GET", "https://api.twitch.tv/helix/search/channels?query=the_hexdrinkers", true);
-    req.setRequestHeader("Authorization", "Bearer {{ site.data.secrets.api_keys.twitch }}");
-    req.setRequestHeader("Client-ID", "s5genet0cb6pm5eeo0lsy99lvx1y0e");
+    req.open("GET", "http://status.hexdrinkers.com", true);
     req.send(null);
     }
     window.onload = get_twitch_status;
