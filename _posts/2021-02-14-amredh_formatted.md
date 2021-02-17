@@ -4,6 +4,7 @@ cover: https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/e/7e68f4df-8
 length: 5
 tags: [Commander]
 title: Alternative Means of Ramping in EDH
+highlight: true
 hook: Learn to love your ramp spells
 ---
 Every time an EDH deck is brewed, the question of “How much ramp do I include?” crosses the mind of the creator. Oftentimes, mana accelerants are seen as a necessary evil in the Commander format, due to the large discrepancy in how useful the cards tend to be in the early game versus the late game. The mindset that leads to this school of thought tends to be one that only considers ‘dedicated’ ramp cards when building a deck, cards such as <a
