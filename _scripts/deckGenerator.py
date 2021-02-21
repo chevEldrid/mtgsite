@@ -18,7 +18,7 @@ HTML_CONTAINER = '<div class="row">\n\t<div class="col-md-2"></div>\n<div class=
 HTML_COLUMN = '<div class="col-6">{0}\n</div>'
 HTML_TYPE = '<b>{0}</b>\n<p class="mb-0">\n{1}</p>\n'
 
-TYPES = ["Commander","Companion", "Commanders","Sorceries", "Creatures", "Instants", "Artifacts", "Enchantments", "Planeswalkers", "Lands"]
+TYPES = ["COMMANDER","COMPANION", "COMMANDERS","SORCERIES", "CREATURES", "INSTANTS", "ARTIFACTS", "ENCHANTMENTS", "PLANESWALKERS", "LANDS"]
 cards = []
 
 # https://www.geeksforgeeks.org/subarray-whose-sum-is-closest-to-k/
@@ -65,7 +65,7 @@ def tally_card_types(inputfile):
 
         #if the line is a card type...
         # if line in TYPES:
-        if cur_word in TYPES:
+        if cur_word.upper() in TYPES:
            #store current type if anything
            if cur_type is not None:
                cards.append(cur_type)
