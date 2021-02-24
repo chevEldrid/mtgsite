@@ -28,7 +28,11 @@ function footer_saying() {
     'Lands in the front, horses in the back.',
     'A commander deck only needs more than 32 lands if you\'re a coward.',
     'Life, Liberty, and the pursuit of mana',
-    'Fun challenge: Play decks worth less than the cost of beer and food for the evening'
+    'Fun challenge: Play decks worth less than the cost of beer and food for the evening',
+    'Print Return to Kamigawa or we\'ll make it ourselves',
+    'Wizards, we know green is the best, but keep it on the DL. Everyone\'s starting to notice...',
+    'Math is for blockers',
+    'Winner of the first game controls the aux'
   ];
   let population = sayings.length;
   let saying_index = Math.floor(Math.random() * population);     // returns a random integer from 0 to length of sayings
