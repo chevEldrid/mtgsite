@@ -32,7 +32,8 @@ function footer_saying() {
     'Print Return to Kamigawa or we\'ll make it ourselves',
     'Wizards, we know green is the best, but keep it on the DL. Everyone\'s starting to notice...',
     'Math is for blockers',
-    'Winner of the first game controls the aux'
+    'Winner of the first game controls the aux',
+    'Here\'s hoping Hexdrinker gets reprinted in MH2 so we don\'t have to shell out $30 for a mascot...'
   ];
   let population = sayings.length;
   let saying_index = Math.floor(Math.random() * population);     // returns a random integer from 0 to length of sayings
