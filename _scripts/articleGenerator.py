@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
-import sys, getopt
+import sys
+import getopt
 import re
 import requests
 import json
@@ -10,28 +11,40 @@ import shutil
 
 anchor_tag = '<a\n\tclass="accented-link external-card-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
 
-#returns a 2-element array with card uri on scryfall, and the image uri
+# returns a 2-element array with card uri on scryfall, and the image uri
+
+
 def get_card_data(name):
     card_uri = ''
     image_uri = ''
     try:
         url = "https://api.scryfall.com/cards/search?q=!\"{0}\"".format(name)
-        #print(url)
+        # print(url)
         r = requests.get(url)
         #print("request got")
         x = json.loads(r.text)
         card = x["data"][0]
-        card_uri=card["scryfall_uri"]
-        image_uri=card["image_uris"]["normal"]
+        card_uri = card["scryfall_uri"]
+        # picking image src based on existance of MDFCs
+        if 'image_uris' in card:
+            image_uri = card["image_uris"]["normal"]
+        else:
+            front_card = card["card_faces"][0]
+            back_card = card["card_faces"][1]
+            if front_card["name"] == name:
+                image_uri = front_card["image_uris"]["normal"]
+            else:
+                image_uri = back_card["image_uris"]["normal"]
     except:
         print("ERROR PROCESSING: " + name)
-    #prevent bothering scryfall too much
+    # prevent bothering scryfall too much
     time.sleep(.15)
     return [card_uri, image_uri]
 
+
 def format_line(line):
     result = ''
-    #check to see if line even has any cards in it. Otherwise just return
+    # check to see if line even has any cards in it. Otherwise just return
     if "[[" in line:
         card_count = line.count("[[")
 #        print('card count: '+str(card_count))
@@ -47,35 +60,37 @@ def format_line(line):
         result = line
     return result
 
+
 def main(argv):
-   inputfile = ''
-   outputfile = ''
-   try:
-      opts, args = getopt.getopt(argv,"hi:",["ifile="])
-   except getopt.GetoptError:
-      print('Error: articleGenerator.py -i <inputfile>')
-      sys.exit(2)
-   for opt, arg in opts:
-      if opt == '-h':
-         print('articleGenerator.py -i <inputfile>')
-         sys.exit()
-      elif opt in ("-i", "--ifile"):
-         inputfile = arg
-   print('Input file is '+ inputfile)
-   #strip file location of article name
-   outputfile = inputfile.split("_posts/")[1]
-   #strip file extension and add identifier
-   outputfile = (outputfile.split(".")[0] + "_formatted.md")
-   print('Output file is '+outputfile)
-   #proceed to read input file
-   input_file = open(inputfile, "r")
-   output_file = open(outputfile, "w")
-   for line in input_file:
-       output_file.write(format_line(line))
-   input_file.close()
-   output_file.close()
-   #move to correct directory
-   shutil.move(outputfile, '../_posts')
+    inputfile = ''
+    outputfile = ''
+    try:
+        opts, args = getopt.getopt(argv, "hi:", ["ifile="])
+    except getopt.GetoptError:
+        print('Error: articleGenerator.py -i <inputfile>')
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt == '-h':
+            print('articleGenerator.py -i <inputfile>')
+            sys.exit()
+        elif opt in ("-i", "--ifile"):
+            inputfile = arg
+    print('Input file is ' + inputfile)
+    # strip file location of article name
+    outputfile = inputfile.split("_posts/")[1]
+    # strip file extension and add identifier
+    outputfile = (outputfile.split(".")[0] + "_formatted.md")
+    print('Output file is '+outputfile)
+    # proceed to read input file
+    input_file = open(inputfile, "r")
+    output_file = open(outputfile, "w")
+    for line in input_file:
+        output_file.write(format_line(line))
+    input_file.close()
+    output_file.close()
+    # move to correct directory
+    shutil.move(outputfile, '../_posts')
+
 
 if __name__ == "__main__":
-   main(sys.argv[1:])
+    main(sys.argv[1:])

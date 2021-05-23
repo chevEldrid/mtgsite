@@ -33,7 +33,9 @@ function footer_saying() {
     'Wizards, we know green is the best, but keep it on the DL. Everyone\'s starting to notice...',
     'Math is for blockers',
     'Winner of the first game controls the aux',
-    'Here\'s hoping Hexdrinker gets reprinted in MH2 so we don\'t have to shell out $30 for a mascot...'
+    'Here\'s hoping Hexdrinker gets reprinted in MH2 so we don\'t have to shell out $30 for a mascot...',
+    'This flavor text has been seen 998,767 times! Or has it...',
+    'Arena should add emotes that are just directly trolling or BM. It\'ll be fine. Trust me.',
   ];
   let population = sayings.length;
   let saying_index = Math.floor(Math.random() * population);     // returns a random integer from 0 to length of sayings
