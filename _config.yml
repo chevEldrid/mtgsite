@@ -7,10 +7,19 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
-paginate: 15
-paginate_path: "/articles/:num/"
+# paginate: 15
+# paginate_path: "/articles/:num/"
+pagination:
+  enabled: true
+  per_page: 15
+  title: ":title"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+  # permalink: "/articles/:num/"
 excerpt_separator: <!--more-->
 
 # Google SEO stuff

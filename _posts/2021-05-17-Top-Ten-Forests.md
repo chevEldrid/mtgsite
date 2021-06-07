@@ -3,7 +3,7 @@ author: eric
 cover: https://c1.scryfall.com/file/scryfall-cards/art_crop/front/e/1/e160ed28-7752-486e-85bb-bbff03642c67.jpg?1562276453
 length: 2
 categories: ["Podcast"]
-tags: [List]
+tags: ["List"]
 title: Top Ten Forests
 hook: Chev joked about it, and now it's here! Enjoy the amazing artwork for the best kind of basic land.
 ---

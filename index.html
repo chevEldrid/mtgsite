@@ -70,32 +70,19 @@ isIndex: true
 </div>
 <div class="row">
     <div class="col-md-12">
-        <h3>Latest Articles</h3>
+        <div class="container">
+            <div class="row">
+                <h3>Latest Articles</h3> &nbsp; &nbsp;
+                <a class="btn btn-outline-dark d-none d-md-block" href="/archives/commander/index.html">Commander</a> &nbsp; &nbsp;
+                <a class="btn btn-outline-dark d-none d-md-block" href="/archives/standard/index.html">Standard</a> &nbsp; &nbsp;
+            </div>
+        </div>
     </div>
 </div>
 <hr class="mt-0">
 <div class="row">
     {% for post in site.posts limit:3 %}
-      <div class="col-md-4">
-        <a class="post-link" href="{{ post.url }}">
-            <div class="card mb-4 shadow-sm">
-                <img src="{{ post.cover }}" class="card-img-top" loading="lazy" alt="promo image">
-                <div class="card-body">
-                    <h4 class="post-category">{{ post.categories[0] }}</h4>
-                    <div class="post-title">
-                        <h3>{{ post.title }}</h3>
-                    </div>
-                    <p class="card-text">
-                        {% if post.hook %}
-                            {{post.hook}}
-                        {% else %}
-                            {{ post.excerpt }}
-                        {% endif %}
-                    </p>
-                </div>
-            </div>
-        </a>
-      </div>
+      {% include article_card.html article=post %}
     {% endfor %}
 </div>
 <div>

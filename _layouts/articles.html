@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col-md-12">
+        <h3>Latest {{page.title}}</h3>
+    </div>
+</div>
+<hr class="mt-0">
+<div class="row">
+    {% for post in paginator.posts %}
+        {% include article_card.html article=post %}
+    {% endfor %}
+</div>
+<div>
+    {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+            {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+            {% else %}
+                <span>&laquo; Prev</span>
+            {% endif %}
+            &nbsp;
+            {% for trail in paginator.page_trail %}
+                {% if page.url == trail.path %}
+                    <em>{{ trail.num }}</em>
+                {% else %}
+                    <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+                {% endif %}
+                &nbsp;
+            {% endfor %}
+
+            {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+            {% else %}
+                <span>Next &raquo;</span>
+            {% endif %}
+        </div>
+    {% endif %}
+</div>

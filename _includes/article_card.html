@@ -1,0 +1,20 @@
+<div class="col-md-4">
+    <a class="post-link" href="{{ include.article.url }}">
+        <div class="card mb-4 shadow-sm">
+            <img src="{{ include.article.cover }}" class="card-img-top" loading="lazy" alt="promo image">
+            <div class="card-body">
+                <h4 class="post-category">{{ include.article.categories[0] }}</h4>
+                <div class="post-title">
+                    <h3>{{ include.article.title }}</h3>
+                </div>
+                <p class="card-text">
+                    {% if include.article.hook %}
+                        {{include.article.hook}}
+                    {% else %}
+                        {{ include.article.excerpt }}
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    </a>
+</div>
