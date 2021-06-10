@@ -14,6 +14,10 @@
                         {{ include.article.excerpt }}
                     {% endif %}
                 </p>
+                <p class="card-text">
+                    {% assign author = site.authors | where: 'short_name', include.article.author | first %}
+                    <small class="text-muted">{{ include.article.date | date: '%B %d'}} | <a href="{{ author.url }}">{{ author.name }}</a></small>
+                </p>
             </div>
         </div>
     </a>
