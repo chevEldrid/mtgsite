@@ -10,9 +10,9 @@ isIndex: true
         var resp = JSON.parse(req.responseText);
         var logo = '<img width="64" height="64" id="logo">'
         if (resp["is_streaming"]) {
-        document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are live on Twitch!';
+        document.getElementById("status").innerHTML = logo + ' We are live on Twitch!';
         } else {
-        document.getElementById("status").innerHTML = logo + ' The Hexdrinkers are not currently streaming :(';
+        document.getElementById("status").innerHTML = logo + ' We are not currently streaming :(';
         }
         document.getElementById("logo").src = "favicon.png";
     }
@@ -55,17 +55,20 @@ isIndex: true
             </a>
         </div>
         <br />
-        <a class="btn btn-outline-dark" href="http://twitch.tv/the_hexdrinkers" id="status">Loading...</a>
     </div>
     <div class="col-md-4">
-        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
-            <!--Twitter Embedded Timeline-->
+        <!-- <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
+            Twitter Embedded Timeline
             <a class="twitter-timeline" data-height="400" href="https://twitter.com/hexdrinkers?ref_src=twsrc%5Etfw">Tweets by Hexdrinkers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+        </div> -->
         <h3>Podcast</h3>
         <hr class="mt-0">
         <!--Embedded Spotify link to Podcast, should be most recent-->
         <iframe src="https://open.spotify.com/embed-podcast/show/58FqyKmGYvZlEUFI5sUnCA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
+            <br />
+            <a class="btn btn-outline-dark" href="http://twitch.tv/the_hexdrinkers" id="status">Loading...</a>
+        </div>
     </div>
 </div>
 <div class="row">
