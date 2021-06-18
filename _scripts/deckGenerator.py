@@ -1,37 +1,46 @@
 #!/usr/bin/python
 
-import sys, getopt
+import sys
+import getopt
 import re
 import requests
 import json
 import time
 import shutil
 
-#notes to future me
-# figure out how to do multiple card copies. Thinking what we'll need is to make a card object that contains total number of copies that get added to cardTypes and cardTypes count 
+# notes to future me
+# figure out how to do multiple card copies. Thinking what we'll need is to make a card object that contains total number of copies that get added to cardTypes and cardTypes count
 # ...dives into how many unique total - this way we'll have the number of cards necessary when reconstructing for the final html
 # but don't forget, multiple copies doesn't mean multiple lines so there won't always be 100 cards listed. It's important for cards to know how many there are but that doesn't matter to putting it down on the sheet
 
-#necessary html pieces
+# necessary html pieces
 HTML_NAME = '<div class="text-center">\n<h3>{0}</h3></div>\n'
 HTML_CONTAINER = '<div class="row">\n\t<div class="col-md-2"></div>\n<div class="col-md-8">\n<div class="row">\n\t{0}\n{1}\n</div>\n</div>\n</div>'
 HTML_COLUMN = '<div class="col-6">{0}\n</div>'
 HTML_TYPE = '<b>{0}</b>\n<p class="mb-0">\n{1}</p>\n'
 
-TYPES = ["COMMANDER","COMPANION", "COMMANDERS","SORCERIES", "CREATURES", "INSTANTS", "ARTIFACTS", "ENCHANTMENTS", "PLANESWALKERS", "LANDS"]
-cards = []
+TYPES = ["COMMANDER", "COMPANION", "COMMANDERS", "SORCERIES", "CREATURES",
+         "INSTANTS", "ARTIFACTS", "ENCHANTMENTS", "PLANESWALKERS", "LANDS", "UNKNOWN"]
+CLASSES = ["Sorcery", "Instant", "Artifact", "Creature",
+           "Planeswalker", "Land", "Enchantment", "Unknown"]
+TYPES_TWO = ["Sorceries", "Instants", "Artifacts", "Creatures",
+             "Planeswalkers", "Lands", "Enchantments", "Unknowns"]
+cards = {}
+card_groups = []
 
 # https://www.geeksforgeeks.org/subarray-whose-sum-is-closest-to-k/
 # also don't forget, when adding brackets to a card name for articleGenerator, only put brackets around the card and not the number
 
+
 class Card:
-    def __init__(self, name, count):
-        self.name = name
-        self.count = count
+    def __init__(self, cardDetails):
+        self.name = cardDetails[0]
+        self.count = cardDetails[1]
 
     def formatted_name(self):
         number = (str(self.count) + "x")
         return (number + " [["+self.name+"]]")
+
 
 class CardType:
     def __init__(self, type):
@@ -44,6 +53,35 @@ class CardType:
     def count(self):
         return len(self.cards)
 
+
+def getCardType(name):
+    card_type = 'Unknown'
+    try:
+        url = "https://api.scryfall.com/cards/search?q=!\"{0}\"".format(name)
+        # print(url)
+        r = requests.get(url)
+        #print("request got")
+        x = json.loads(r.text)
+        card = x["data"][0]
+        type_line = card["type_line"]
+        # picking the correct type
+        card_types = type_line.split()
+        # Special treatment for creatures
+        if "Creature" in card_types:
+            card_type = "Creature"
+        else:
+            for type in card_types:
+                if type in CLASSES:
+                    card_type = type
+                    break
+
+    except:
+        print("ERROR PROCESSING: " + name)
+    # prevent bothering scryfall too much
+    time.sleep(.15)
+    return card_type
+
+
 def cardnameAndCount(cardline):
     words = cardline.split()
     cardName = []
@@ -55,42 +93,49 @@ def cardnameAndCount(cardline):
         cardName.append(word)
     return [" ".join(cardName), cardCount]
 
-#count the number of cards of each type from input file
+# count the number of cards of each type from input file
+
+
 def tally_card_types(inputfile):
     cardCount = 0
     input_file = open(inputfile, "r")
-    cur_type = None
+    # cur_type = None
     for line in input_file:
         cur_word = line.rstrip()
 
-        #if the line is a card type...
-        # if line in TYPES:
-        if cur_word.upper() in TYPES:
-           #store current type if anything
-           if cur_type is not None:
-               cards.append(cur_type)
-           cur_type = CardType(cur_word)
-        else:
-            cardDetails = cardnameAndCount(cur_word) 
-            cur_type.add_card(Card(cardDetails[0], cardDetails[1]))
-            cardCount += 1
-    cards.append(cur_type)
+        cardLineDetails = cardnameAndCount(cur_word)
+        cardType = getCardType(cardLineDetails[0])
+        if cardType not in cards.keys():
+            cards[cardType] = CardType(TYPES_TWO[CLASSES.index(cardType)])
+
+        cards[cardType].add_card(Card(cardLineDetails))
+        cardCount += 1
     input_file.close()
     return cardCount
 
+
+def populateCardGroups():
+    for key in cards:
+        card_groups.append(cards[key])
+
+
 def generateEvenColumnsHelper(i, halfDeck, memo):
-    if i >= len(cards): return 1 if halfDeck == 0 else 0
-    if (i, halfDeck) not in memo:  # <-- Check if value has not been calculated.
+    if i >= len(card_groups):
+        return 1 if halfDeck == 0 else 0
+    # <-- Check if value has not been calculated.
+    if (i, halfDeck) not in memo:
         count = generateEvenColumnsHelper(i + 1, halfDeck, memo)
-        count += generateEvenColumnsHelper(i + 1, halfDeck - cards[i].count(), memo)
+        count += generateEvenColumnsHelper(i + 1,
+                                           halfDeck - card_groups[i].count(), memo)
         memo[(i, halfDeck)] = count  # <-- Memoize calculated result.
     return memo[(i, halfDeck)]     # <-- Return memoized value.
+
 
 def generateEvenColumns(halfDeck, memo):
     subset = []
     otherSet = []
-    for i, x in enumerate(cards):
-    # Check if there is still a solution if we include cards[i]
+    for i, x in enumerate(card_groups):
+        # Check if there is still a solution if we include cards[i]
         if generateEvenColumnsHelper(i + 1, halfDeck - x.count(), memo) > 0:
             subset.append(x)
             halfDeck -= x.count()
@@ -98,13 +143,16 @@ def generateEvenColumns(halfDeck, memo):
             otherSet.append(x)
     return [subset, otherSet]
 
-##formating methods
+# formating methods
+
+
 def formatCardType(cardType):
     formattedCards = []
     for card in cardType.cards:
         formattedCards.append(card.formatted_name())
-    cards="\n<br />\n".join(formattedCards)
+    cards = "\n<br />\n".join(formattedCards)
     return HTML_TYPE.format(cardType.type, cards)
+
 
 def formatCardColumn(cardColumn):
     formattedTypes = []
@@ -113,67 +161,72 @@ def formatCardColumn(cardColumn):
     column = "".join(formattedTypes)
     return HTML_COLUMN.format(column)
 
+
 def formatContainer(columnOne, columnTwo):
     return HTML_CONTAINER.format(formatCardColumn(columnOne), formatCardColumn(columnTwo))
 
+
 def printDeckToFile(outputfile, deckTitle, decklist):
     output_file = open(outputfile, "w")
-    #print decklist name to file
+    # print decklist name to file
     output_file.write(HTML_NAME.format(deckTitle))
-    #print decklist to file
+    # print decklist to file
     output_file.write(decklist)
     print("Printed to file successfully!")
     output_file.close()
 
 
 def main(argv):
-   inputfile = ''
-   outputfile = ''
-   try:
-      opts, args = getopt.getopt(argv,"hi:",["ifile="])
-   except getopt.GetoptError:
-      print('Error: deckGenerator.py -i <inputfile>')
-      sys.exit(2)
-   for opt, arg in opts:
-      if opt == '-h':
-         print('deckGenerator.py -i <inputfile>')
-         sys.exit()
-      elif opt in ("-i", "--ifile"):
-         inputfile = arg
-   print('Input file is '+ inputfile)
-   outputfile = (inputfile.split(".txt")[0] + "_decked.txt")
-   print('Output file is '+outputfile)
-   cardCount = tally_card_types(inputfile)
+    inputfile = ''
+    outputfile = ''
+    try:
+        opts, args = getopt.getopt(argv, "hi:", ["ifile="])
+    except getopt.GetoptError:
+        print('Error: deckGenerator.py -i <inputfile>')
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt == '-h':
+            print('deckGenerator.py -i <inputfile>')
+            sys.exit()
+        elif opt in ("-i", "--ifile"):
+            inputfile = arg
+    print('Input file is ' + inputfile)
+    outputfile = (inputfile.split(".txt")[0] + "_decked.txt")
+    print('Output file is '+outputfile)
+    cardCount = tally_card_types(inputfile)
 
-   #check card types
-   for card in cards:
-       print(card.type + ": " + str(card.count()))
-   print("Total unique cards counted: " + str(cardCount))
-   
-   print("And for my next trick...show you what card types should be on each side")
-   halfDeck = int(cardCount / 2)
-   print("trying with halfdeck size "+str(halfDeck))
-   memo = dict()
-   cardsSubset = generateEvenColumns(halfDeck, memo)
+    # check card types
+    for card in cards:
+        print(card + ": " + str(cards[card].count()))
+    print("Total unique cards counted: " + str(cardCount))
+    # its 10pm and I don't want to rewrite algorithm code for dictionaries, so making it back to an array
+    populateCardGroups()
 
-   #if it cannot divide equally, we need to run the program back with the minimum size of evenly distributed columns...
-   #...oooor hack it
-   #UNTESTED - WILL SEE IF NECESSARY
-   while(len(cardsSubset[0]) == 0):
-       halfDeck -= 1
-       memo = dict()
-       cardsSubset = generateEvenColumns(halfDeck, memo)
+    print("And for my next trick...show you what card types should be on each side")
+    halfDeck = int(cardCount / 2)
+    print("trying with halfdeck size "+str(halfDeck))
+    memo = dict()
+    cardsSubset = generateEvenColumns(halfDeck, memo)
 
-   for card in cardsSubset[0]:
-       print(card.type + ": " + str(card.count()))
-   print("...and for the other side...")
-   for card in cardsSubset[1]:
-       print(card.type + ": " + str(card.count()))
+    # if it cannot divide equally, we need to run the program back with the minimum size of evenly distributed columns...
+    # ...oooor hack it
+    # UNTESTED - WILL SEE IF NECESSARY
+    while(len(cardsSubset[0]) == 0):
+        halfDeck -= 1
+        memo = dict()
+        cardsSubset = generateEvenColumns(halfDeck, memo)
 
-    #attempt at creating proper formatted list - leggo
-   decklist = formatContainer(cardsSubset[0], cardsSubset[1])
-   printDeckToFile(outputfile, "YOUR DECK TITLE HERE!", decklist)
-   print("Thank you, and goodnight")
+    # for card in cardsSubset[0]:
+    #     print(card.type + ": " + str(card.count()))
+    # print("...and for the other side...")
+    # for card in cardsSubset[1]:
+    #     print(card.type + ": " + str(card.count()))
+
+    # attempt at creating proper formatted list - leggo
+    decklist = formatContainer(cardsSubset[0], cardsSubset[1])
+    printDeckToFile(outputfile, "YOUR DECK TITLE HERE!", decklist)
+    print("Thank you, and goodnight")
+
 
 if __name__ == "__main__":
-   main(sys.argv[1:])
+    main(sys.argv[1:])
