@@ -22,7 +22,7 @@ There are very few commanders that hit the right balance between enabling a soli
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c654737d-34ac-42ff-ae27-3a3bbb930fc1.jpg?1591204580' width=100% height=100%>">
-	Muldrotha the Gravetide
+Muldrotha the Gravetide
 </a>). While Shirei has a pretty harsh restriction for what they can bring back beyond death’s door, with the right build Shirei can still be absolutely heinous. Luckily for us, that doesn’t really change much between EDH and PDH. What I’m saying is the first post-game round is probably going to be on you.
 
 Our Shirei of the day is focused around three main themes:<br />
@@ -50,7 +50,7 @@ Our main source of offense is going to be in ETB/LTB triggers. Due to the nature
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bc8f0242-35e1-4409-9321-56e742e8fef4.jpg?1591226960' width=100% height=100%>">
-	Serrated Scorpion
+Serrated Scorpion
 </a>, <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -58,7 +58,7 @@ Our main source of offense is going to be in ETB/LTB triggers. Due to the nature
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/3/2/32cf273e-b8f7-434b-9d5d-883dfd6f7423.jpg?1600699817' width=100% height=100%>">
-	Cauldron Familiar
+Cauldron Familiar
 </a><br />
 **Card Advantage**: <a
 	class="accented-link external-card-link"
@@ -67,7 +67,7 @@ Our main source of offense is going to be in ETB/LTB triggers. Due to the nature
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/53f63f40-46f1-4b9e-b447-ff9274f2b926.jpg?1591230179' width=100% height=100%>">
-	Farfinder
+Farfinder
 </a>, <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -75,7 +75,7 @@ Our main source of offense is going to be in ETB/LTB triggers. Due to the nature
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/98a9ef61-1c6d-49d1-b185-2b022482b442.jpg?1562438935' width=100% height=100%>">
-	Dusk Legion Zealot
+Dusk Legion Zealot
 </a><br />
 **Other Crazy Stuff**: <a
 	class="accented-link external-card-link"
@@ -84,7 +84,7 @@ Our main source of offense is going to be in ETB/LTB triggers. Due to the nature
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/9851f290-f502-49f8-9b48-67f7966d4e34.jpg?1622651477' width=100% height=100%>">
-	Nested Shambler
+Nested Shambler
 </a>, <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -92,7 +92,7 @@ Our main source of offense is going to be in ETB/LTB triggers. Due to the nature
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/4/1/410c7922-5d99-4b94-bcdb-4f02ca175e65.jpg?1599709231' width=100% height=100%>">
-	Gleaming Barrier
+Gleaming Barrier
 </a><br />
 Since we can only recur creatures of power 1 or less, each of these effects are relatively minor, so our main path to the finish line is going to be chaining as many of these as possible each turn cycle. This will prooobably require...
 
@@ -113,7 +113,7 @@ Not only do these cards allow you to repeatedly hit those potent ETBs, but most 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f35fd9cd-795f-4a8b-b2e9-648f6273927e.jpg?1600700106' width=100% height=100%>">
-	Dutiful Attendant
+Dutiful Attendant
 </a> just in time to equip Shirei with a <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -121,7 +121,7 @@ Not only do these cards allow you to repeatedly hit those potent ETBs, but most 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/d/e/de0ba1cf-d913-4285-9d8b-38acf78cc45e.jpg?1562880256' width=100% height=100%>">
-	Blessing of Leeches
+Blessing of Leeches
 </a>, or you just need a little extra mana <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -129,7 +129,7 @@ Not only do these cards allow you to repeatedly hit those potent ETBs, but most 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8b2651b0-1ab2-4d7e-834f-7505797da474.jpg?1562769222' width=100% height=100%>">
-	Soldevi Adnate
+Soldevi Adnate
 </a> is a great stand in for <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -137,7 +137,7 @@ Not only do these cards allow you to repeatedly hit those potent ETBs, but most 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/1/f/1f51ced8-9384-4b8d-aa60-efb281ac9439.jpg?1600699469' width=100% height=100%>">
-	Black Market
+Black Market
 </a> providing quick bursts of mana when it’s least expected. Or maybe you need a big creature to keep something like an enchanted <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -145,7 +145,7 @@ Not only do these cards allow you to repeatedly hit those potent ETBs, but most 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/b/b/bbeef9ef-487c-400b-bcee-1c0e8ec94b6a.jpg?1562812506' width=100% height=100%>">
-	Striped Riverwinder
+Striped Riverwinder
 </a> at bay? Spend a turn cycle sacc-ing your entire board to a <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -153,7 +153,7 @@ Not only do these cards allow you to repeatedly hit those potent ETBs, but most 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1547516761' width=100% height=100%>">
-	Bloodflow Connoisseur
+Bloodflow Connoisseur
 </a> or <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -161,7 +161,7 @@ Not only do these cards allow you to repeatedly hit those potent ETBs, but most 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/0/a/0a19da90-880e-4eca-8cf7-6d7baf090d53.jpg?1562201576' width=100% height=100%>">
-	Carrion Feeder
+Carrion Feeder
 </a> to quickly create a very significant threat.
 
 ### Persistence

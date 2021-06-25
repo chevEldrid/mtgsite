@@ -21,9 +21,9 @@ HTML_TYPE = '<b>{0}</b>\n<p class="mb-0">\n{1}</p>\n'
 
 TYPES = ["COMMANDER", "COMPANION", "COMMANDERS", "SORCERIES", "CREATURES",
          "INSTANTS", "ARTIFACTS", "ENCHANTMENTS", "PLANESWALKERS", "LANDS", "UNKNOWN"]
-CLASSES = ["Sorcery", "Instant", "Artifact", "Creature",
+CLASSES = ["Commander", "Sorcery", "Instant", "Artifact", "Creature",
            "Planeswalker", "Land", "Enchantment", "Unknown"]
-TYPES_TWO = ["Sorceries", "Instants", "Artifacts", "Creatures",
+TYPES_TWO = ["Commanders", "Sorceries", "Instants", "Artifacts", "Creatures",
              "Planeswalkers", "Lands", "Enchantments", "Unknowns"]
 cards = {}
 card_groups = []
@@ -55,6 +55,9 @@ class CardType:
 
 
 def getCardType(name):
+    if "*" in name:
+        return "Commander"
+
     card_type = 'Unknown'
     try:
         url = "https://api.scryfall.com/cards/search?q=!\"{0}\"".format(name)
