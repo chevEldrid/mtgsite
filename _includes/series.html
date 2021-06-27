@@ -11,7 +11,7 @@
 <!--If the total number of articles in this category is more than 1 AND this page wants its series shown...-->
 {% if total > 1 and page.showSeries %}
     <!--Generates list of previous articles in series: should limit in future-->
-    <p>More Entries in <b>{{ page.categories[0] | capitalize}}</b>:</p>
+    <p>More Entries in <b>{{ page.categories[0] | capitalize_all}}</b>:</p>
     <ul>
         {% for post in site.posts %}
         {% if post.categories[0] == page.categories[0] and post.title != page.title %}
