@@ -11,6 +11,10 @@ import shutil
 
 anchor_tag = '<a\n\tclass="accented-link external-card-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
 
+pictures_tag = '{{% include pics.html\n{0} %}}\n<br \\>'
+
+single_picture_tag = 'pic1="{0}"\nstyle="single"\nwidth="33%"'
+
 # returns a 2-element array with card uri on scryfall, and the image uri
 
 
@@ -58,6 +62,34 @@ def format_line(line):
         result = line
     else:
         result = line
+    # Checks for cards that will use our picture includes
+    if "((" in line:
+        pictures_count = line.count("((")
+        for n in range(pictures_count):
+            card_names = re.search("\(\((.*?)\)\)", line).group(1)
+#           print('card names found: '+str(card_names))
+            cards = card_names.split(";")
+            card_uris = []
+            for card in cards:
+                card_data = get_card_data(card)
+                card_uris.append(card_data[1])
+
+            card_pics = ""
+            card_count = len(card_uris)
+            if card_count == 1:
+                card_pics = single_picture_tag.format(card_uris[0])
+            else:
+                for pic_number in range(len(card_uris)):
+                    card_pic = 'pic{0}="{1}"\n'.format(
+                        pic_number+1, card_uris[pic_number])
+                    card_pics += card_pic
+            # print(card_pics)
+            cards_include = pictures_tag.format(card_pics)
+            line = re.sub("\(\((.*?)\)\)", cards_include, line, 1)
+        result = line
+    else:
+        result = line
+
     return result
 
 

@@ -36,6 +36,7 @@ function footer_saying() {
     'Here\'s hoping Hexdrinker gets reprinted in MH2 so we don\'t have to shell out $30 for a mascot...',
     'This flavor text has been seen 998,767 times! Or has it...',
     'Arena should add emotes that are just directly trolling or BM. It\'ll be fine. Trust me.',
+    'Player removal is the best removal'
   ];
   let population = sayings.length;
   let saying_index = Math.floor(Math.random() * population);     // returns a random integer from 0 to length of sayings
