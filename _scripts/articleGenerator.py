@@ -11,7 +11,7 @@ import shutil
 
 anchor_tag = '<a\n\tclass="accented-link external-card-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
 
-pictures_tag = '{{% include pics.html\n{0} %}}\n<br \\>'
+pictures_tag = '{{% include pics.html\n{0} %}}\n<br />'
 
 single_picture_tag = 'pic1="{0}"\nstyle="single"\nwidth="33%"'
 
