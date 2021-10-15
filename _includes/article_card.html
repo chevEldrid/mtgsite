@@ -16,7 +16,14 @@
                 </p>
                 <p class="card-text">
                     {% assign author = site.authors | where: 'short_name', include.article.author | first %}
-                    <small class="text-muted">{{ include.article.date | date: '%B %d'}} | <a href="{{ author.url }}">{{ author.name }}</a></small>
+                    {% assign author_second = site.authors | where: 'short_name', include.article.author[1] | first %}
+                    <small class="text-muted">
+                        {{ include.article.date | date: '%B %d'}} | 
+                        <a href="{{ author.url }}">{{ author.name }}</a>
+                        {% if author_second %}
+                        <a href="{{ author_second.url }}">{{ author_second.name }}</a>
+                        {% endif %}
+                    </small>
                 </p>
             </div>
         </div>
