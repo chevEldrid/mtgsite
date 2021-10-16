@@ -16,7 +16,7 @@ style="single"
 width="33%" %}
 <br />
 <br />
-Some of you may remember my first brew featuring Tetsuko came as a Brawl commander back when Dominaria released. In fact, I documented some of that adventure in the [Introduction to Brawl]({% post_url 2020/2020-05-28-brawl_primer %})) article we ran last year...but that’s enough about a format with access to silver and gold expansion symbols, we’re here for the COMMONer and let me be the first to tell you, Tetsuko kicks some major Pauper ass. Let’s dive in.
+Some of you may remember my first brew featuring Tetsuko came as a Brawl commander back when Dominaria released. In fact, I documented some of that adventure in the [Introduction to Brawl]({% post_url 2020/2020-05-28-brawl_primer %}) article we ran last year...but that’s enough about a format with access to silver and gold expansion symbols, we’re here for the COMMONer and let me be the first to tell you, Tetsuko kicks some major Pauper ass. Let’s dive in.
 
 Off the bat it’s easy to see that Tetsuko has a lot of potential. You don’t see lines like “creatures you control...can’t be blocked” every day, and for two mana she will most certainly be getting your plan online in short order. Now, there is the stipulation of “creatures with power or toughness one or less” so no free <a
 	class="accented-link external-card-link"
@@ -238,7 +238,7 @@ pic3="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/96916db2-5121
  %}
 <br />
 <br />
-Unfortunately for Tetsuko, wraths in PDH are primarily damage based and - as Oakley’s powerful <a
+Unfortunately for Tetsuko, wraths in PDH are primarily damage based and - as [Oakley’s powerful]({% post_url 2021-07-29-pdh_gary %}) <a
 	class="accented-link external-card-link"
 	target="_blank"
 	href="https://scryfall.com/card/thb/99/gray-merchant-of-asphodel?utm_source=api"
