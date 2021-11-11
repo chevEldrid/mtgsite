@@ -2,13 +2,14 @@
 author: julian
 cover: https://img.scryfall.com/cards/art_crop/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333
 length: 15
-youtube: 
+youtube:
 categories: ["Homebrewed"]
-tags: ["Standard", "Ale"]
+tags: ["Standard"]
 title: "Defenders of the Realm (Standard)"
 hook: "Heroes Live Forever. Legends Never Die."
 ---
-Ladies and gentlemen rejoice, our almighty overlords at Wizards have granted (some) of our wishes! Their swinging of the mighty Banhammer has liberated us from the horrors of 
+
+Ladies and gentlemen rejoice, our almighty overlords at Wizards have granted (some) of our wishes! Their swinging of the mighty Banhammer has liberated us from the horrors of
 <a
 	class="accented-link"
 	target="_blank"
@@ -16,8 +17,8 @@ Ladies and gentlemen rejoice, our almighty overlords at Wizards have granted (so
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/large/front/a/1/a12b16b0-f75f-42d8-9b24-947c1908e0f7.jpg?1591007591' width=100% height=100%>">
-	great fires
-</a>, 
+great fires
+</a>,
 <a
 	class="accented-link"
 	target="_blank"
@@ -25,16 +26,16 @@ Ladies and gentlemen rejoice, our almighty overlords at Wizards have granted (so
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/large/front/c/c/cc6686e6-4535-49be-b0b3-e76464656cd2.jpg?1591014892' width=100% height=100%>">
-	treacherous agents
+treacherous agents
 </a>, and has altered the fabric of <a href="https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement" target="_blank">reality itself</a>!
 <br />
 <br />
 {% include pics.html
 pic1="https://media.giphy.com/media/yyvSeRGVj4C64/giphy.gif" %}
 <br />
-Standard is now a whole new world (sorta)! It’s situations like these that we live for here at Hexdrinkers; ignoring the norm and blazing paths in the face of the unknown (I’ve been reading <a href="https://www.brandonsanderson.com/" target="_blank" >Brandon Sanderson</a> recently, cut me some slack for my bombast). These changes don’t kill all the top-tier decks, and many might flock to the safer tried-and-true strategies emerging from their Companion Winter hibernation, but we at Hexdrinkers like to keep looking forward. A shakeup like this provides opportunities to get wild before things settle into place. 
+Standard is now a whole new world (sorta)! It’s situations like these that we live for here at Hexdrinkers; ignoring the norm and blazing paths in the face of the unknown (I’ve been reading <a href="https://www.brandonsanderson.com/" target="_blank" >Brandon Sanderson</a> recently, cut me some slack for my bombast). These changes don’t kill all the top-tier decks, and many might flock to the safer tried-and-true strategies emerging from their Companion Winter hibernation, but we at Hexdrinkers like to keep looking forward. A shakeup like this provides opportunities to get wild before things settle into place.
 
-Without further adieu, welcome to a two-for-one edition of *Homebrewed*.
+Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 <br />
 <br />
 **You Know I Keep That Thang On Me**
@@ -356,9 +357,9 @@ Our armory only consists of four different cards, but they all serve an importan
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
 	Embercleave
-</a>, are our best ways of taking our opponent from 20 to zero. 
+</a>, are our best ways of taking our opponent from 20 to zero.
 
-To combat any retaliation and wrought divine wrath, we have 
+To combat any retaliation and wrought divine wrath, we have
 <a
 	class="accented-link"
 	target="_blank"
@@ -366,16 +367,18 @@ To combat any retaliation and wrought divine wrath, we have
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1581481207' width=100% height=100%>">
-	Shadowspear
-</a> to cover our bases. Though it's seen mostly sideboard play since it escaped from the underworld, don't underestimate it. Between being incredibly cheap to cast and equip and for an aggressive deck like this and giving a creature trample and lifelink to punch through damage while helping us outpace other aggro strategies really helps this gem shine. The anti-hexproof/indestructible ability doesn’t come into play often, but every once in a while it’s clutch, which is just icing on the cake. 
- 
+Shadowspear
+</a> to cover our bases. Though it's seen mostly sideboard play since it escaped from the underworld, don't underestimate it. Between being incredibly cheap to cast and equip and for an aggressive deck like this and giving a creature trample and lifelink to punch through damage while helping us outpace other aggro strategies really helps this gem shine. The anti-hexproof/indestructible ability doesn’t come into play often, but every once in a while it’s clutch, which is just icing on the cake.
+
 So those are the knives we’re bringing to the standard gunfight. Now let’s discuss choosing who will fulfill the prophecy and pull them from the sacred stones.
 <br />
 <br />
 {% include pics.html
 pic1="https://media.giphy.com/media/Tim0q7zolF3fa/giphy.gif" %}
 <br />
+
 # We’re the Knights of the Round Table, We Equip When’re We’re Able
+
 <br />
 {% include pics.html
 pic1="https://img.scryfall.com/cards/large/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356"
@@ -383,7 +386,7 @@ pic2="https://img.scryfall.com/cards/large/front/2/7/27425f2e-e0b2-489d-877d-825
 pic3="https://img.scryfall.com/cards/large/front/f/b/fb6b12e7-bb93-4eb6-bad1-b256a6ccff4e.jpg?1582021671" %}
 <br />
 
-In order to secure our kingdom, we've brought together several powerful knights who curve nicely into each other for a brutal offense. Leading the charge is 
+In order to secure our kingdom, we've brought together several powerful knights who curve nicely into each other for a brutal offense. Leading the charge is
 <a
 	class="accented-link"
 	target="_blank"
@@ -391,10 +394,10 @@ In order to secure our kingdom, we've brought together several powerful knights 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356' width=100% height=100%>">
-	Fervent Champion
-</a>. A staple in mono-red decks since their release goes about as fast as you can go. And once multiple attack together the threat level increases even further. However, Fervent Champion has another clause that most people either ignore or don’t even know about: “Equip abilities that target Fervent Champion cost three generic less to activate.” Full stop. That means that cards like Steelclaw Lance, Shadowspear, and an Embercleave that needs to be moved over all equip *for free* (oh, and that’s also a big chunk off equipping Colossus Hammer)...
+Fervent Champion
+</a>. A staple in mono-red decks since their release goes about as fast as you can go. And once multiple attack together the threat level increases even further. However, Fervent Champion has another clause that most people either ignore or don’t even know about: “Equip abilities that target Fervent Champion cost three generic less to activate.” Full stop. That means that cards like Steelclaw Lance, Shadowspear, and an Embercleave that needs to be moved over all equip _for free_ (oh, and that’s also a big chunk off equipping Colossus Hammer)...
 
-... all of which we can grab with 
+... all of which we can grab with
 <a
 	class="accented-link"
 	target="_blank"
@@ -402,8 +405,8 @@ In order to secure our kingdom, we've brought together several powerful knights 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/f/b/fb6b12e7-bb93-4eb6-bad1-b256a6ccff4e.jpg?1582021671' width=100% height=100%>">
-	Acclaimed Contender
-</a>. I suppose we can't have anything on the rate of 
+Acclaimed Contender
+</a>. I suppose we can't have anything on the rate of
 <a
 	class="accented-link"
 	target="_blank"
@@ -411,10 +414,10 @@ In order to secure our kingdom, we've brought together several powerful knights 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/6/9/6911af4e-4abd-4cf9-8a86-ae5d680c6f12.jpg?1563899199' width=100% height=100%>">
-	Goblin Ringleader
+Goblin Ringleader
 </a> these days, but we’ll take the Contender as they can grab us either another body or an equipment, if our board is in good shape. A full playset of these will help us sift through our deck at a quicker clip and keep the pressure on.
 
-But I did say we were curving nicely, so don't think I forgot the two-drop slot. To compliment Acclaimed Contender's digging we have 
+But I did say we were curving nicely, so don't think I forgot the two-drop slot. To compliment Acclaimed Contender's digging we have
 <a
 	class="accented-link"
 	target="_blank"
@@ -422,13 +425,13 @@ But I did say we were curving nicely, so don't think I forgot the two-drop slot.
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/2/7/27425f2e-e0b2-489d-877d-8257d2026bfd.jpg?1572490842' width=100% height=100%>">
-	Stormfist Crusader
-</a> as continual source of card draw, impressive in a Mardu tribe (**Note**: not exactly known for drawing cards). Plus, a 2/2 menace for two ain't too shabby. Sure our opponent also draws a card, but they’re taking damage and they sure aren’t going to outrace us. Recently brainwashed and conscripted by the evil forces of Rakdos Sacrifice, let's bring this defender of the realm back to the side of justice. 
+Stormfist Crusader
+</a> as continual source of card draw, impressive in a Mardu tribe (**Note**: not exactly known for drawing cards). Plus, a 2/2 menace for two ain't too shabby. Sure our opponent also draws a card, but they’re taking damage and they sure aren’t going to outrace us. Recently brainwashed and conscripted by the evil forces of Rakdos Sacrifice, let's bring this defender of the realm back to the side of justice.
 <br />
 {% include pics.html
 pic1="https://img.scryfall.com/cards/large/front/a/3/a33add37-379d-4a90-9c04-529dff676986.jpg?1571282693" %}
 <br />
-Lastly, commanding our forces is the majestic, 
+Lastly, commanding our forces is the majestic,
 <a
 	class="accented-link"
 	target="_blank"
@@ -436,8 +439,8 @@ Lastly, commanding our forces is the majestic,
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/3/a33add37-379d-4a90-9c04-529dff676986.jpg?1571282693' width=100% height=100%>">
-	Syr Gwyn, Hero of Ashvale
-</a>. Though once a hero, but she’s been forced to take an early retirement. Not even Brawl players have taken to this card (probably due to the fact that it costs six, c’mon Wizards you could’ve pushed this card a bit as opposed to so many others), so it’s up to us here at Hexdrinkers to find Syr Gwyn a home (*nudge nudge* Chev, get on it). Once we can get her onto the field, the Hero of Ashvale is an absolute beast with sizable stats and excellent keywords. Even more importantly she gives us free equips (the Colossus Hammer dream shines a bit brighter) and more card advantage, which is crucial to push a deck like this across the finish line. Rise, and become a Hero once more in our crusade upon a new Standard format!
+Syr Gwyn, Hero of Ashvale
+</a>. Though once a hero, but she’s been forced to take an early retirement. Not even Brawl players have taken to this card (probably due to the fact that it costs six, c’mon Wizards you could’ve pushed this card a bit as opposed to so many others), so it’s up to us here at Hexdrinkers to find Syr Gwyn a home (_nudge nudge_ Chev, get on it). Once we can get her onto the field, the Hero of Ashvale is an absolute beast with sizable stats and excellent keywords. Even more importantly she gives us free equips (the Colossus Hammer dream shines a bit brighter) and more card advantage, which is crucial to push a deck like this across the finish line. Rise, and become a Hero once more in our crusade upon a new Standard format!
 
 That’s a capable and sizable army that we’ve recruited, but every army needs support staff; medics, squires, and most importantly, blacksmiths, all round out a successful war effort. Our forces are no different.
 <br />
@@ -446,7 +449,7 @@ That’s a capable and sizable army that we’ve recruited, but every army needs
 pic1="https://img.scryfall.com/cards/large/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1581481011"
 pic2="https://img.scryfall.com/cards/large/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg?1563898701" %}
 <br />
-Manning the forges today are two masters of their craft.  So many equipment through the years just weren’t viable due to a high mana cost, high equip cost or a combination of both, but no longer. With 
+Manning the forges today are two masters of their craft. So many equipment through the years just weren’t viable due to a high mana cost, high equip cost or a combination of both, but no longer. With
 <a
 	class="accented-link"
 	target="_blank"
@@ -454,8 +457,8 @@ Manning the forges today are two masters of their craft.  So many equipment thro
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1581481011' width=100% height=100%>">
-	Dalakos, Crafter of Wonders
-</a> and 
+Dalakos, Crafter of Wonders
+</a> and
 <a
 	class="accented-link"
 	target="_blank"
@@ -463,12 +466,12 @@ Manning the forges today are two masters of their craft.  So many equipment thro
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg?1563898701' width=100% height=100%>">
-	Renowned Weaponsmith
-</a>, we can expedite the forging and fitting of our steel. 
+Renowned Weaponsmith
+</a>, we can expedite the forging and fitting of our steel.
 
 Dalakos also must put a little extra spice into his blades giving those who wield them the ability to zoom into the sky providing much needed evasion and speed; he gives them flying and haste. Begrudgingly, ‘flaste’ doesn’t sound as good as ‘flample’ (flying+trample). But how else are these knights suppose to slay dragons?
 
-In addition to weapons, our craftsmen have whipped up something a little more sentient and just as deadly. 
+In addition to weapons, our craftsmen have whipped up something a little more sentient and just as deadly.
 <a
 	class="accented-link"
 	target="_blank"
@@ -476,8 +479,8 @@ In addition to weapons, our craftsmen have whipped up something a little more se
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/b/3/b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe.jpg?1572491124' width=100% height=100%>">
-	Stonecoil Serpent
-</a> can be fueled by both Dalakos and R.W., growing to preposterous sizes, and can hold back flyers and multicolored threats all day (looking at you 
+Stonecoil Serpent
+</a> can be fueled by both Dalakos and R.W., growing to preposterous sizes, and can hold back flyers and multicolored threats all day (looking at you
 <a
 	class="accented-link"
 	target="_blank"
@@ -485,7 +488,7 @@ In addition to weapons, our craftsmen have whipped up something a little more se
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/d/7d3e97d8-92c7-43c4-bdaf-7b0a6ce7cb5f.jpg?1581481029' width=100% height=100%>">
-	Dream Trawler
+Dream Trawler
 </a>). Another welcome addition to the front lines.
 
 <br/>
@@ -745,6 +748,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 Theros Beyond Death had this series of ‘Hero’ cards that made one helluva Boros aggro deck in draft. With all the auras in the set you could suit up a Hero and what I’d like to dub the ‘Hero Clause’ (a nod to original Theros’s <a href="https://mtg.gamepedia.com/Heroic" target="_blank">'Heroic' mechanic</a>) kicks in buffing your whole team. It’s like in any superhero movie where at the edge of defeat, the leader of {insert your favorite named assemblage of superheroes} gives their rousing speech about not giving up and the power of friendship and working together and every gets their energy back plus more to defeat the baddies. Or maybe that was the plot of every Shounen anime ever… Anyway! I thought, why assemble the greatest version of this draft deck ever made and take a whole legion of heroes to war in Standard. And you know how it goes over here at Hexdrinkers, once that thought takes shape, we have to deliver it to y’all, fully fleshed out.
 
 # With Great Power Comes Great Responsibility
+
 <br />
 {% include pics.html
 pic1="https://img.scryfall.com/cards/large/front/8/1/81b56863-a52a-4559-a662-f6d9145d5804.jpg?1581479124"
@@ -865,7 +869,7 @@ Lastly, we need ways to target our Heroes so we can beef up our team.
 	Swallow Whole
 </a> is a sneaky pick as not only does it remove dangers across the battlefield (and synergizing with our token generation; tapping a creature isn’t a downside when you have so many), but it also *targets* our creatures so we can buff them! Double whammy, baby.
 
-Round out the deck with some extra punch in 
+Round out the deck with some extra punch in
 <a
 	class="accented-link"
 	target="_blank"
@@ -873,8 +877,8 @@ Round out the deck with some extra punch in
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
-	Embercleave
-</a>, some protection in 
+Embercleave
+</a>, some protection in
 <a
 	class="accented-link"
 	target="_blank"
@@ -882,8 +886,8 @@ Round out the deck with some extra punch in
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/4/6/46cc8574-7b8c-492c-8a36-75cb0192f853.jpg?1584830090' width=100% height=100%>">
-	Unbreakable Formation
-</a>, and a battle-hardened general, 
+Unbreakable Formation
+</a>, and a battle-hardened general,
 <a
 	class="accented-link"
 	target="_blank"
@@ -891,7 +895,7 @@ Round out the deck with some extra punch in
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1572893504' width=100% height=100%>">
-	Aurelia, Exemplar of Justice
+Aurelia, Exemplar of Justice
 </a> and you’re ready to bring peace and order to the multiverse!
 <br />
 <br />
@@ -900,14 +904,14 @@ pic1="https://img.scryfall.com/cards/large/front/9/a/9a1c6903-add3-4c6e-9e96-d8c
 pic2="https://img.scryfall.com/cards/large/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1572893504"
 pic3="https://img.scryfall.com/cards/large/front/5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c.jpg?1591230245" %}
 <br />
+
 # Brave New World
 
-The recent bannings and rules change have shaken up many formats, especially Standard. The format has been busted wide open in the chaos. It’s time to try new things, have fun brewing, and of course, smash face. 
+The recent bannings and rules change have shaken up many formats, especially Standard. The format has been busted wide open in the chaos. It’s time to try new things, have fun brewing, and of course, smash face.
 
-That’s it for this installment of *Homebrewed*! These decks were fun to craft and I hope y’all pour yourselves a frothing mug of ale, take them into the queues, and fight the good fight. Stay tuned for more content <a href="https://magic.wizards.com/en/articles/archive/feature/where-find-m21-and-jumpstart-previews-2020-06-02" target="_blank">(M21 spoilers inbound)</a>, stay loving life, and stay brewing!
+That’s it for this installment of _Homebrewed_! These decks were fun to craft and I hope y’all pour yourselves a frothing mug of ale, take them into the queues, and fight the good fight. Stay tuned for more content <a href="https://magic.wizards.com/en/articles/archive/feature/where-find-m21-and-jumpstart-previews-2020-06-02" target="_blank">(M21 spoilers inbound)</a>, stay loving life, and stay brewing!
 <br />
 <br />
 {% include pics.html
 pic1="https://media.giphy.com/media/TPJAvvWbSN61O/giphy.gif" %}
 <br />
-

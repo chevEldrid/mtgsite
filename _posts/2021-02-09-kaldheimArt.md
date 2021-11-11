@@ -1,7 +1,7 @@
 ---
 cover: https://c1.scryfall.com/file/scryfall-cards/art_crop/front/c/6/c60fbc33-6198-4661-967e-cc94f2788e4a.jpg?1610996876
 categories: [Art Review]
-tags: [Kaldheim, art]
+tags: [Kaldheim, Art]
 title: The Art of Kaldheim
 hook: "Our favorite art across the 10 realms"
 ---
