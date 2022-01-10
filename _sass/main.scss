@@ -10,7 +10,7 @@ $accent-color: rgb(194, 59, 59);
 }
 
 //used if there are two links directly next to each other to differentiate
-.accented-link-two { 
+.accented-link-two {
   color: black;
   &:hover {
     color: $accent-color;
@@ -48,7 +48,7 @@ $accent-color: rgb(194, 59, 59);
   display: block;
   max-width: 100%;
   height: auto !important;
-  width: 100%
+  width: 100%;
 }
 
 .width-full {
@@ -127,6 +127,17 @@ $accent-color: rgb(194, 59, 59);
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.aligned-sponsor {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
