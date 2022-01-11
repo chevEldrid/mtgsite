@@ -238,7 +238,7 @@ pic3="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/96916db2-5121
  %}
 <br />
 <br />
-Unfortunately for Tetsuko, wraths in PDH are primarily damage based and - as [Oakley’s powerful]({% post_url 2021-07-29-pdh_gary %}) <a
+Unfortunately for Tetsuko, wraths in PDH are primarily damage based and - as [Oakley’s powerful]({% post_url 2021/2021-07-29-pdh_gary %}) <a
 	class="accented-link external-card-link"
 	target="_blank"
 	href="https://scryfall.com/card/thb/99/gray-merchant-of-asphodel?utm_source=api"
