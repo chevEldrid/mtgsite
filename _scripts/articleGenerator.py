@@ -9,9 +9,9 @@ import time
 import shutil
 
 
-anchor_tag = '<a\n\tclass="accented-link external-card-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
+anchor_tag = '\n<a\n\tclass="accented-link external-card-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
 
-pictures_tag = '{{% include pics.html\n{0} %}}\n<br />'
+pictures_tag = '\n{{% include pics.html\n{0} %}}\n<br />\n'
 
 single_picture_tag = 'pic1="{0}"\nstyle="single"\nwidth="33%"'
 
@@ -109,7 +109,9 @@ def main(argv):
             inputfile = arg
     print('Input file is ' + inputfile)
     # strip file location of article name
-    outputfile = inputfile.split("_posts/")[1]
+    outputfilePath = inputfile.split("_posts/")[1]
+    currYear = outputfilePath.split("/")[0]
+    outputfile = outputfilePath.split("/")[1]
     # strip file extension and add identifier
     outputfile = (outputfile.split(".")[0] + "_formatted.md")
     print('Output file is '+outputfile)
@@ -121,7 +123,8 @@ def main(argv):
     input_file.close()
     output_file.close()
     # move to correct directory
-    shutil.move(outputfile, '../_posts')
+    correctDirectory = '../_posts/' + currYear
+    shutil.move(outputfile, correctDirectory)
 
 
 if __name__ == "__main__":

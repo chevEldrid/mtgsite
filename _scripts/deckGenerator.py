@@ -15,7 +15,7 @@ import shutil
 
 # necessary html pieces
 HTML_NAME = '<div class="text-center">\n<h3>{0}</h3></div>\n'
-HTML_CONTAINER = '<div class="row">\n\t<div class="col-md-2"></div>\n<div class="col-md-8">\n<div class="row">\n\t{0}\n{1}\n</div>\n</div>\n</div>'
+HTML_CONTAINER = '<div class="row">\n\t<div class="col-md-2"></div>\n<div class="col-md-8">\n<div class="row">\n\t{0}\n{1}\n</div>\n</div>\n</div>\n<br />\n<br />'
 HTML_COLUMN = '<div class="col-6">{0}\n</div>'
 HTML_TYPE = '<b>{0}</b>\n<p class="mb-0">\n{1}</p>\n'
 
