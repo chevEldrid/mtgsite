@@ -296,7 +296,7 @@ High Tides
 Evincar’s Justices
 </a> fall into the void, gleefully skipping upon the ashes of their broken decks missing any and all wincons as you reign supreme on a throne of bone-(Editor’s Note: I uhh I think Chev’s officially lost it, let’s go ahead and wrap this one up before he starts calling himself ‘The Skeleton King’ again.)
 
-Check out the decklist (with primer!) over on <a href="https://www.moxfield.com/decks/t0ROmVFVrUmFzV_jea7taw" target="_blank">Moxfield</a>, or down below!
+Check out the decklist (with primer!) over on <a href="https://www.moxfield.com/decks/t0ROmVFVrUmFzV_jea7taw" target="_blank">Moxfield</a>, via the [cPDH Decklist Database](https://budgetbrews.club/deck-lists/#pauper), or down below!
 
 <div class="text-center">
 <h3>Duskmantle Petitioners</h3></div>
