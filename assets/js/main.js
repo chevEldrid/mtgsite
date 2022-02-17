@@ -20,23 +20,26 @@ function footer_saying() {
   let sayings = [
     'Interestingly, you can also apply the Ballmer Peak Principle to MTG with fantastic results.',
     'Sometimes you have to let the Omniscience resolve. For science.',
-    'If you see Kenrith in Brawl, you\'re going to need a bigger beer.',
     'What do Oliver Twist, the Combat Step, and Beer all have in common? “Please sir, may I have another?”',
     'Fun Vorthos Fact: Kozilek is a big Appletini Guy.',
     'Your max handsize is only seven if somebody notices.',
     'People who tap their lands at a 45 degree angle are up to something.',
     'Lands in the front, horses in the back.',
     'A commander deck only needs more than 32 lands if you\'re a coward.',
-    'Life, Liberty, and the pursuit of mana',
+    'Life, Liberty, and the pursuit of Mechtitan',
     'Fun challenge: Play decks worth less than the cost of beer and food for the evening',
-    'Print Return to Kamigawa or we\'ll make it ourselves',
     'Wizards, we know green is the best, but keep it on the DL. Everyone\'s starting to notice...',
     'Math is for blockers',
     'Winner of the first game controls the aux',
-    'Here\'s hoping Hexdrinker gets reprinted in MH2 so we don\'t have to shell out $30 for a mascot...',
     'This flavor text has been seen 998,767 times! Or has it...',
-    'Arena should add emotes that are just directly trolling or BM. It\'ll be fine. Trust me.',
-    'Player removal is the best removal'
+    'Player removal is the best removal',
+    'No flavor text today, we\'re hexdrunk',
+    'Don\'t drink and crew',
+    'Viva la Brew Crew!',
+    'Don\'t believe the flavor text, it\'s all lies',
+    'We don\'t talk about Golos',
+    'If you ask us to sign something and we find it on ebay, Chev will show up to your LGS with his eldrazi deck',
+    "You found our Flavor Text Submission Portal! <a href='https://forms.gle/Fh3tZz5qQGWKDSgp9' target='_blank'>Click here to submit text for the site!</a>"
   ];
   let population = sayings.length;
   let saying_index = Math.floor(Math.random() * population);     // returns a random integer from 0 to length of sayings
