@@ -1,12 +1,13 @@
 #!/usr/bin/python
 
-import sys
 import getopt
+import json
+import os
 import re
 import requests
-import json
-import time
 import shutil
+import sys
+import time
 
 
 anchor_tag = '\n<a\n\tclass="accented-link external-card-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
@@ -113,8 +114,8 @@ def main(argv):
     currYear = outputfilePath.split("/")[0]
     outputfile = outputfilePath.split("/")[1]
     # strip file extension and add identifier
+    article_title = outputfile.split(".")[0]
     outputfile = (outputfile.split(".")[0] + "_formatted.md")
-    print('Output file is '+outputfile)
     # proceed to read input file
     input_file = open(inputfile, "r")
     output_file = open(outputfile, "w")
@@ -125,6 +126,17 @@ def main(argv):
     # move to correct directory
     correctDirectory = '../_posts/' + currYear
     shutil.move(outputfile, correctDirectory)
+    # new code! try to swap files so new file is named
+    article_file_path = os.path.join(correctDirectory, (article_title + ".md"))
+    pretty_article_file_path = os.path.join(
+        correctDirectory, (article_title + "_old.md"))
+    formatted_file_path = os.path.join(
+        correctDirectory, (article_title + "_formatted.md"))
+    # swaparoo
+    os.rename(article_file_path, pretty_article_file_path)
+    os.rename(formatted_file_path, article_file_path)
+    print('Output file is at '+inputfile)
+    print('Input file moved to '+article_title+'_old.md')
 
 
 if __name__ == "__main__":

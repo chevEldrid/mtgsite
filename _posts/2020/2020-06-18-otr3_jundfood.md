@@ -2,18 +2,18 @@
 author: julian
 cover: https://img.scryfall.com/cards/art_crop/front/9/2/92ea1575-eb64-43b5-b604-c6e23054f228.jpg?1571197150
 length: 5
-youtube: https://www.youtube.com/embed/Z7fOjEjfYCc 
+youtube: https://www.youtube.com/embed/Z7fOjEjfYCc
 categories: ["On the Rocks"]
 tags: ["Standard"]
 title: "You feelin’ hungry, punk? (Standard)"
 hook: "Cat and Oven. Name a more iconic duo. I’ll wait."
-highlight: true
 ---
-Welcome back one and all to the third installment of *On the Rocks*! After  playing that cycling deck which was extremely linear, we’re playing a favorite of mine that has a multitude of interactions and play decisions. 
- 
-With multiple incredible engines (ooh my favorite), this deck has been a powerful force in Standard since the release of *Throne of Eldraine* only to fall off during Companion Spring (doesn’t have the same ring as Eldrazi Winter, does it?). Recently resurfacing with the recent bannings and rules change, has it returned to its former glory (the answer is not quite, but it’s still good). 
- 
-Join me on a trip through history and down memory lane as I click through a lot of actions and triggers on Arena and windmill slam 
+
+Welcome back one and all to the third installment of _On the Rocks_! After playing that cycling deck which was extremely linear, we’re playing a favorite of mine that has a multitude of interactions and play decisions.
+
+With multiple incredible engines (ooh my favorite), this deck has been a powerful force in Standard since the release of _Throne of Eldraine_ only to fall off during Companion Spring (doesn’t have the same ring as Eldrazi Winter, does it?). Recently resurfacing with the recent bannings and rules change, has it returned to its former glory (the answer is not quite, but it’s still good).
+
+Join me on a trip through history and down memory lane as I click through a lot of actions and triggers on Arena and windmill slam
 <a
 	class="accented-link"
 	target="_blank"
@@ -21,12 +21,12 @@ Join me on a trip through history and down memory lane as I click through a lot 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/9/2/92ea1575-eb64-43b5-b604-c6e23054f228.jpg?1571197150' width=100% height=100%>">
-	Korvold, Fae-Cursed King
+Korvold, Fae-Cursed King
 </a> onto the battlefield several times!
-<br /> 
+<br />
 <br />
 **Korvold’s Exotic and Fiery Feast**
- 
+
 <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8">
@@ -267,4 +267,3 @@ Join me on a trip through history and down memory lane as I click through a lot 
     </div>
 </div>
 <br />
-

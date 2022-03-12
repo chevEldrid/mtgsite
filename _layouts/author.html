@@ -22,11 +22,11 @@ layout: default
     </div>
     {{ content }}
     <br />
-    <h2>Author Highlights</h2>
+    <h2>Recent Articles</h2>
     <hr />
     {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
     {% for post in filtered_posts %}
-      {% if num_articles_shown > 0 and post.highlight == true %}
+      {% if num_articles_shown > 0 %}
         <div class="row">
           <a class="post-link width-full" href="{{ post.url }}">
             <div class="crop-contain">

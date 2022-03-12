@@ -6,13 +6,14 @@ tags: [Commander, Brawl]
 title: God of Wrath (Brawl & Commander)
 length: 10
 hook: Brother, can you spare a dime?
-highlight: true
 ---
+
 Athreos is back and better than ever in the recently-released Theros, Beyond Death. As a commander, he represents a resilient threat that’s able to provide ungodly amounts of value over the course of a long game. In this edition of Plus 40, we’re going to take a look at what kinds of cards compliment him and his powerful end-of-turn triggered ability in a Brawl and EDH setting.
 
 Oh, and this is Oakley here by the way. Nice to meet you and thanks for tuning in.
 
 ## On Removal
+
 Removal in all forms is such a pivotal and emblematic part of running a deck helmed by
 <a
 	class="accented-link"
@@ -21,7 +22,7 @@ Removal in all forms is such a pivotal and emblematic part of running a deck hel
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/8/7/871c19fc-7d99-4022-9e13-d679a9e3547e.jpg?1581901443' width=100% height=100%>">
-	Athreos, Shroud-Veiled
+Athreos, Shroud-Veiled
 </a>. Lucky for us, his color identity comprises perhaps the two colors best known in Magic for their effectiveness in creature removal, black and white.
 
 Ideally, we want removal that only kills a single creature to be instant speed. Nothing groundbreaking here but instant speed removal serves the auxiliary purpose of giving us an extra target every turn cycle that’s been marked by a coin counter. This helps us set up for much larger turnarounds using our opponent’s creatures against them.
@@ -61,7 +62,7 @@ Thanks once again to Athreos’ triggered ability affecting creatures that are e
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/8/7/8725a869-462b-4381-880a-b4bcc63a655b.jpg?1591226783' width=100% height=100%>">
-	Extinction Event
+Extinction Event
 </a> and
 <a
 	class="accented-link"
@@ -70,7 +71,7 @@ Thanks once again to Athreos’ triggered ability affecting creatures that are e
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/1/715a14a3-046e-45ca-b943-dd630e5202b7.jpg?1584830546' width=100% height=100%>">
-	Cry of the Carnarium
+Cry of the Carnarium
 </a>. I’m not exaggerating when I say that cards like these are so powerful in this deck that we want to run at least four if possible. In general I like to go with the ones that can hit the widest range of creatures but between the lower life totals and lower opponent count in Brawl compared to EDH one can easily justify running something like a
 <a
 	class="accented-link"
@@ -79,10 +80,11 @@ Thanks once again to Athreos’ triggered ability affecting creatures that are e
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/2/6/269af993-4894-4bf1-b55a-af4d736cb3cc.jpg?1572893045' width=100% height=100%>">
-	Ritual of Soot
+Ritual of Soot
 </a> too.
 
 ## The Landbase
+
 The most striking thing about this iteration of Athreos is perhaps his mana cost, which is now double that of his previous form. Hitting land drops for the first five to six turns is imperative in this deck, as our curve is going to be steep and a turn without playing a land could spell doom to an aggressive or midrange deck. Though it may seem excessive, I would recommend running 26-27 lands to diminish the chances of missing a land drop until after we’ve resolved Athreos at least once.
 
 Thankfully, our mana base is relatively simple in this two-color deck. The auto-includes should be obvious- anything in Standard that can tap for both black and white is fair game, including of course:
@@ -102,7 +104,7 @@ We’ll be running a few “color-hungry” cards in this deck as well, so fetch
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/1/9/195383c1-4723-40b0-ba53-298dfd8e30d0.jpg?1572491183' width=100% height=100%>">
-	Castle Locthwain
+Castle Locthwain
 </a> may be a worthy include for some much-needed card draw, I’d advise against running utility lands that can’t tap for any color of mana.
 <a
 	class="accented-link"
@@ -111,7 +113,7 @@ We’ll be running a few “color-hungry” cards in this deck as well, so fetch
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/4/7/470ca3f4-29aa-4c4c-8ff2-8cdd70c69943.jpg?1592517808' width=100% height=100%>">
-	Field of the Dead
+Field of the Dead
 </a> may be enough of a menace that you’d want to run
 <a
 	class="accented-link"
@@ -120,10 +122,11 @@ We’ll be running a few “color-hungry” cards in this deck as well, so fetch
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/3/e/3e84e179-9d59-4d08-8a36-51ad2fc32ae3.jpg?1581481243' width=100% height=100%>">
-	Field of Ruin
+Field of Ruin
 </a> just in case but missing out on that colored mana can come back to haunt you when you’d least expect it. Rest assured, we have other means of dealing with hordes of creatures.
 
 ## Mana Accelerants
+
 We want to get our big spells out early in Brawl or some decks will be able to run us over before we can get the ball rolling. For this reason, ramp spells in the 2-4 mana range will be our target:
 
 {% include pics.html
@@ -141,7 +144,7 @@ The theme here is ramp spells that do things for us besides just add mana. This 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/b/7bbd2cab-538e-4932-a828-150e3e9d52ad.jpg?1594737564' width=100% height=100%>">
-	Solemn Simulacrum
+Solemn Simulacrum
 </a>, already a format staple, ticks off every bonus box for us being a four mana creature that gets us to six mana the following turn in addition to having an ETB and a dies trigger, all qualities Atheros can take advantage of.
 <a
 	class="accented-link"
@@ -150,7 +153,7 @@ The theme here is ramp spells that do things for us besides just add mana. This 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/6/761e7188-bad1-4775-84a2-15da9a42a57c.jpg?1584832140' width=100% height=100%>">
-	Orzhov locket
+Orzhov locket
 </a> is a nice mana sink during long games thanks to our high land count and we need all the card draw we can get given the limited options we have to work with.
 <a
 	class="accented-link"
@@ -159,10 +162,11 @@ The theme here is ramp spells that do things for us besides just add mana. This 
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/e/1/e1f2a587-443d-4626-a6f6-9a26838a42b1.jpg?1581481176' width=100% height=100%>">
-	Altar of the Pantheon
+Altar of the Pantheon
 </a> is an enigma, at a glance it may seem like a perfect fit for the deck, but after playtesting I found that more often than not it was actually slightly less useful to have enough devotion for Athreos to be a creature. Despite being a great blocker, he becomes vulnerable to much more common forms of removal as a creature. This is not to say that having the extra devotion is a downside necessarily, but I wouldn’t consider it a plus either. Still, Altar only adds a single devotion and the lifegain afforded by it isn’t negligible against aggressive decks so it's probably still worth the inclusion. Overall it would be more detrimental than anything for us to try and limit ourselves to using permanents with less mana symbols just to try and keep Athreos as an enchantment-only.
 
 ## Creatures and Finishers
+
 Creatures with strong ETB and/or dies triggers are going to be quintessential to our success with this deck. Mentioned before, Solemn Simulacrum is a paragon example of what we want to maximize the value of Athreos’ ability when our opponents are running few or low-value creatures.
 
 {% include pics.html
@@ -186,6 +190,7 @@ pic3="https://img.scryfall.com/cards/large/front/8/0/80164e61-3e94-4e10-9bd1-518
 This article was constructed deliberately to leave some slots in the deck up to the reader. Listed above are some of my favorites that I found when experimenting with the deck. The main similarities between them is that they’re all hefty, evasive creatures that can help us close out a game quickly once they’re in play.
 
 ## Bonus: “Gotchas”
+
 I wanted to take a minute to highlight some cards that definitely should NOT be put into this build despite seeming like possibly great additions at first:
 
 {% include pics.html
@@ -203,7 +208,7 @@ It truly is a shame how poorly Athreos and his pup synergize with each other. Th
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/e/4/e4e6794a-feeb-4fc8-a2ee-38c75c18aaae.jpg?1591226819' width=100% height=100%>">
-	Heartless Act
+Heartless Act
 </a> ticks many of the boxes that define a good removal spell but is unable to outright kill any creature with a coin counter on it, making it a terrible choice for this deck specifically. Lastly,
 <a
 	class="accented-link"
@@ -212,10 +217,11 @@ It truly is a shame how poorly Athreos and his pup synergize with each other. Th
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/5/2/52c2de5f-e486-4cfe-9fb6-be0078ce5f93.jpg?1581479717' width=100% height=100%>">
-	Cling to Dust
+Cling to Dust
 </a> is a superb graveyard hate card but an undeniable part of its draw is its escape ability which we’ll be unlikely to ever activate due to how few cards will accumulate in our graveyard over the course of the game. If things are going well for us hardly any cards will be in our graveyard at all and if they are then Cling or any other escape card in black and white for that matter isn’t going to be the pivot that we need.
 
 ## Eternal Upgrades
+
 Athreos shows the potential to shine in Brawl, but what about EDH? Can his powerful synergies keep up with multiple opponents with more life each?
 
 Travelling back through older sets reveals to us plenty of cards that would go well with Athreos:
@@ -227,7 +233,6 @@ pic3="https://img.scryfall.com/cards/large/front/f/1/f160f304-64a2-4211-afa6-65a
 %}
 <br />
 
-
 <a
 	class="accented-link"
 	target="_blank"
@@ -235,7 +240,7 @@ pic3="https://img.scryfall.com/cards/large/front/f/1/f160f304-64a2-4211-afa6-65a
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/8/8/88326f60-1c86-4aca-8e6a-b1882a048635.jpg?1568004979' width=100% height=100%>">
-	Strionic Resonator
+Strionic Resonator
 </a> allows us to double down on our coin counters every turn, giving us more great removal targets and more potential allies after a boardwipe.
 <a
 	class="accented-link"
@@ -244,7 +249,7 @@ pic3="https://img.scryfall.com/cards/large/front/f/1/f160f304-64a2-4211-afa6-65a
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/6/0/602e43b1-1b1c-4eb1-be0a-61b673646c6f.jpg?1562818870' width=100% height=100%>">
-	Ashen Rider
+Ashen Rider
 </a> proves itself to be an exemplar amongst the many new options we have for value creatures, exiling permanents of our choice both when it enters the battlefield and when it dies.
 <a
 	class="accented-link"
@@ -253,7 +258,7 @@ pic3="https://img.scryfall.com/cards/large/front/f/1/f160f304-64a2-4211-afa6-65a
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/f/1/f160f304-64a2-4211-afa6-65acb5b686f7.jpg?1596139005' width=100% height=100%>">
-	Merciless Eviction
+Merciless Eviction
 </a>,
 <a
 	class="accented-link"
@@ -262,7 +267,7 @@ pic3="https://img.scryfall.com/cards/large/front/f/1/f160f304-64a2-4211-afa6-65a
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/b/3/b3f03b2a-0950-47b5-96dd-39db3449afb7.jpg?1597077158' width=100% height=100%>">
-	Wrath of God
+Wrath of God
 </a> and
 <a
 	class="accented-link"
@@ -271,7 +276,7 @@ pic3="https://img.scryfall.com/cards/large/front/f/1/f160f304-64a2-4211-afa6-65a
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/d/3/d36e87ca-71e1-43d2-841f-b01a58fe27f0.jpg?1596137876' width=100% height=100%>">
-	Austere Command
+Austere Command
 </a> are only a few of many examples of stellar wrath effects sprinkled throughout Magic’s history that we’d want to acquire when upgrading to EDH.
 
 {% include pics.html
@@ -289,7 +294,7 @@ Efficient removal is something we don’t see as much in modern Magic as the foc
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/6/f/6ff9af62-1895-465a-b1f3-61f0d8318958.jpg?1562917388' width=100% height=100%>">
-	Swords to Plowshares
+Swords to Plowshares
 </a> and
 <a
 	class="accented-link"
@@ -298,7 +303,7 @@ Efficient removal is something we don’t see as much in modern Magic as the foc
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/e/9/e9d36855-c38a-4bba-a642-cff3f81e057e.jpg?1596137973' width=100% height=100%>">
-	Path to Exile
+Path to Exile
 </a>. One thing the black and white colors seem to lack in the current Standard is good unconditional card draw, but luckily we can supplement this weakness with cards like
 <a
 	class="accented-link"
@@ -307,7 +312,7 @@ Efficient removal is something we don’t see as much in modern Magic as the foc
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/8/c87d2e75-aa91-4657-b8c0-c399ff9331e0.jpg?1576382721' width=100% height=100%>">
-	Phyrexian Arena
+Phyrexian Arena
 </a> and
 <a
 	class="accented-link"
@@ -316,7 +321,7 @@ Efficient removal is something we don’t see as much in modern Magic as the foc
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/e/c/ece1852d-8b7f-4fe6-b9fe-0584a94087ab.jpg?1562627961' width=100% height=100%>">
-	Read the Bones
+Read the Bones
 </a>. Finally, Ashnod’s/Phyrexian Altar can allow us to cash out early on creatures we own to potentially get another “enters the battlefield” trigger as well as some much-needed mana to cast our larger spells.
 
 {% include pics.html
@@ -326,7 +331,6 @@ pic3="https://img.scryfall.com/cards/large/front/7/a/7af082fa-86a3-4f7b-966d-2be
 %}
 <br />
 
-
 <a
 	class="accented-link"
 	target="_blank"
@@ -334,7 +338,7 @@ pic3="https://img.scryfall.com/cards/large/front/7/a/7af082fa-86a3-4f7b-966d-2be
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/1/b/1b6a2b01-da95-46fa-8673-30ffdfdee0a5.jpg?1592516017' width=100% height=100%>">
-	Disenchant
+Disenchant
 </a> and
 <a
 	class="accented-link"
@@ -343,7 +347,7 @@ pic3="https://img.scryfall.com/cards/large/front/7/a/7af082fa-86a3-4f7b-966d-2be
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/1/3/13e162b3-2e5a-4235-a2a7-1c8e3e9f2c19.jpg?1572892513' width=100% height=100%>">
-	Crush Contraband
+Crush Contraband
 </a> are great cards that would be available for our Brawl build if desired, but where they really shine is in EDH where we have the potential to face much more oppressive artifacts and enchantments than those that exist in Standard.
 <a
 	class="accented-link"
@@ -352,8 +356,9 @@ pic3="https://img.scryfall.com/cards/large/front/7/a/7af082fa-86a3-4f7b-966d-2be
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/a/7af082fa-86a3-4f7b-966d-2be1f1d0c0bc.jpg?1584830010' width=100% height=100%>">
-	Smothering Tithe
+Smothering Tithe
 </a> embodies exactly this type of oppressive card, it will be an auto-include in many of our opponents' white EDH decks due to its extremely high ramp value when pitted against multiple foes. Definitely play a copy of your own if you're able to get your hands on one.
 
 ## Deck(s)list
+
 There’s over 25 years of Magic cards to sift through when choosing how to upgrade your Athreos, Shroud-Veiled Brawl deck so try new things and see what works best for your meta! Here’s a full list I put together that I enjoyed playing a lot in one of my playgroups: <a href="https://tappedout.net/mtg-decks/god-of-wrath/?cb=1597106603" target="_blank">Full Decklists</a>

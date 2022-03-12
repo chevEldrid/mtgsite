@@ -6,7 +6,6 @@ categories: ["Pauper Commander"]
 tags: ["Commander", "PDH"]
 title: "Top 10 EDH Parallels"
 hook: "How to give your favorite commanders a classy downgrade"
-highlight: true
 ---
 
 Welcome back! Today marks one month of PDH content here at Hexdrinkers, and we haven’t even run out of ideas yet! Today I’m happily joined by Julian, as we name some of our favorite PDH commanders that have close counterparts in the big leagues. Looking to port one of your favorite strategies into a new exciting format? Simply want to get a taste of a deck too powerful or out of price range for your meta? Then this article is for you! Partially inspired by our recent work with Satyr Enchanter last week, we thought we’d dive deep into the meta and expose some of the more closely tied strategies between the two formats. LEGGO!
