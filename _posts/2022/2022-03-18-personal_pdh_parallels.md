@@ -4,7 +4,7 @@ cover: https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/e/9ea5e61c-d
 length: 10
 categories: ["Pauper Commander"]
 tags: ["PDH"]
-title: "Top 10 Personal EDH Parallels for Pauper"
+title: "Top Personal EDH Parallels for Pauper"
 hook: "Revisiting our favorite Commander Strategies at common."
 ---
 What’s up everyone it’s Chev and Jules. We’re joining forces to bring you another edition of PDH downshifts! [Previously]({% post_url 2021/2021-07-02-pdh_parallels %}) we approached the idea of finding PDH parallels to EDH powerhouses by trying to find the most similar pairs that already existed. Today, we’re focusing on taking our PERSONAL commander decks and finding the closest Pauper comparisons. Feel free to steal these sick deck ideas (for a commission of course) and let’s begin!
