@@ -8,7 +8,7 @@ title: "Shirei Sera"
 hook: "Whatever will be, will be"
 ---
 
-What’s up everybody! Welcome back and TGIPDHD, Thank God it’s PDH Day! (The name is still being workshopped). Much like The Hexdrinkers Podcast, the type of PDH content we produce will vary from week to week. Last time we focused on some of the spicy new hotness coming our way with MH2, while this week reflects what you’ll probably be seeing the most of in our pauper content and that is: a bomb ass deck. Fresh off a one-game winning streak at our last Commander night I give to you Shirei, Shizo’s Caretaker!
+What’s up everybody! Welcome back and TGIPDHD, Thank God it’s PDH Day! (The name is still being workshopped). Much like The Chexdrinkers Podcast, the type of PDH content we produce will vary from week to week. Last time we focused on some of the spicy new hotness coming our way with MH2, while this week reflects what you’ll probably be seeing the most of in our pauper content and that is: a bomb ass deck. Fresh off a one-game winning streak at our last Commander night I give to you Shirei, Shizo’s Caretaker!
 
 {% include pics.html
 pic1="https://c1.scryfall.com/file/scryfall-cards/large/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1559959257"

@@ -139,7 +139,7 @@ First let’s discuss the combo itself. Just like Zirda’s interaction with the
 	data-placement="top"
 	data-content="<img src='https://img.scryfall.com/cards/normal/front/d/a/da0d5436-b881-45ac-b8ec-248d88714021.jpg?1563898291' width=100% height=100%>">
 	Gauntlets of Light
-</a>. Now, as much as the Hexdrinkers appreciates big butts, we only care about the second clause: the untap ability for two and a white. Three mana is a bit much to pay to untap though, luckily Zirda gives us a discount so we only need to pay one white mana to untap! But there are still a lot of unanswered questions...
+</a>. Now, as much as the Chexdrinkers appreciate big butts, we only care about the second clause: the untap ability for two and a white. Three mana is a bit much to pay to untap though, luckily Zirda gives us a discount so we only need to pay one white mana to untap! But there are still a lot of unanswered questions...
 <br />
 <br />
 {% include pics.html

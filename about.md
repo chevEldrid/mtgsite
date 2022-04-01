@@ -31,11 +31,11 @@ title: About the Crew
             <p><b>Julian Leal</b> - A recent graduate of the University of Maryland, Julian has spent the last year developing his professional career as a Geologist. Though he’s most at home playing Commander, Julian has also spent this time striving to branch into all other constructed formats and brewing around anything and everything. Expect brews and competitive decks in Standard, a delve into Historic, and the occasional foray into limited (plus whatever other debauchery he can sneak past Chev). Julian will also be streaming, hopefully regularly.</p> 
             <br />
             <h2>Our Sources</h2>
-            <p>The Hexdrinkers would not be possible without help from the fantastic people at <a href="https://scryfall.com/" target="_blank">Scryfall</a> who continue to provide high-res card iamges, fantastic search capabilities, and an easy-to-use api. Thank you.</p>
+            <p>The Chexdrinkers would not be possible without help from the fantastic people at <a href="https://scryfall.com/" target="_blank">Scryfall</a> who continue to provide high-res card iamges, fantastic search capabilities, and an easy-to-use api. Thank you.</p>
             <p>We would also love to show appreciation for the team at <a href="https://www.moxfield.com/users/The_Hexdrinkers" target="_blank">Moxfield</a> for delivering a fantastic deck editor that we end up including in most articles</p>
             <p>Finally, when it comes to card prices and finance discussions we rely on <a href="{{site.data.affiliates[0].link}}">TCGplayer</a> for all our card data. They continue to provide an unparalleled purchasing experience, and are a fantastic sponsor of our brand.</p>
             <br />
-            <i>"The Hexdrinkers" is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</i>
+            <i>"The Chexdrinkers" is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</i>
         </div>
     </div>
 </div>

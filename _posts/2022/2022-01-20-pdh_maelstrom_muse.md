@@ -8,7 +8,7 @@ title: "Maelstrom Muse Decktech"
 hook: "Maelstrom BOOM"
 ---
 
-What’s up everybody and WELCOME to our first deck tech of 2022! As we covered on the <a href="https://open.spotify.com/episode/57trUlIXsqmC5rCCjQqUEy?si=bac3f1d2bdb74609" target="_blank">Hexdrinkers After Dark Podcast</a>, we spent the last couple months of 2021 building a PDH Cube with over sixty possible commander options. So today, I thought I’d walk you through one of my favorites with a full 99 to accompany it.
+What’s up everybody and WELCOME to our first deck tech of 2022! As we covered on the <a href="https://open.spotify.com/episode/57trUlIXsqmC5rCCjQqUEy?si=bac3f1d2bdb74609" target="_blank">Chexdrinkers After Dark Podcast</a>, we spent the last couple months of 2021 building a PDH Cube with over sixty possible commander options. So today, I thought I’d walk you through one of my favorites with a full 99 to accompany it.
 
 {% include pics.html
 pic1="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/5516e81e-16ea-411c-9df0-ed3b03670220.jpg?1627429544"
@@ -18,7 +18,7 @@ width="33%" %}
 
 That’s right, we’re going back to Strixhaven and school is in session: Welcome, Maelstrom Muse.
 
-Recently The Hexdrinkers have been teaming up with the Tryhards for some cPDH content and we’ve even got a few brews of our own coming down the pipeline… but this ain’t a combo-tastic, competitive list. This is a good old fashioned, hip-shooting, face-punching, casual aggro deck.
+Recently The Chexdrinkers have been teaming up with the Tryhards for some cPDH content and we’ve even got a few brews of our own coming down the pipeline… but this ain’t a combo-tastic, competitive list. This is a good old fashioned, hip-shooting, face-punching, casual aggro deck.
 
 Without further ado, let’s dive in: “Whenever Maelstrom Muse attacks, the next instant or sorcery spell you cast this turn costs x less to cast where x is Maelstrom Muse’s power as this ability resolves.” We get a _single, massive_ discount as opposed to something like
 <a

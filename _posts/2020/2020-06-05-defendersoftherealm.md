@@ -33,7 +33,7 @@ treacherous agents
 {% include pics.html
 pic1="https://media.giphy.com/media/yyvSeRGVj4C64/giphy.gif" %}
 <br />
-Standard is now a whole new world (sorta)! It’s situations like these that we live for here at Hexdrinkers; ignoring the norm and blazing paths in the face of the unknown (I’ve been reading <a href="https://www.brandonsanderson.com/" target="_blank" >Brandon Sanderson</a> recently, cut me some slack for my bombast). These changes don’t kill all the top-tier decks, and many might flock to the safer tried-and-true strategies emerging from their Companion Winter hibernation, but we at Hexdrinkers like to keep looking forward. A shakeup like this provides opportunities to get wild before things settle into place.
+Standard is now a whole new world (sorta)! It’s situations like these that we live for here at Chexdrinkers; ignoring the norm and blazing paths in the face of the unknown (I’ve been reading <a href="https://www.brandonsanderson.com/" target="_blank" >Brandon Sanderson</a> recently, cut me some slack for my bombast). These changes don’t kill all the top-tier decks, and many might flock to the safer tried-and-true strategies emerging from their Companion Winter hibernation, but we at Chexdrinkers like to keep looking forward. A shakeup like this provides opportunities to get wild before things settle into place.
 
 Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 <br />

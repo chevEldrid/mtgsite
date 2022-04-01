@@ -180,7 +180,7 @@ Iridescent Hornbeetle
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/ba580628-60d1-4281-8705-dbc7823afd8d.jpg?1644344792' width=100% height=100%>">
 Grumgully, the Generous
-</a> - I love Grumgully unconditionally. [Actually, all the Hexdrinkers do]({% post_url 2022/2022-03-03-pdh_neo_precons %}). There’s something about this weird lil’ goblin shaman offering everyone mushrooms that just speaks to the core of my being **(Editor’s Note: Don’t accept anything from strangers, kids. Just run away)**. Anyway, effects like these are the synergistic glue that tie this deck together. Modifying every creature that ETBs is the perfect way to have your spirits and eat ‘em too… or something like that. Point is, between this blue drug dealer,
+</a> - I love Grumgully unconditionally. [Actually, all the Chexdrinkers do]({% post_url 2022/2022-03-03-pdh_neo_precons %}). There’s something about this weird lil’ goblin shaman offering everyone mushrooms that just speaks to the core of my being **(Editor’s Note: Don’t accept anything from strangers, kids. Just run away)**. Anyway, effects like these are the synergistic glue that tie this deck together. Modifying every creature that ETBs is the perfect way to have your spirits and eat ‘em too… or something like that. Point is, between this blue drug dealer,
 <a
 	class="accented-link external-card-link"
 	target="_blank"

@@ -8,7 +8,7 @@ title: "PDH Naomi, Pillar of Order"
 hook: "An order of artifacts and enchantments, with a side of tokens"
 ---
 
-Ah yes, the Hexdrinkers PDH poll, truly a time-honored tradition! And with this being our _ahem_ second installment, it’s now my (Julian’s) turn to bow to the collective consciousness and brew. Annnnnnnnd y’all have chosen
+Ah yes, the Chexdrinkers PDH poll, truly a time-honored tradition! And with this being our _ahem_ second installment, it’s now my (Julian’s) turn to bow to the collective consciousness and brew. Annnnnnnnd y’all have chosen
 <a
 	class="accented-link external-card-link"
 	target="_blank"

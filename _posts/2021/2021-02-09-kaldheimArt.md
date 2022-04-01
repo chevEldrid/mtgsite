@@ -8,7 +8,7 @@ hook: "Our favorite art across the 10 realms"
 
 There’s so much that goes into making a magic set unique: whether it’s new mechanics, powerful legends, or insanely cool interactions….but all of that is a wash without the amazing art we’ve become so accustomed to seeing on every card. In fact, I don’t think it would be wrong to say MTG has had the enduring legacy of over 25 years because of the art that adorns each one of its mythical spells and creatures.
 
-Art and the people behind it, are really what makes our game special - especially now with more and more pieces printed per set to keep up with all the various different editions of cards. There really is something for everyone, and while to each their own - here are _The Hexdrinkers_ top picks for Kaldheim. Long time readers will know we used to include our “Top Art Picks” on the podcast but uhhh ya know somehow talking about powerful art really isn’t the same as just showing you.
+Art and the people behind it, are really what makes our game special - especially now with more and more pieces printed per set to keep up with all the various different editions of cards. There really is something for everyone, and while to each their own - here are _The Chexdrinkers_ top picks for Kaldheim. Long time readers will know we used to include our “Top Art Picks” on the podcast but uhhh ya know somehow talking about powerful art really isn’t the same as just showing you.
 
 So without further ado, Kaldheim!
 

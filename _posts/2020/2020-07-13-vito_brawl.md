@@ -20,7 +20,7 @@ width="100%" %}
 
 My family has _finally_ gotten around to watching the Corleone crime saga and if nothing else is bringing us together in Quarantine, it’s Michael cleaning house of the snitches and hooligans that have tried to have him and his family killed. As Godfather he continues to create a crime empire that spans the country and knows no rivals.
 
-That might be a little out of scope for a deck build, but here at Hexdrinkers world domination is never far from our mind...instead we’ll focus on Michael’s inspiration for his long lasting empire! Nothing Al Pacino does would be possible without the foundation laid by his father, Vito.
+That might be a little out of scope for a deck build, but here at Chexdrinkers world domination is never far from our mind...instead we’ll focus on Michael’s inspiration for his long lasting empire! Nothing Al Pacino does would be possible without the foundation laid by his father, Vito.
 
 {% include pics.html
 pic1="/assets/images/homebrewed/vito/vitofather.png"
