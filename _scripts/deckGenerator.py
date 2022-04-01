@@ -53,9 +53,6 @@ class CardType:
 
 
 def getCardType(name):
-    if "*" in name:
-        return "Commander"
-
     card_type = 'Unknown'
     try:
         url = "https://api.scryfall.com/cards/search?q=!\"{0}\"".format(name)
@@ -83,19 +80,6 @@ def getCardType(name):
     return card_type
 
 
-# def cardnameAndCount(cardline):
-#     words = cardline.split()
-#     cardName = []
-#     cardCount = 1
-#     for word in words:
-#         if bool(re.search(r'\d', word)):
-#             cardCount = ''.join([i for i in word if i.isdigit()])
-#             continue
-#         if "*" in word:
-#             continue
-#         cardName.append(word)
-#     return [" ".join(cardName), cardCount]
-
 def getCardDetails(cardline):
     words = cardline.split()
     nameWords = []
@@ -111,8 +95,11 @@ def getCardDetails(cardline):
             continue
         nameWords.append(word)
     cardName = " ".join(nameWords)
-    cardType = getCardType(cardName)
-    return [cardName, cardCount, cardType, isCommander]
+    if isCommander:
+        cardType = 'Commander'
+    else:
+        cardType = getCardType(cardName)
+    return [cardName, cardCount, cardType]
 
 
 # count the number of cards of each type from input file
