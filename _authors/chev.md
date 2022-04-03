@@ -7,7 +7,7 @@ position: Technical Lead, Founder
 title: Chev Eldrid, Founder - Hexdrinkers
 ---
 
-Having just completed a Bachelors of Science in Computer Science at Northeastern University, Chev is eager to develop his skills in both software development and Magic content creation. He’ll be bringing you content on Brawl, Commander, and some streaming in the upcoming weeks with a couple series soon to be announced. Chev is probably also responsible for anything broken on the site so he’s the person to contact for that.
+Working fulltime as a Software Engineer, Chev is eager to further develop his skills in both programming and Magic content creation. He’ll largely be bringing you content on PDH and Commander while occasionally branching outside his comfort zone. Chev is also responsible for anything broken on the site, so he’s the person to contact for that.
 
 <!--more-->
 

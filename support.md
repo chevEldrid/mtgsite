@@ -8,17 +8,11 @@ title: Support the Crew
     <div class="col-md-8">
         <div id="about-content">
             <h2>Thank You</h2>
-            <p>First of all, we want to thank you for taking the time to enjoy our content. Whether it's Julian brewing up a storm each week like a madman or Eric's hot takes on the pod that got you here - consider us honored. We know there are plenty of larger MTG publications out there but what we lack in size we definitely make up for in spirit (or spirits if you were around for our Multiverse cocktails <a href="https://open.spotify.com/episode/7yEfyANA8YAJ8GsWVvueqU?si=08d2032a459c49b8" target="_blank">podcast episode</a>). That being said, we're always looking for ways to expand and develop more content to nourish your eye and earholes, and we'd really love your help.</p> 
-            <p>Developing a podcast takes a lot of time and energy, particularly for Julian who we force to edit for hours on end with minimal food breaks. While we'd love to level up our game and produce with more regularity and consistency, it gets hard fitting everything in between fulltime jobs and the rest of life. If you're a strong believer in what the Hexdrinkers got going on, consider subscribing to our Patreon</p> 
+            <p>First of all, we want to thank you for taking the time to enjoy our content. Whether it's Julian brewing up a storm each week like a madman or <a href="https://open.spotify.com/episode/7foyNrhqRQxm4ahq0colZk?si=df4699e970c14791" target="_blank">Eric's hot takes on the pod</a> that got you here - consider us honored. We know there are plenty of larger MTG publications out there but what we lack in size we definitely make up for in spirit (or spirits if you were around for our Multiverse cocktails <a href="https://open.spotify.com/episode/7yEfyANA8YAJ8GsWVvueqU?si=08d2032a459c49b8" target="_blank">podcast episode</a>). That being said, we're always looking for ways to expand and develop more content to nourish your eye and earholes, and we'd really love your help.</p> 
+            <p>Developing a podcast takes a lot of time and energy, particularly for Julian who we force to edit for hours on end with minimal food breaks. While we'd love to level up our game and produce with more regularity and consistency, it gets hard fitting everything in between fulltime jobs and the rest of life. If you're a strong believer in what the Hexdrinkers got going on, consider subscribing to our Patreon.</p> 
             <br />
             <div class="text-center">
                 <a href="https://www.patreon.com/bePatron?u=54681436" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-            </div>
-            <br />
-            <p>Or, the next time you're buying cards - consider using our affiliate link on TCGplayer which allows you to support the Hexdrinker mission without any additional cost</p>
-            <br />
-            <div class="text-center">
-                <a href="{{site.data.affiliates[0].link}}" target="_blank"><img class="img-fluid" src="/assets/images/Support-Ust_TCGplayer.jpg" width="33%" alt="Support us on TCGplayer" /></a>
             </div>
             <br />
             <p>To bring our content to the next level, we need more resources. Plain and simple. So far this venture has been entirely self-funded and while we've come a long way in a short time (check out our audio quality on some of the early episodes, yikes!) we still have quite a bit to go before we're where we want to be.</p>
@@ -29,6 +23,12 @@ title: Support the Crew
                 <li><b>Website Costs:</b> We do our best to keep costs to a minimum, even running some services off of a home-spun server, but it still costs money to host a site.</li>
                 <li><b>Beer:</b> We can't lie to you lovely lovely people, there will probably be some beer purchased. But we promise no Bud Light.</li>
             </ul>
+            <p>Or, if Patreon seems a bit much the next time you're buying cards - consider using our affiliate link on TCGplayer which allows you to support the Hexdrinker mission without any additional financial commitment!</p>
+            <br />
+            <div class="text-center">
+                <a href="{{site.data.affiliates[0].link}}" target="_blank"><img class="img-fluid" src="/assets/images/Support-Ust_TCGplayer.jpg" width="33%" alt="Support us on TCGplayer" /></a>
+            </div>
+            <br />
             <p>Thanks again for being a valued member of the Hexdrinker family, and we hope you stick around - the ride's just getting started.</p>
             <p>Sincerely,</p>
             <p>Julian, Chev, Oak & Eric</p>
