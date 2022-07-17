@@ -1,6 +1,6 @@
 ---
 author: julian
-cover: https://img.scryfall.com/cards/art_crop/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333
+cover: https://c1.scryfall.com/file/scryfall-cards/art_crop/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333
 length: 15
 youtube:
 categories: ["Homebrewed"]
@@ -16,7 +16,7 @@ Ladies and gentlemen rejoice, our almighty overlords at Wizards have granted (so
 	href="https://scryfall.com/card/eld/125/fires-of-invention?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/large/front/a/1/a12b16b0-f75f-42d8-9b24-947c1908e0f7.jpg?1591007591' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/large/front/a/1/a12b16b0-f75f-42d8-9b24-947c1908e0f7.jpg?1591007591' width=100% height=100%>">
 great fires
 </a>,
 <a
@@ -25,7 +25,7 @@ great fires
 	href="https://scryfall.com/card/m20/43/agent-of-treachery?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/large/front/c/c/cc6686e6-4535-49be-b0b3-e76464656cd2.jpg?1591014892' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/large/front/c/c/cc6686e6-4535-49be-b0b3-e76464656cd2.jpg?1591014892' width=100% height=100%>">
 treacherous agents
 </a>, and has altered the fabric of <a href="https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement" target="_blank">reality itself</a>!
 <br />
@@ -54,7 +54,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/eld/1/acclaimed-contender?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/f/b/fb6b12e7-bb93-4eb6-bad1-b256a6ccff4e.jpg?1582021671' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fb6b12e7-bb93-4eb6-bad1-b256a6ccff4e.jpg?1582021671' width=100% height=100%>">
 	Acclaimed Contender
 </a>
 <br />
@@ -65,7 +65,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/thb/212/dalakos-crafter-of-wonders?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1581481011' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1581481011' width=100% height=100%>">
 	Dalakos, Crafter of Wonders
 </a>
 <br />
@@ -76,7 +76,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/eld/124/fervent-champion?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356' width=100% height=100%>">
 	Fervent Champion
 </a>
 <br />
@@ -87,7 +87,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/m20/72/renowned-weaponsmith?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg?1563898701' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg?1563898701' width=100% height=100%>">
 	Renowned Weaponsmith
 </a>
 <br />
@@ -98,7 +98,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/eld/235/stonecoil-serpent?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/b/3/b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe.jpg?1572491124' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe.jpg?1572491124' width=100% height=100%>">
 	Stonecoil Serpent
 </a>
 <br />
@@ -109,7 +109,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/eld/203/stormfist-crusader?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/2/7/27425f2e-e0b2-489d-877d-8257d2026bfd.jpg?1572490842' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27425f2e-e0b2-489d-877d-8257d2026bfd.jpg?1572490842' width=100% height=100%>">
 	Stormfist Crusader
 </a>
 <br />
@@ -120,7 +120,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/eld/330/syr-gwyn-hero-of-ashvale?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/3/a33add37-379d-4a90-9c04-529dff676986.jpg?1571282693' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a33add37-379d-4a90-9c04-529dff676986.jpg?1571282693' width=100% height=100%>">
 	Syr Gwyn, Hero of Ashvale
 </a>
 </p>
@@ -133,7 +133,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/m20/223/colossus-hammer?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1563899755' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1563899755' width=100% height=100%>">
 	Colossus Hammer
 </a>
     <br />
@@ -144,7 +144,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/eld/120/embercleave?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
 	Embercleave
 </a>
     <br />
@@ -155,7 +155,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/thb/236/shadowspear?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1581481207' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1581481207' width=100% height=100%>">
 	Shadowspear
 </a>
     <br />
@@ -166,7 +166,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/eld/202/steelclaw-lance?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/a/cafcf909-d726-4bc2-adf6-c12ca242f0c1.jpg?1572490835' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/cafcf909-d726-4bc2-adf6-c12ca242f0c1.jpg?1572490835' width=100% height=100%>">
 	Steelclaw Lance
 </a>
     </p>
@@ -181,7 +181,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/rna/245/blood-crypt?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/5/f/5faba6c8-3463-47c1-ba01-09eb87fcb2d5.jpg?1584832229' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5faba6c8-3463-47c1-ba01-09eb87fcb2d5.jpg?1584832229' width=100% height=100%>">
 	Blood Crypt
 </a>
 <br />
@@ -192,7 +192,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/eld/244/fabled-passage?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/b/8/b841bfa8-7c17-4df2-8466-780ab9a4a53a.jpg?1572491204' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b841bfa8-7c17-4df2-8466-780ab9a4a53a.jpg?1572491204' width=100% height=100%>">
 	Fabled Passage
 </a>
 <br />
@@ -203,7 +203,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/rna/248/godless-shrine?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/e/ced4c824-2dfc-42ae-84e6-09f8e3f51b5b.jpg?1584832255' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ced4c824-2dfc-42ae-84e6-09f8e3f51b5b.jpg?1584832255' width=100% height=100%>">
 	Godless Shrine
 </a>
 <br />
@@ -214,7 +214,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/rna/251/hallowed-fountain?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/f/9/f97a6d34-03ab-49f1-b02e-405b733f8843.jpg?1584832278' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f97a6d34-03ab-49f1-b02e-405b733f8843.jpg?1584832278' width=100% height=100%>">
 	Hallowed Fountain
 </a>
 <br />
@@ -225,7 +225,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/iko/263/island?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/4/b/4b2ad5b3-7257-4521-8916-6b1cbfb89e27.jpg?1591228769' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b2ad5b3-7257-4521-8916-6b1cbfb89e27.jpg?1591228769' width=100% height=100%>">
 	Island
 </a>
 <br />
@@ -236,7 +236,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/iko/269/mountain?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/e/ae3d2fcd-11e0-4071-8c53-cb3315b7360a.jpg?1591228835' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/ae3d2fcd-11e0-4071-8c53-cb3315b7360a.jpg?1591228835' width=100% height=100%>">
 	Mountain
 </a>
 <br />
@@ -247,7 +247,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/iko/260/plains?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/1/6/16ebbce9-fd10-4c14-b52d-cf82c0c1a58c.jpg?1591228746' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/16ebbce9-fd10-4c14-b52d-cf82c0c1a58c.jpg?1591228746' width=100% height=100%>">
 	Plains
 </a>
 <br />
@@ -258,7 +258,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/grn/254/sacred-foundry?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/b/7/b7b598d0-535d-477d-a33d-d6a10ff5439a.jpg?1572894184' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b7b598d0-535d-477d-a33d-d6a10ff5439a.jpg?1572894184' width=100% height=100%>">
 	Sacred Foundry
 </a>
 <br />
@@ -269,7 +269,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/grn/257/steam-vents?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/b/8/b8ebe3cf-7143-453a-b0ef-2f5bdaac3185.jpg?1572894204' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b8ebe3cf-7143-453a-b0ef-2f5bdaac3185.jpg?1572894204' width=100% height=100%>">
 	Steam Vents
 </a>
 <br />
@@ -280,7 +280,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/iko/266/swamp?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/6/c/6c8c3f0e-7af4-410b-a675-9ea84f51e812.jpg?1591228797' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6c8c3f0e-7af4-410b-a675-9ea84f51e812.jpg?1591228797' width=100% height=100%>">
 	Swamp
 </a>
 <br />
@@ -291,7 +291,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/eld/248/tournament-grounds?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/d/cd438d51-a778-4b38-8b4b-a6a9cd9b4b22.jpg?1572491245' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cd438d51-a778-4b38-8b4b-a6a9cd9b4b22.jpg?1572491245' width=100% height=100%>">
 	Tournament Grounds
 </a>
 <br />
@@ -302,7 +302,7 @@ Without further adieu, welcome to a two-for-one edition of _Homebrewed_.
 	href="https://scryfall.com/card/grn/259/watery-grave?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1572894217' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1572894217' width=100% height=100%>">
 	Watery Grave
 </a>
 </p>    
@@ -319,16 +319,16 @@ This deck originally started with me wanting to do something silly with
 	href="https://scryfall.com/card/m20/223/colossus-hammer?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1563899755' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1563899755' width=100% height=100%>">
 	Colossus Hammer
 </a>. But looking further into the cardpool, there are some interesting and powerful cards pertaining to equipment in the format. Let’s start by discussing with the actual equipment we’ll be using to pound our opponent’s face in.
 <br />
 # Tools of the Trade
 <br />
 {% include pics.html
-pic1="https://img.scryfall.com/cards/large/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333"
-pic2="https://img.scryfall.com/cards/large/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1581481207"
-pic3="https://img.scryfall.com/cards/large/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1563899755" %}
+pic1="https://c1.scryfall.com/file/scryfall-cards/large/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333"
+pic2="https://c1.scryfall.com/file/scryfall-cards/large/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1581481207"
+pic3="https://c1.scryfall.com/file/scryfall-cards/large/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1563899755" %}
 <br />
 Our armory only consists of four different cards, but they all serve an important purpose. 
 <a
@@ -337,7 +337,7 @@ Our armory only consists of four different cards, but they all serve an importan
 	href="https://scryfall.com/card/eld/202/steelclaw-lance?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/a/cafcf909-d726-4bc2-adf6-c12ca242f0c1.jpg?1572490835' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/cafcf909-d726-4bc2-adf6-c12ca242f0c1.jpg?1572490835' width=100% height=100%>">
 	Steelclaw Lance
 </a> is the blue collar equipment for our deck, but it's rate as well as sizeable buff means combat is going to be in our favor. Its (much) bigger brother, 
 <a
@@ -346,7 +346,7 @@ Our armory only consists of four different cards, but they all serve an importan
 	href="https://scryfall.com/card/m20/223/colossus-hammer?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1563899755' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1563899755' width=100% height=100%>">
 	Colossus Hammer
 </a>, is arguably a meme cards, but that doesn’t mean it’s gonna stop me from trying to suit somebody up with this and go to town (in all honesty it makes me **more likely** to do that). It, along with the proven powerhouse, 
 <a
@@ -355,7 +355,7 @@ Our armory only consists of four different cards, but they all serve an importan
 	href="https://scryfall.com/card/eld/120/embercleave?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
 	Embercleave
 </a>, are our best ways of taking our opponent from 20 to zero.
 
@@ -366,7 +366,7 @@ To combat any retaliation and wrought divine wrath, we have
 	href="https://scryfall.com/card/thb/236/shadowspear?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1581481207' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1581481207' width=100% height=100%>">
 Shadowspear
 </a> to cover our bases. Though it's seen mostly sideboard play since it escaped from the underworld, don't underestimate it. Between being incredibly cheap to cast and equip and for an aggressive deck like this and giving a creature trample and lifelink to punch through damage while helping us outpace other aggro strategies really helps this gem shine. The anti-hexproof/indestructible ability doesn’t come into play often, but every once in a while it’s clutch, which is just icing on the cake.
 
@@ -381,9 +381,9 @@ pic1="https://media.giphy.com/media/Tim0q7zolF3fa/giphy.gif" %}
 
 <br />
 {% include pics.html
-pic1="https://img.scryfall.com/cards/large/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356"
-pic2="https://img.scryfall.com/cards/large/front/2/7/27425f2e-e0b2-489d-877d-8257d2026bfd.jpg?1572490842"
-pic3="https://img.scryfall.com/cards/large/front/f/b/fb6b12e7-bb93-4eb6-bad1-b256a6ccff4e.jpg?1582021671" %}
+pic1="https://c1.scryfall.com/file/scryfall-cards/large/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356"
+pic2="https://c1.scryfall.com/file/scryfall-cards/large/front/2/7/27425f2e-e0b2-489d-877d-8257d2026bfd.jpg?1572490842"
+pic3="https://c1.scryfall.com/file/scryfall-cards/large/front/f/b/fb6b12e7-bb93-4eb6-bad1-b256a6ccff4e.jpg?1582021671" %}
 <br />
 
 In order to secure our kingdom, we've brought together several powerful knights who curve nicely into each other for a brutal offense. Leading the charge is
@@ -393,7 +393,7 @@ In order to secure our kingdom, we've brought together several powerful knights 
 	href="https://scryfall.com/card/eld/124/fervent-champion?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356' width=100% height=100%>">
 Fervent Champion
 </a>. A staple in mono-red decks since their release goes about as fast as you can go. And once multiple attack together the threat level increases even further. However, Fervent Champion has another clause that most people either ignore or don’t even know about: “Equip abilities that target Fervent Champion cost three generic less to activate.” Full stop. That means that cards like Steelclaw Lance, Shadowspear, and an Embercleave that needs to be moved over all equip _for free_ (oh, and that’s also a big chunk off equipping Colossus Hammer)...
 
@@ -404,7 +404,7 @@ Fervent Champion
 	href="https://scryfall.com/card/eld/1/acclaimed-contender?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/f/b/fb6b12e7-bb93-4eb6-bad1-b256a6ccff4e.jpg?1582021671' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fb6b12e7-bb93-4eb6-bad1-b256a6ccff4e.jpg?1582021671' width=100% height=100%>">
 Acclaimed Contender
 </a>. I suppose we can't have anything on the rate of
 <a
@@ -413,7 +413,7 @@ Acclaimed Contender
 	href="https://scryfall.com/card/m20/143/goblin-ringleader?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/6/9/6911af4e-4abd-4cf9-8a86-ae5d680c6f12.jpg?1563899199' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/6911af4e-4abd-4cf9-8a86-ae5d680c6f12.jpg?1563899199' width=100% height=100%>">
 Goblin Ringleader
 </a> these days, but we’ll take the Contender as they can grab us either another body or an equipment, if our board is in good shape. A full playset of these will help us sift through our deck at a quicker clip and keep the pressure on.
 
@@ -424,12 +424,12 @@ But I did say we were curving nicely, so don't think I forgot the two-drop slot.
 	href="https://scryfall.com/card/eld/203/stormfist-crusader?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/2/7/27425f2e-e0b2-489d-877d-8257d2026bfd.jpg?1572490842' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27425f2e-e0b2-489d-877d-8257d2026bfd.jpg?1572490842' width=100% height=100%>">
 Stormfist Crusader
 </a> as continual source of card draw, impressive in a Mardu tribe (**Note**: not exactly known for drawing cards). Plus, a 2/2 menace for two ain't too shabby. Sure our opponent also draws a card, but they’re taking damage and they sure aren’t going to outrace us. Recently brainwashed and conscripted by the evil forces of Rakdos Sacrifice, let's bring this defender of the realm back to the side of justice.
 <br />
 {% include pics.html
-pic1="https://img.scryfall.com/cards/large/front/a/3/a33add37-379d-4a90-9c04-529dff676986.jpg?1571282693" %}
+pic1="https://c1.scryfall.com/file/scryfall-cards/large/front/a/3/a33add37-379d-4a90-9c04-529dff676986.jpg?1571282693" %}
 <br />
 Lastly, commanding our forces is the majestic,
 <a
@@ -438,7 +438,7 @@ Lastly, commanding our forces is the majestic,
 	href="https://scryfall.com/card/eld/330/syr-gwyn-hero-of-ashvale?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/3/a33add37-379d-4a90-9c04-529dff676986.jpg?1571282693' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a33add37-379d-4a90-9c04-529dff676986.jpg?1571282693' width=100% height=100%>">
 Syr Gwyn, Hero of Ashvale
 </a>. Though once a hero, but she’s been forced to take an early retirement. Not even Brawl players have taken to this card (probably due to the fact that it costs six, c’mon Wizards you could’ve pushed this card a bit as opposed to so many others), so it’s up to us here at Hexdrinkers to find Syr Gwyn a home (_nudge nudge_ Chev, get on it). Once we can get her onto the field, the Hero of Ashvale is an absolute beast with sizable stats and excellent keywords. Even more importantly she gives us free equips (the Colossus Hammer dream shines a bit brighter) and more card advantage, which is crucial to push a deck like this across the finish line. Rise, and become a Hero once more in our crusade upon a new Standard format!
 
@@ -446,8 +446,8 @@ That’s a capable and sizable army that we’ve recruited, but every army needs
 <br />
 <br />
 {% include pics.html
-pic1="https://img.scryfall.com/cards/large/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1581481011"
-pic2="https://img.scryfall.com/cards/large/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg?1563898701" %}
+pic1="https://c1.scryfall.com/file/scryfall-cards/large/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1581481011"
+pic2="https://c1.scryfall.com/file/scryfall-cards/large/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg?1563898701" %}
 <br />
 Manning the forges today are two masters of their craft. So many equipment through the years just weren’t viable due to a high mana cost, high equip cost or a combination of both, but no longer. With
 <a
@@ -456,7 +456,7 @@ Manning the forges today are two masters of their craft. So many equipment throu
 	href="https://scryfall.com/card/thb/212/dalakos-crafter-of-wonders?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1581481011' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1581481011' width=100% height=100%>">
 Dalakos, Crafter of Wonders
 </a> and
 <a
@@ -465,7 +465,7 @@ Dalakos, Crafter of Wonders
 	href="https://scryfall.com/card/m20/72/renowned-weaponsmith?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg?1563898701' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg?1563898701' width=100% height=100%>">
 Renowned Weaponsmith
 </a>, we can expedite the forging and fitting of our steel.
 
@@ -478,7 +478,7 @@ In addition to weapons, our craftsmen have whipped up something a little more se
 	href="https://scryfall.com/card/eld/235/stonecoil-serpent?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/b/3/b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe.jpg?1572491124' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b34bf7fd-9fe3-43e2-8cfe-7ce7cff08afe.jpg?1572491124' width=100% height=100%>">
 Stonecoil Serpent
 </a> can be fueled by both Dalakos and R.W., growing to preposterous sizes, and can hold back flyers and multicolored threats all day (looking at you
 <a
@@ -487,7 +487,7 @@ Stonecoil Serpent
 	href="https://scryfall.com/card/thb/214/dream-trawler?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/d/7d3e97d8-92c7-43c4-bdaf-7b0a6ce7cb5f.jpg?1581481029' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d3e97d8-92c7-43c4-bdaf-7b0a6ce7cb5f.jpg?1581481029' width=100% height=100%>">
 Dream Trawler
 </a>). Another welcome addition to the front lines.
 
@@ -514,7 +514,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/eld/120/embercleave?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
 	Embercleave
 </a>
 </p>
@@ -527,7 +527,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/grn/153/aurelia-exemplar-of-justice?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1572893504' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1572893504' width=100% height=100%>">
 	Aurelia, Exemplar of Justice
 </a>
 <br />
@@ -538,7 +538,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/thb/137/hero-of-the-games?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/d/cdb7c7a6-4e9b-4300-a776-b7e7916950c8.jpg?1581480168' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cdb7c7a6-4e9b-4300-a776-b7e7916950c8.jpg?1581480168' width=100% height=100%>">
 	Hero of the Games
 </a>
 <br />
@@ -549,7 +549,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/thb/219/hero-of-the-nyxborn?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/9/8/9854e673-1816-4a76-b9db-bb399ac7489f.jpg?1581481079' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/9854e673-1816-4a76-b9db-bb399ac7489f.jpg?1581481079' width=100% height=100%>">
 	Hero of the Nyxborn
 </a>
 <br />
@@ -560,7 +560,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/thb/22/hero-of-the-pride?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/8/1/81b56863-a52a-4559-a662-f6d9145d5804.jpg?1581479124' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/8/1/81b56863-a52a-4559-a662-f6d9145d5804.jpg?1581479124' width=100% height=100%>">
 	Hero of the Pride
 </a>
 <br />
@@ -571,7 +571,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/thb/138/heroes-of-the-revel?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/d/f/dfdfb481-3446-42f4-a1c3-a88b69f2189a.jpg?1581480183' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfdfb481-3446-42f4-a1c3-a88b69f2189a.jpg?1581480183' width=100% height=100%>">
 	Heroes of the Revel
 </a>
 <br />
@@ -582,7 +582,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/thb/23/hero-of-the-winds?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/d/7da95097-dbe7-416a-8571-6ab6d88a531a.jpg?1581479132' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7da95097-dbe7-416a-8571-6ab6d88a531a.jpg?1581479132' width=100% height=100%>">
 	Hero of the Winds
 </a>
 </p>
@@ -595,7 +595,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/grn/6/conclave-tribunal?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/9/d/9d9fda5d-df8f-45d6-b8f0-33f903c4bf83.jpg?1572892506' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9d9fda5d-df8f-45d6-b8f0-33f903c4bf83.jpg?1572892506' width=100% height=100%>">
 	Conclave Tribunal
 </a>
 <br />
@@ -606,7 +606,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/thb/30/omen-of-the-sun?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff.jpg?1581479183' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff.jpg?1581479183' width=100% height=100%>">
 	Omen of the Sun
 </a>
 </p>
@@ -621,7 +621,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/iko/12/fight-as-one?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c.jpg?1591230245' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c.jpg?1591230245' width=100% height=100%>">
 	Fight as One
 </a>
 <br />
@@ -632,7 +632,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/mb1/125/gods-willing?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/9/a/9a1c6903-add3-4c6e-9e96-d8c9fb560b2d.jpg?1573505598' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/a/9a1c6903-add3-4c6e-9e96-d8c9fb560b2d.jpg?1573505598' width=100% height=100%>">
 	Gods Willing
 </a>
 <br />
@@ -643,7 +643,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/rna/29/unbreakable-formation?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/4/6/46cc8574-7b8c-492c-8a36-75cb0192f853.jpg?1584830090' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/46cc8574-7b8c-492c-8a36-75cb0192f853.jpg?1584830090' width=100% height=100%>">
 	Unbreakable Formation
 </a>
 <br />
@@ -654,7 +654,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/m20/34/raise-the-alarm?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/6/764a7a53-314e-4b1f-aa33-0f312d06df71.jpg?1563898427' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/764a7a53-314e-4b1f-aa33-0f312d06df71.jpg?1563898427' width=100% height=100%>">
 	Raise the Alarm
 </a>
 </p>
@@ -667,7 +667,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/iko/119/forbidden-friendship?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/e/6/e634baa3-2cdd-412a-9407-c347fe46f9b8.jpg?1591227220' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e634baa3-2cdd-412a-9407-c347fe46f9b8.jpg?1591227220' width=100% height=100%>">
 	Forbidden Friendship
 </a>
 <br />
@@ -678,7 +678,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/iko/35/swallow-whole?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/3/c3b9140b-848f-4886-8c28-eccd3829a607.jpg?1591230400' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c3b9140b-848f-4886-8c28-eccd3829a607.jpg?1591230400' width=100% height=100%>">
 	Swallow Whole
 </a>
 </p>
@@ -691,7 +691,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/eld/238/castle-ardenvale?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/f/7f910495-8bd7-4134-a281-c16fd666d5cc.jpg?1572491161' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f910495-8bd7-4134-a281-c16fd666d5cc.jpg?1572491161' width=100% height=100%>">
 	Castle Ardenvale
 </a>
 <br />
@@ -702,7 +702,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/eld/239/castle-embereth?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/8/b/8bb8512e-6913-4be6-8828-24cfcbec042e.jpg?1572491168' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8bb8512e-6913-4be6-8828-24cfcbec042e.jpg?1572491168' width=100% height=100%>">
 	Castle Embereth
 </a>
 <br />
@@ -713,7 +713,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/iko/269/mountain?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/e/ae3d2fcd-11e0-4071-8c53-cb3315b7360a.jpg?1591228835' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/ae3d2fcd-11e0-4071-8c53-cb3315b7360a.jpg?1591228835' width=100% height=100%>">
 	Mountain
 </a>
 <br />
@@ -724,7 +724,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/iko/260/plains?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/1/6/16ebbce9-fd10-4c14-b52d-cf82c0c1a58c.jpg?1591228746' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/16ebbce9-fd10-4c14-b52d-cf82c0c1a58c.jpg?1591228746' width=100% height=100%>">
 	Plains
 </a>
 <br />
@@ -735,7 +735,7 @@ That’s the deck, a nice twist on an aggro deck incorporating a recently overlo
 	href="https://scryfall.com/card/grn/254/sacred-foundry?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/b/7/b7b598d0-535d-477d-a33d-d6a10ff5439a.jpg?1572894184' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b7b598d0-535d-477d-a33d-d6a10ff5439a.jpg?1572894184' width=100% height=100%>">
 	Sacred Foundry
 </a>
 </p>    
@@ -751,9 +751,9 @@ Theros Beyond Death had this series of ‘Hero’ cards that made one helluva Bo
 
 <br />
 {% include pics.html
-pic1="https://img.scryfall.com/cards/large/front/8/1/81b56863-a52a-4559-a662-f6d9145d5804.jpg?1581479124"
-pic2="https://img.scryfall.com/cards/large/front/9/8/9854e673-1816-4a76-b9db-bb399ac7489f.jpg?1581481079"
-pic3="https://img.scryfall.com/cards/large/front/7/d/7da95097-dbe7-416a-8571-6ab6d88a531a.jpg?1581479132" %}
+pic1="https://c1.scryfall.com/file/scryfall-cards/large/front/8/1/81b56863-a52a-4559-a662-f6d9145d5804.jpg?1581479124"
+pic2="https://c1.scryfall.com/file/scryfall-cards/large/front/9/8/9854e673-1816-4a76-b9db-bb399ac7489f.jpg?1581481079"
+pic3="https://c1.scryfall.com/file/scryfall-cards/large/front/7/d/7da95097-dbe7-416a-8571-6ab6d88a531a.jpg?1581479132" %}
 <br />
 Our creature suite is very streamlined as they’re almost all Heroes. This means they’re a red or white creature that has the Hero Clause: whenever you cast a spell that targets this creature, creatures you control get +1/+0. Wizards has conveniently printed a bevy of heroes for us that curve out nicely. 
 <a
@@ -762,7 +762,7 @@ Our creature suite is very streamlined as they’re almost all Heroes. This mean
 	href="https://scryfall.com/card/thb/22/hero-of-the-pride?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/8/1/81b56863-a52a-4559-a662-f6d9145d5804.jpg?1581479124' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/8/1/81b56863-a52a-4559-a662-f6d9145d5804.jpg?1581479124' width=100% height=100%>">
 	Hero of the Pride
 </a>, into 
 <a
@@ -771,7 +771,7 @@ Our creature suite is very streamlined as they’re almost all Heroes. This mean
 	href="https://scryfall.com/card/thb/219/hero-of-the-nyxborn?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/9/8/9854e673-1816-4a76-b9db-bb399ac7489f.jpg?1581481079' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/9854e673-1816-4a76-b9db-bb399ac7489f.jpg?1581481079' width=100% height=100%>">
 	Hero of the Nyxborn
 </a>/
 <a
@@ -780,7 +780,7 @@ Our creature suite is very streamlined as they’re almost all Heroes. This mean
 	href="https://scryfall.com/card/thb/137/hero-of-the-games?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/d/cdb7c7a6-4e9b-4300-a776-b7e7916950c8.jpg?1581480168' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cdb7c7a6-4e9b-4300-a776-b7e7916950c8.jpg?1581480168' width=100% height=100%>">
 	Hero of the Games
 </a>, into 
 <a
@@ -789,7 +789,7 @@ Our creature suite is very streamlined as they’re almost all Heroes. This mean
 	href="https://scryfall.com/card/thb/23/hero-of-the-winds?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/d/7da95097-dbe7-416a-8571-6ab6d88a531a.jpg?1581479132' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7da95097-dbe7-416a-8571-6ab6d88a531a.jpg?1581479132' width=100% height=100%>">
 	Hero of the Winds
 </a>, into 
 <a
@@ -798,7 +798,7 @@ Our creature suite is very streamlined as they’re almost all Heroes. This mean
 	href="https://scryfall.com/card/thb/138/heroes-of-the-revel?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/d/f/dfdfb481-3446-42f4-a1c3-a88b69f2189a.jpg?1581480183' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfdfb481-3446-42f4-a1c3-a88b69f2189a.jpg?1581480183' width=100% height=100%>">
 	Heroes of the Revel
 </a>? Yes please. 
 <br/>
@@ -812,7 +812,7 @@ And every great Hero has a sidekick (or several). We are no different, so we wan
 	href="https://scryfall.com/card/m20/34/raise-the-alarm?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/7/6/764a7a53-314e-4b1f-aa33-0f312d06df71.jpg?1563898427' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/764a7a53-314e-4b1f-aa33-0f312d06df71.jpg?1563898427' width=100% height=100%>">
 	Raise the Alarm
 </a>, 
 <a
@@ -821,7 +821,7 @@ And every great Hero has a sidekick (or several). We are no different, so we wan
 	href="https://scryfall.com/card/iko/119/forbidden-friendship?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/e/6/e634baa3-2cdd-412a-9407-c347fe46f9b8.jpg?1591227220' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e634baa3-2cdd-412a-9407-c347fe46f9b8.jpg?1591227220' width=100% height=100%>">
 	Forbidden Friendship
 </a>, and 
 <a
@@ -830,15 +830,15 @@ And every great Hero has a sidekick (or several). We are no different, so we wan
 	href="https://scryfall.com/card/thb/30/omen-of-the-sun?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff.jpg?1581479183' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff.jpg?1581479183' width=100% height=100%>">
 	Omen of the Sun
 </a>. Each provides a great ratio of mana invested to bodies and instant speed lets us ambush as well as set up a sneak attack. 
 <br />
 <br />
 {% include pics.html
-pic1="https://img.scryfall.com/cards/large/front/7/6/764a7a53-314e-4b1f-aa33-0f312d06df71.jpg?1563898427"
-pic2="https://img.scryfall.com/cards/large/front/e/6/e634baa3-2cdd-412a-9407-c347fe46f9b8.jpg?1591227220"
-pic3="https://img.scryfall.com/cards/large/front/8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff.jpg?1581479183" %}
+pic1="https://c1.scryfall.com/file/scryfall-cards/large/front/7/6/764a7a53-314e-4b1f-aa33-0f312d06df71.jpg?1563898427"
+pic2="https://c1.scryfall.com/file/scryfall-cards/large/front/e/6/e634baa3-2cdd-412a-9407-c347fe46f9b8.jpg?1591227220"
+pic3="https://c1.scryfall.com/file/scryfall-cards/large/front/8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff.jpg?1581479183" %}
 <br />
 Lastly, we need ways to target our Heroes so we can beef up our team. 
 <a
@@ -847,7 +847,7 @@ Lastly, we need ways to target our Heroes so we can beef up our team.
 	href="https://scryfall.com/card/mb1/125/gods-willing?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/9/a/9a1c6903-add3-4c6e-9e96-d8c9fb560b2d.jpg?1573505598' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/a/9a1c6903-add3-4c6e-9e96-d8c9fb560b2d.jpg?1573505598' width=100% height=100%>">
 	Gods Willing
 </a> is a great way to blank removal spells, win stalemates in combat, or even potentially sneak past blocks. 
 <a
@@ -856,7 +856,7 @@ Lastly, we need ways to target our Heroes so we can beef up our team.
 	href="https://scryfall.com/card/iko/12/fight-as-one?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c.jpg?1591230245' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c.jpg?1591230245' width=100% height=100%>">
 	Fight as One
 </a> protects and buffs our creatures and we have a good balance of human and non-humans so we can utilize both modes. 
 <a
@@ -865,7 +865,7 @@ Lastly, we need ways to target our Heroes so we can beef up our team.
 	href="https://scryfall.com/card/iko/35/swallow-whole?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/c/3/c3b9140b-848f-4886-8c28-eccd3829a607.jpg?1591230400' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c3b9140b-848f-4886-8c28-eccd3829a607.jpg?1591230400' width=100% height=100%>">
 	Swallow Whole
 </a> is a sneaky pick as not only does it remove dangers across the battlefield (and synergizing with our token generation; tapping a creature isn’t a downside when you have so many), but it also *targets* our creatures so we can buff them! Double whammy, baby.
 
@@ -876,7 +876,7 @@ Round out the deck with some extra punch in
 	href="https://scryfall.com/card/eld/120/embercleave?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333' width=100% height=100%>">
 Embercleave
 </a>, some protection in
 <a
@@ -885,7 +885,7 @@ Embercleave
 	href="https://scryfall.com/card/rna/29/unbreakable-formation?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/4/6/46cc8574-7b8c-492c-8a36-75cb0192f853.jpg?1584830090' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/46cc8574-7b8c-492c-8a36-75cb0192f853.jpg?1584830090' width=100% height=100%>">
 Unbreakable Formation
 </a>, and a battle-hardened general,
 <a
@@ -894,15 +894,15 @@ Unbreakable Formation
 	href="https://scryfall.com/card/grn/153/aurelia-exemplar-of-justice?utm_source=api"
 	data-toggle="popover"
 	data-placement="top"
-	data-content="<img src='https://img.scryfall.com/cards/normal/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1572893504' width=100% height=100%>">
+	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1572893504' width=100% height=100%>">
 Aurelia, Exemplar of Justice
 </a> and you’re ready to bring peace and order to the multiverse!
 <br />
 <br />
 {% include pics.html
-pic1="https://img.scryfall.com/cards/large/front/9/a/9a1c6903-add3-4c6e-9e96-d8c9fb560b2d.jpg?1573505598"
-pic2="https://img.scryfall.com/cards/large/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1572893504"
-pic3="https://img.scryfall.com/cards/large/front/5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c.jpg?1591230245" %}
+pic1="https://c1.scryfall.com/file/scryfall-cards/large/front/9/a/9a1c6903-add3-4c6e-9e96-d8c9fb560b2d.jpg?1573505598"
+pic2="https://c1.scryfall.com/file/scryfall-cards/large/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1572893504"
+pic3="https://c1.scryfall.com/file/scryfall-cards/large/front/5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c.jpg?1591230245" %}
 <br />
 
 # Brave New World

@@ -1,7 +1,12 @@
 <div>
     {% if include.style == "single" %}
         <div class="text-center">
-            <img src="{{ include.pic1}}" style="max-width: {{ include.width | default: 50%}};" class="img-fluid">
+            <img 
+                src="{{ include.pic1 }}" 
+                style="max-width: {{ include.width | default: 50%}};" 
+                alt="{{ include.pic1Alt | default: 'image sourced from scryfall.com'}}" 
+                class="img-fluid"
+            >
         </div>
         {% if include.caption %}
             <div class="text-center flavor-text">
@@ -12,26 +17,26 @@
         <div class="row">
             {% if include.pic3 %}
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic1 }}" class="img-fluid" loading="lazy" alt="{{ include.alt | default: 'image sourced from scryfall.com'}}">
+                    <img src="{{ include.pic1 }}" class="img-fluid" loading="lazy" alt="{{ include.pic1Alt | default: 'image sourced from scryfall.com'}}">
                 </div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic2 }}" class="img-fluid" loading="lazy" alt="{{ include.alt | default: 'image sourced from scryfall.com'}}">
+                    <img src="{{ include.pic2 }}" class="img-fluid" loading="lazy" alt="{{ include.pic2Alt | default: 'image sourced from scryfall.com'}}">
                 </div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic3 }}" class="img-fluid" loading="lazy" alt="{{ include.alt | default: 'image sourced from scryfall.com'}}">
+                    <img src="{{ include.pic3 }}" class="img-fluid" loading="lazy" alt="{{ include.pic3Alt | default: 'image sourced from scryfall.com'}}">
                 </div>
             {% elsif include.pic2 %}
                 <div class="col-2"></div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic1 }}" class="img-fluid" loading="lazy" alt="{{ include.alt | default: 'image sourced from scryfall.com'}}">
+                    <img src="{{ include.pic1 }}" class="img-fluid" loading="lazy" alt="{{ include.pic1Alt | default: 'image sourced from scryfall.com'}}">
                 </div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic2 }}" class="img-fluid" loading="lazy" alt="{{ include.alt | default: 'image sourced from scryfall.com'}}">
+                    <img src="{{ include.pic2 }}" class="img-fluid" loading="lazy" alt="{{ include.pic2Alt | default: 'image sourced from scryfall.com'}}">
                 </div>
             {% else %}
                 <div class="col-4"></div>
                 <div class="col-4 inline-card">
-                    <img src="{{ include.pic1 }}" class="img-fluid" loading="lazy" alt="{{ include.alt | default: 'image sourced from scryfall.com'}}">
+                    <img src="{{ include.pic1 }}" class="img-fluid" loading="lazy" alt="{{ include.pic1Alt | default: 'image sourced from scryfall.com'}}">
                 </div>
             {% endif %}
         </div>
