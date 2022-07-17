@@ -81,8 +81,8 @@ def format_line(line):
                 card_pics = single_picture_tag.format(card_uris[0])
             else:
                 for pic_number in range(len(card_uris)):
-                    card_pic = 'pic{0}="{1}"\n'.format(
-                        pic_number+1, card_uris[pic_number])
+                    card_pic = 'pic{0}="{1}"\npic{0}Alt={2}'.format(
+                        pic_number+1, card_uris[pic_number], card_name)
                     card_pics += card_pic
             # print(card_pics)
             cards_include = pictures_tag.format(card_pics)
