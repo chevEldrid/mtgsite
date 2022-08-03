@@ -10,7 +10,7 @@ import sys
 import time
 
 
-anchor_tag = '\n<a\n\tclass="accented-link external-card-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
+anchor_tag = '<a\n\tclass="accented-link external-card-link"\n\ttarget="_blank"\n\thref="{0}"\n\tdata-toggle="popover"\n\tdata-placement="top"\n\tdata-content="<img src=\'{1}\' width=100% height=100%>">\n\t{2}\n</a>'
 
 pictures_tag = '\n{{% include pics.html\n{0} %}}\n<br />\n'
 
@@ -80,9 +80,9 @@ def format_line(line):
             if card_count == 1:
                 card_pics = single_picture_tag.format(card_uris[0])
             else:
-                for pic_number in range(len(card_uris)):
-                    card_pic = 'pic{0}="{1}"\npic{0}Alt={2}'.format(
-                        pic_number+1, card_uris[pic_number], card_name)
+                for pic_number in range(card_count):
+                    card_pic = 'pic{0}="{1}"\npic{0}Alt="{2}"\n'.format(
+                        pic_number+1, card_uris[pic_number], cards[pic_number])
                     card_pics += card_pic
             # print(card_pics)
             cards_include = pictures_tag.format(card_pics)
