@@ -2,7 +2,7 @@
 author: chev
 cover: https://c1.scryfall.com/file/scryfall-cards/art_crop/front/8/b/8b3d521f-31cd-4bd2-b6b6-771c79252789.jpg?1624589549
 length: 10
-categories: ["Budget EDH"]
+categories: ["Commander"]
 tags: ["Commander", "EDH", "Budget"]
 title: "$50 Mavinda, Students' Advocate"
 hook: "School's Out"

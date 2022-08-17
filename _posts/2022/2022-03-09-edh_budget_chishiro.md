@@ -2,7 +2,7 @@
 author: chev
 cover: https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/f/bffa36ac-137d-481c-b1b7-76a88ef15d54.jpg?1644346882
 length: 5
-categories: ["Budget EDH"]
+categories: ["Commander"]
 tags: ["Commander", "EDH", "Budget"]
 title: "$30 Chishiro, the Shattered Blade"
 hook: "The most fun you can have with counters"
