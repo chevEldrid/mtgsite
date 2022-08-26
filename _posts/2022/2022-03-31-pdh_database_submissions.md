@@ -8,9 +8,11 @@ title: "Submitting your cPDH Deck"
 hook: "It's the most wonderful time of the year"
 ---
 
+## **BREAKING NEWS (08/25/2022): The Submission Method for the cPDH Database has changed! While we'll maintain this article for posterity, we want to include the new way of doing things in this blurb. Firstly, there are _no more submission periods_, instead we now support rolling submissions all year round! You can check out the full rules/submit here with our new submisison form! [https://forms.gle/pUN9xQeAnRqogM5D6](https://forms.gle/pUN9xQeAnRqogM5D6) Otherwise, you can expect the rest of this article to still be pretty on point!**
+
 The cPDH Database Submission Period is almost upon us! Or CPDHDSP for short (we gotta get better with acronyms). Anyway, for you fine purveyors of Pauper Dragon Highlander this is _one_ of the times during the year when you can submit your competitive pauper commander decklists to the [https://budgetbrews.club/](https://budgetbrews.club/deck-lists/#pauper) database! Any and all are welcome to apply! Both Julian and I submitted decklists in January, so if you want our breakdown of what the process is like you can always check out the [After Dark episode](https://open.spotify.com/episode/75CD9CTLvdOOmyg5Bx1EK2?si=24d6b2c07904490e) diving deep into the process!
 
-For a more in-depth and behind-the-curtain discussion, we’ve lured Clay here (yes, [this Clay](https://www.youtube.com/watch?v=IT2lYO8N5C0)) by holding his 
+For a more in-depth and behind-the-curtain discussion, we’ve lured Clay here (yes, [this Clay](https://www.youtube.com/watch?v=IT2lYO8N5C0)) by holding his
 <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -18,7 +20,7 @@ For a more in-depth and behind-the-curtain discussion, we’ve lured Clay here (
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9cc51727-e39d-46b5-82cd-0c84c6572155.jpg?1625977527' width=100% height=100%>">
-	Crackling Drake
+Crackling Drake
 </a> hostage! You know we like to go above and beyond for our fans…anyway, here’s Clay totally not under duress!
 
 **Hey Clay! It’s great to have you on. How are things in your neck of the woods?**
@@ -67,7 +69,7 @@ _At the end of the day, the new submission will be analytically compared to know
 
 _Please keep in mind, the DDB is not meant to serve as an all inclusive representation of the sum total of cPDH decks in the format. There will be lists that are not listed that can and will take down cPDH tables._
 
-**...Alright my deck might not be ready for that level of scrutiny, you said something about a deck “Brewery”? Where can I get the help needed to push my 
+**...Alright my deck might not be ready for that level of scrutiny, you said something about a deck “Brewery”? Where can I get the help needed to push my
 <a
 	class="accented-link external-card-link"
 	target="_blank"
@@ -75,7 +77,7 @@ _Please keep in mind, the DDB is not meant to serve as an all inclusive represen
 	data-toggle="popover"
 	data-placement="top"
 	data-content="<img src='https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24dc6db4-671e-4d7d-ba11-89194ce0b2ad.jpg?1562773262' width=100% height=100%>">
-	Goblin Snowman
+Goblin Snowman
 </a> build to the next level?**
 
 _Every Discord which features a Competitive Pauper Commander channel or category has a “deck-help” or associated “brewery” channel. With the growth of the format in the last year, there are dozens of experienced players who are available to assist a brewer in developing their list. For those hardcore cPDH players, brewing new lists is exhilarating and they will provide an abundance of resources and information when asked._
